@@ -1,0 +1,669 @@
+
+tooltip_Init_TimeWarpA									 \nInitializing, please wait...
+tooltip_Init_TimeWarpB									 \nCalculating TimeWarpFactor.\nThis takes 1 game minute...\n\n Start at: *A   End at: *B\n Current minute: *C\n Time Passed: *D\n\n Map size (before expansion): calculating...\n Time Warp Factor: calculating...\n Slow Time Mutator: calculating...
+tooltip_Init_TimeWarpC									 \nBenchmark completed. Results:\n\n Start at: *A   End at: *B\n Current minute: *C\n Time Passed: *D\n\n Map size (before expansion): *E\n Time Warp Factor: *F\n Slow Time Mutator: *G\n\nWaiting some more...
+tooltip_ReadyForAction									 \nReady for action
+
+object_PhotoOfDeadPrisoner								 R.I.P. Prisoner
+object_PhotoOfDeadWorkman								 R.I.P. Workman
+object_PhotoOfDeadGuard									 R.I.P. Guard
+object_PhotoOfDeadArmedGuard							 R.I.P. Armed Guard
+object_PhotoOfDeadDoctor								 R.I.P. Doctor
+object_PhotoOfDeadOrderly								 R.I.P. Orderly
+object_PhotoOfDeadCook									 R.I.P. Cook
+object_PhotoOfDeadGardener								 R.I.P. Gardener
+object_PhotoOfDeadJanitor								 R.I.P. Janitor
+object_PhotoOfDeadDogHandler							 R.I.P. Dog Handler
+object_PhotoOfDeadDog									 R.I.P. Dog
+object_PhotoOfDeadSniper								 R.I.P. Sniper
+object_PhotoOfDeadWarden								 R.I.P. Warden
+object_PhotoOfDeadChief									 R.I.P. Chief
+object_PhotoOfDeadForeman								 R.I.P. Foreman
+object_PhotoOfDeadPsychologist							 R.I.P. Psychologist
+object_PhotoOfDeadPsychiatrist							 R.I.P. Psychiatrist
+object_PhotoOfDeadAccountant							 R.I.P. Accountant
+object_PhotoOfDeadLawyer								 R.I.P. Lawyer
+object_PhotoOfDeadSystemAdministrator					 R.I.P. System Administrator
+object_PhotoOfDeadComputerNerd							 R.I.P. Computer Nerd
+object_PhotoOfDeadSimulationOfficeManager				 R.I.P. Office Simulation Manager
+object_PhotoOfDeadYogaMaster							 R.I.P. Yoga Master
+object_PhotoOfDeadGraveDigger							 R.I.P. Grave Digger
+object_PhotoOfDeadPrisonFiremanA0						 R.I.P. Fireman
+object_PhotoOfDeadPrisonFiremanA1						 R.I.P. Fireman
+object_PhotoOfDeadPrisonFiremanA2						 R.I.P. Fireman
+object_PhotoOfDeadPrisonFiremanA3						 R.I.P. Fireman
+object_PhotoOfDeadPrisonFiremanB0						 R.I.P. Fireman
+object_PhotoOfDeadPrisonFiremanB1						 R.I.P. Fireman
+object_PhotoOfDeadPrisonFiremanB2						 R.I.P. Fireman
+object_PhotoOfDeadPrisonFiremanB3						 R.I.P. Fireman
+object_PhotoOfDeadPrisonFiremanC0						 R.I.P. Fireman
+object_PhotoOfDeadPrisonFiremanC1						 R.I.P. Fireman
+object_PhotoOfDeadPrisonFiremanC2						 R.I.P. Fireman
+object_PhotoOfDeadPrisonFiremanC3						 R.I.P. Fireman
+object_PhotoOfDeadPrisonFiremanD0						 R.I.P. Fireman
+object_PhotoOfDeadPrisonFiremanD1						 R.I.P. Fireman
+object_PhotoOfDeadPrisonFiremanD2						 R.I.P. Fireman
+object_PhotoOfDeadPrisonFiremanD3						 R.I.P. Fireman
+object_PhotoOfDeadLotteryOfficial						 R.I.P. Lottery Official
+object_PhotoOfDeadForestryWorker						 R.I.P. Forestry Worker
+object_PhotoOfDeadBarberChief							 R.I.P. Barber Chief
+object_PhotoOfDeadBarber								 R.I.P. Barber
+object_PhotoOfDeadCarMechanic2							 R.I.P. Car Mechanic
+object_PhotoOfDeadCraneOperator2						 R.I.P. Crane Operator
+object_PhotoOfDeadTowTruckDriver						 R.I.P. TowTruckDriver
+object_PhotoOfDeadLimoDriver							 R.I.P. LimoDriver
+object_PhotoOfDeadCarMechanic							 R.I.P. CarMechanic
+object_PhotoOfDeadCarMechanicHelper						 R.I.P. CarMechanicHelper
+object_PhotoOfDeadBasketballTrainer						 R.I.P. Basketball Trainer
+object_PhotoOfDeadBasketballTrainerFullCourt			 R.I.P. Basketball Trainer
+object_PhotoOfDeadBasketballTrainerHalfCourt			 R.I.P. Basketball Trainer
+object_PhotoOfDeadBasketballTrainerYard					 R.I.P. Basketball Trainer
+object_PhotoOfDeadSmartPhoneGenius						 R.I.P. "Smart" Phone Genius
+object_PhotoOfDeadGardenWorker							 R.I.P. Garden Worker
+object_PhotoOfDeadGreenhouseWorker						 R.I.P. Greenhouse Worker
+object_PhotoOfDeadPlantationWorker						 R.I.P. Plantation Worker
+object_PhotoOfDeadTailor								 R.I.P. Tailor
+object_PhotoOfDeadTeslaMaticExpert						 R.I.P. TeslaMatic Expert
+object_PhotoOfDeadShadyTeslaDude						 R.I.P. Shady Tesla Dude
+object_PhotoOfDeadParoleOfficer							 R.I.P. Parole Officer
+object_PhotoOfDeadParoleLawyer							 R.I.P. Parole Lawyer
+object_PhotoOfDeadAppealsLawyer							 R.I.P. Appeals Lawyer
+object_PhotoOfDeadAppealsMagistrate						 R.I.P. Appeals Magistrate
+object_PhotoOfDeadParoleOfficerClone					 R.I.P. Parole Officer
+object_PhotoOfDeadParoleLawyerClone						 R.I.P. Parole Lawyer
+object_PhotoOfDeadAppealsLawyerClone					 R.I.P. Appeals Lawyer
+object_PhotoOfDeadAppealsMagistrateClone				 R.I.P. Appeals Magistrate
+object_PhotoOfDeadTeacher								 R.I.P. Teacher
+object_PhotoOfDeadSpiritualLeader						 R.I.P. Spiritual Leader
+object_PhotoOfDeadTeacherClone							 R.I.P. Teacher
+object_PhotoOfDeadSpiritualLeaderClone					 R.I.P. Spiritual Leader
+object_PhotoOfDeadFireman								 R.I.P. Fireman
+object_PhotoOfDeadRiotGuard								 R.I.P. RiotGuard
+object_PhotoOfDeadParamedic								 R.I.P. Paramedic
+object_PhotoOfDeadSoldier								 R.I.P. Soldier
+object_PhotoOfDeadVisitor								 R.I.P. Visitor
+object_PhotoOfDeadExecutionWitness						 R.I.P. Execution Witness
+object_PhotoOfDeadMetroGuard							 R.I.P. Metro Guard
+object_PhotoOfDeadTruckDriver							 R.I.P. Truck Driver
+object_PhotoOfDeadTowTruck2Driver						 R.I.P. TowTruck Driver
+object_PhotoOfDeadTowTruck2DriverMilitary				 R.I.P. TowTruck Driver
+object_PhotoOfDeadLimo2Driver0							 R.I.P. Limo Driver
+object_PhotoOfDeadLimo2Driver1							 R.I.P. Limo Driver
+object_PhotoOfDeadLimo2Driver2							 R.I.P. Limo Driver
+object_PhotoOfDeadLimo2Driver3							 R.I.P. Limo Driver
+object_PhotoOfDeadLimo2Driver4							 R.I.P. Limo Driver
+object_PhotoOfDeadLimo2Driver5							 R.I.P. Limo Driver
+object_PhotoOfDeadLimo2Driver6							 R.I.P. Limo Driver
+object_PhotoOfDeadLimo2Driver7							 R.I.P. Limo Driver
+object_PhotoOfDeadLimo2Driver8							 R.I.P. Limo Driver
+object_PhotoOfDeadLimo2Driver9							 R.I.P. Limo Driver
+object_PhotoOfDeadLimo2Driver10							 R.I.P. Limo Driver
+object_PhotoOfDeadLimo2Driver11							 R.I.P. Limo Driver
+object_PhotoOfDeadLimo2Driver12							 R.I.P. Limo Driver
+object_PhotoOfDeadLimo2Driver13							 R.I.P. Limo Driver
+object_PhotoOfDeadLimo2Driver14							 R.I.P. Limo Driver
+object_PhotoOfDeadLimo2Driver15							 R.I.P. Limo Driver
+object_PhotoOfDeadLimo2DriverLeaving					 R.I.P. Limo Driver
+object_PhotoOfDeadSomeFriendParlour1					 R.I.P. Visitor
+object_PhotoOfDeadSomeFriendParlour2					 R.I.P. Visitor
+object_PhotoOfDeadSomeFriendParlour3					 R.I.P. Visitor
+object_PhotoOfDeadSomeFriendParlour4					 R.I.P. Visitor
+object_PhotoOfDeadSomeFriendParlour5					 R.I.P. Visitor
+object_PhotoOfDeadSomeFriendCemetery					 R.I.P. Visitor
+object_PhotoOfDeadSomeFriendFuneral						 R.I.P. Visitor
+object_PhotoOfDeadSomeFriendLeaving						 R.I.P. Visitor
+object_PhotoOfDeadSpiritualLeaderParlour				 R.I.P. Spiritual Leader
+object_PhotoOfDeadChinookPilot							 R.I.P. Chinook Pilot
+object_PhotoOfDeadChinookGuard							 R.I.P. Chinook Guard
+object_PhotoOfDeadUnknown								 R.I.P. John Doe
+
+object_Ghost											 Ghost
+
+object_HearseRemover									 Hearse Remover
+buildtoolbar_popup_obj_HearseRemover					 Place this little invisible tool somewhere on the map so a Hearse will never come. Can be sold after the Morgue grant completed if you still want Hearses to arrive.
+
+causeofdeath_snitchculled								 Killed for being a Snitch
+causeofdeath_execution									 Executed by Electric Chair
+causeofdeath_unknown									 Killed by divine intervention
+
+object_Crematorium										 Crematorium
+buildtoolbar_popup_obj_Crematorium						 A place where people get cremated
+tooltip_CrematoriumIdle									 \nStored Coffins: *A/30\nCremation starts at: *B\n\nIf no hour to cremate is specified then cremation will start automatically at the next whole hour when there are 30 coffins or more stored at the Crematorium
+tooltip_CrematoriumInit									 \nStored Coffins: *A/30\nCremation pending...\n\nA Gravedigger will activate the Crematorium
+tooltip_CrematoriumActive								 \nCremation finished in about: *A minutes
+tooltip_button_CremationHourPlus						 Hour (+)
+tooltip_button_CremationHourMinus						 Hour (-)
+tooltip_button_CremationHour							 Cremate: *X
+
+
+object_SmallTableMorgue									 Morgue Table
+buildtoolbar_popup_obj_SmallTableMorgue					 Use this small table in a Morgue to store Empty Coffins. Dead entities will be brought here before they go to the Funeral Parlour.
+object_SmallTableFP										 Parlour Table
+buildtoolbar_popup_obj_SmallTableFP						 Use this small table in a Funeral Parlour to store occupied Coffins. Dead entities will be brought here before they get buried.
+
+object_GraveStone										 Grave Stone (eyecandy)
+object_GraveStoneSpawner								 Grave Stone (eye-candy)
+buildtoolbar_popup_obj_GraveStone						 Give your Death Row prisoners a nice view from their window so they can see where their future is buried.\n\nThis GraveStone is eyecandy, use the other one to bury dead people.
+object_GraveStone2										 Grave Stone
+object_GraveStoneStaff2									 Grave Stone
+object_GraveUnderConstruction1							 Empty Grave
+object_GraveStaffUnderConstruction1						 Empty Staff Grave
+tooltip_EmptyGrave1										 This grave is empty and waiting for a coffin...
+tooltip_EmptyGrave2										 This grave is being prepared...
+tooltip_EmptyStaffGrave1								 This staff grave is empty and waiting for a coffin...
+tooltip_EmptyStaffGrave2								 This staff grave is being prepared...
+buildtoolbar_popup_obj_GraveUnderConstruction1			 Place empty graves at the Cemetery, they will be waiting for full Coffins coming from the Morgue...
+buildtoolbar_popup_obj_GraveStaffUnderConstruction1		 Place empty Staff graves at the Cemetery, they will be waiting for full Coffins coming from the Morgue...
+object_GraveUnderConstruction2							 Big Hole
+object_GraveStaffUnderConstruction2						 Big Hole
+object_GraveLoaded										 Grave
+object_GraveStaffLoaded									 Grave
+object_GravePhoto										 Grave Photo
+object_GraveLid											 Grave Lid
+object_FuneralWreath									 Funeral Wreath
+object_FuneralWreathRubbish								 Funeral Wreath
+object_GraveFlowers										 Flowers
+room_FuneralParlour										 Funeral Parlour
+buildtoolbar_popup_room_FuneralParlour					 Dead prisoners will be brought to this room once they are loaded in a coffin.\n\n- If you place a Parlour Table then the prisoner gets no ceremony, and the coffin is closed in this room.\n\n- If you place a Parlour Altar then you get a whole funeral ceremony when a coffin gets brought to this room. Of course this will take much longer.\n\n - The Altar will always be used first, and it starts a ceremony. If no Altars were placed (or free), the empty tables will be filled up to quickly bury the rest of the bodies. Meanwhile your GraveDiggers roam here to warm up when they have nothing to do.
+room_Cemetery											 Cemetery
+buildtoolbar_popup_room_cemetery						 A plot of land where people can find a last place to rest. Uses Grave (scripted, people can be buried) or GraveStones (eyecandy).
+room_CoffinWorkshop										 Coffin Workshop
+buildtoolbar_popup_room_CoffinWorkshop					 A workshop where prisoners assemble coffins. Finished coffins are stored on a Morgue Table at the Morgue. All tables loaded? Then the coffins go to Exports.
+object_CoffinTable										 Coffin Table
+buildtoolbar_popup_obj_CoffinTable						 A workshop table on which coffins are made. Required at the Coffin Workshop. Six pieces of Wood make one Coffin.
+object_SpiritualLeaderClone								 Spiritual Leader
+object_SomeFriendCemetery								 Cemetery Visitor
+object_SomeFriendLeaving								 Leaving Visitor
+object_SomeFriendParlour1								 Parlour Visitor
+object_SomeFriendParlour2								 Parlour Visitor
+object_SomeFriendParlour3								 Parlour Visitor
+object_SomeFriendParlour4								 Parlour Visitor
+object_SomeFriendParlour5								 Parlour Visitor
+object_SomeFriendFuneral								 Funeral Visitor
+object_SpiritualLeaderParlour							 Spiritual Leader
+tooltip_friend_leaving									 Leaving the map
+tooltip_visiting_funeral								 Attend funeral at the Funeral Parlour
+tooltip_visiting_grave									 Visit grave at the Cemetery
+material_GraveHole										 Grave Hole
+material_CemeteryStone									 Cemetery Stone
+material_CemeteryPavingStone							 Cemetery Paving Stone
+object_GraveDigger										 Gravedigger
+buildtoolbar_popup_staff_GraveDigger					 Gives the Grave Digging course at the Cemetery.
+object_GraveCoffinParlour								 Coffin (Parlour)
+object_GraveCoffinParlourStaff							 Coffin (Parlour)
+object_GraveCoffin										 Empty Coffin
+buildtoolbar_popup_obj_GraveCoffin						 Place some empty coffins, they will be loaded on a Morgue Table at the Morgue. Dead people will be placed in here. Full coffins go to the Funeral Parlour before they get buried at the Cemetery in Empty Graves.
+object_GraveCoffinLoaded								 Coffin
+object_GraveCoffinLoaded2								 Coffin
+object_GraveCoffinStaffLoaded							 Coffin
+object_GraveCoffinStaffLoaded2							 Coffin
+object_GraveCoffinLid									 Coffin Lid
+object_CrematoriumCoffinStacked							 Coffin	(stacked)
+object_CrematoriumCoffinPending							 Coffin	(pending)
+object_CrematoriumUrn									 Urn
+object_CrematoriumDoor									 Door
+object_ParlourChair										 Parlour Chair
+buildtoolbar_popup_obj_ParlourChair						 Place up to 5 parlour chairs in the Funeral Parlour, so visiting friends of a dead person can sit down during a ceremony. You can dismantle the chairs after completing the grant if you don't want ceremonies in your prison.
+object_ParlourAltar										 Parlour Altar
+buildtoolbar_popup_obj_ParlourAltar						 Use this altar in a Funeral Parlour to store Coffins. Dead entities will be brought here and get a ceremony before they get buried.\n\nYou can also just use a Parlour Table if you want no funerals and a quicker burial procedure. You can dismantle the altar after completing the grant if you don't want ceremonies in your prison.
+object_ParlourAltarStaff								 Parlour Altar (Staff)
+buildtoolbar_popup_obj_ParlourAltarStaff				 Use this altar in a Funeral Parlour to store staff Coffins. Dead entities will be brought here and get a ceremony before they get buried.\n\nYou can also just use a Parlour Table if you want no funerals and a quicker burial procedure.
+
+object_DelOccupiedGrave									 Del Prisoner Grave
+buildtoolbar_popup_staff_DelOccupiedGrave				 Sets the age of a prisoners GraveStone to max, this will issue a CleanUp Grave job.
+object_DelOccupiedStaffGrave							 Del Staff Grave
+buildtoolbar_popup_staff_DelOccupiedStaffGrave			 Sets the age of a Staff GraveStone to max, this will issue a CleanUp Grave job.
+
+job_custom_CloseCoffin									 Close coffin
+job_custom_BuryEntity									 Bury person
+job_custom_DigHole										 Dig a big hole
+job_custom_CoffinInHole									 Put coffin in big hole
+job_custom_CleanGrave									 Tidy grave
+job_custom_TendGrave									 Tend grave
+job_custom_TendGraveStone								 Tend gravestone
+job_custom_PlaceStone									 Place gravestone
+job_custom_GiveParlourSpeech							 Give speech
+job_custom_PlaceFuneralWreath							 Place funeral wreath
+job_custom_VisitParlour1A								 Visit funeral parlour
+job_custom_VisitParlour2A								 Visit funeral parlour
+job_custom_VisitParlour3A								 Visit funeral parlour
+job_custom_VisitParlour4A								 Visit funeral parlour
+job_custom_VisitParlour5A								 Visit funeral parlour
+job_custom_VisitParlour1B								 Visit funeral parlour
+job_custom_VisitParlour2B								 Visit funeral parlour
+job_custom_VisitParlour3B								 Visit funeral parlour
+job_custom_VisitParlour4B								 Visit funeral parlour
+job_custom_VisitParlour5B								 Visit funeral parlour
+job_custom_PriestToAltar								 Start funeral ceremony
+job_custom_SayGoodbye1									 Say goodbye
+job_custom_SayGoodbye2									 Say goodbye
+job_custom_SayGoodbye3									 Say goodbye
+job_custom_SayGoodbye4									 Say goodbye
+job_custom_SayGoodbye5									 Say goodbye
+job_custom_VisitGrave									 Visit grave
+reformprogram_GraveDigging								 Grave Digging
+reformprogram_GraveDigging_text							 Let your prisoners dig their own Graves. Your staff is busy enough already dealing with their behaviour, so why not give the prisoners a course to let them clean up their own mess?
+reformprogram_CoffinProduction							 Coffin Production
+reformprogram_CoffinProduction_text						 Six pieces of wood make a cosy coffin! This workshop class will teach prisoners how to assemble those six pieces. Finished coffins are stored on a Morgue Table at the Morgue. All tables loaded? Then the coffins go to Exports.
+
+objective_Grant_Morgue2									 Cemetery grant 1/6: Morgue
+objective_Grant_Morgue2_description						 Step 1 in creating a Cemetery for your prison is to build a Morgue where dead people get stored in Empty Coffins
+objective_Grant__Morgue2_Research						 First you must research Health
+objective_Grant_Morgue2_MorgueRoom						 Build a Morgue
+objective_Grant_Morgue2_MorgueSlabNumber				 Place at least 1 Morgue Slab in the Morgue
+objective_Grant_Morgue2_MorgueTableNumber				 Place at least 1 Morgue Table in the Morgue
+objective_Grant_Morgue2_CoffinNumber					 Place at least 2 Empty Coffins in the Morgue
+objective_Grant_Morgue2_HearseRemoverNumber				 Place 1 Hearse Remover somewhere on the map
+
+objective_Grant_Parlour2								 Cemetery grant 2/6: Funeral Parlour
+objective_Grant_Parlour2_description					 Step 2 for your Cemetery involves building a Funeral Parlour where coffins are closed or a funeral ceremony takes place
+objective_Grant_Parlour2_Research						 First you must complete the Morgue grant
+objective_Grant_Parlour2_ParlourRoom					 Build a Funeral Parlour
+objective_Grant_Parlour2_ParlourTableNumber				 Place at least 1 Parlour Table in the Funeral Parlour
+objective_Grant_Parlour2_AltarNumber					 Place 1 Funeral Altar in the Funeral Parlour
+objective_Grant_Parlour2_ChairNumber					 Place 5 Parlour Chairs in the Funeral Parlour
+
+objective_Grant_Cemetery2								 Cemetery grant 3/6: Cemetery
+objective_Grant_Cemetery2_description					 In step 3 you will build a Cemetery. Staff members don't want to be buried next to a criminal, so you might want to keep prisoner graves and staff graves in separate areas of your Cemetery
+objective_Grant_Cemetery2_Research						 First you must complete the Funeral Parlour grant
+objective_Grant_Cemetery2_CemeteryRoom					 Build a Cemetery
+objective_Grant_Cemetery2_GraveStoneNumber				 Place at least 2 Grave Stones (eyecandy) somewhere at the Cemetery.\n\nYou can put a Concrete Tile there as well, to resemble a full grave.
+objective_Grant_Cemetery2_GraveNumber					 Place at least 2 Empty Graves somewhere else at the Cemetery
+objective_Grant_Cemetery2_StaffGraveNumber				 Place at least 2 Empty Staff Graves somewhere else at the Cemetery
+objective_Grant_Cemetery2_GraveDiggerNumber				 Hire at least 1 GraveDigger
+
+objective_Grant_CoffinWorkshop2							 Cemetery grant 4/6: Coffin Workshop
+objective_Grant_CoffinWorkshop2_description				 Step 4 of your Cemetery makes sure the supply of Empty Coffins will be OK
+objective_Grant_CoffinWorkshop2_Research				 First you must research Prison Labour
+objective_Grant_CoffinWorkshop2_CoffinWorkshopRoom		 Build a Coffin Workshop
+objective_Grant_CoffinWorkshop2_CoffinTableNumber		 Place at least 1 CoffinTable in the Coffin Workshop
+objective_Grant_CoffinWorkshop2_GraveDiggerNumber		 Hire at least 1 GraveDigger
+
+objective_Grant_CoffinProduction2						 Cemetery grant 5/6: Coffin Production
+objective_Grant_CoffinProduction2_description			 In step 5 of the Cemetery, we let prisoners make their own coffins from cheap wood
+objective_Grant_CoffinProduction2_Research				 First you must complete the Coffin Workshop grant
+objective_Grant_CoffinProduction2_ProgramPassed			 Have at least 2 prisoners pass the "Coffin Production" reform program
+objective_Grant_CoffinProduction2_Assigned				 Assign at least 1 prisoner to work at the Coffin Workshop
+objective_Grant_CoffinProduction2_CoffinNumber			 Produce 10 empty coffins
+
+objective_Grant_Cemetery2Jobs							 Cemetery grant 6/6: Bury a dead prisoner
+objective_Grant_Cemetery2Jobs_description				 The last step is to actually bury a prisoner. This might take a while to complete, depending on how safe your prison is. Assign prisoners to maintain graves and bury one of their fellow inmates.
+objective_Grant_Cemetery2Jobs_Research					 First you must complete the Cemetery grant and research Prison Labour
+objective_Grant_Cemetery2Jobs_ProgramPassed				 Have at least 2 prisoners pass the "Grave Digging" course
+objective_Grant_Cemetery2Jobs_Assigned					 Assign at least 1 prisoner to work at the Cemetery
+objective_Grant_Cemetery2Jobs_BuryDead					 Have at least 1 prisoner buried
+
+
+
+
+material_MenuWater										 <-->
+material_MenuTiles										 -->
+material_MenuCarpet										 -->
+material_MenuWood										 -->
+material_MenuMosaic										 -->
+material_MenuStone										 -->
+material_MenuDeploy										 -->
+material_MenuFence										 -->
+material_MenuCompost									 -->
+material_MenuChinook									 -->
+material_MenuCurb										 -->
+
+object_FloorMaterial									 Floor Material
+
+material_Heli_TL										 HeliPad TL
+material_Heli_TC										 HeliPad TC
+material_Heli_TR										 HeliPad TR
+material_Heli_CL										 HeliPad CL
+material_Heli_CC										 HeliPad CC
+material_Heli_CR										 HeliPad CR
+material_Heli_BL										 HeliPad BL
+material_Heli_BC										 HeliPad BC
+material_Heli_BR										 HeliPad BR
+
+material_Limo2Wall										 Limo Wall
+
+material_outercornerTL									 Outer Corner
+material_outercornerTR									 Outer Corner
+material_outercornerBL									 Outer Corner
+material_outercornerBR									 Outer Corner
+material_outerlineT										 Outer Line Top
+material_outerlineB										 Outer Line Bottom
+material_dashedcenterline_vertical						 Dashed Centre Line
+material_dashedcenterline_horizontal					 Dashed Centre Line
+material_solidcenterline_vertical						 Solid Centre Line
+material_solidcenterline_horizontal						 Solid Centre Line
+material_solidyellowcenterline_vertical					 Yellow Centre Line
+material_solidyellowcenterline_horizontal				 Yellow Centre Line
+material_diagroadwithsidewalkTL							 Diag Sidewalk
+material_diagroadwithsidewalkTR							 Diag Sidewalk
+material_diagroadwithsidewalkBL							 Diag Sidewalk
+material_diagroadwithsidewalkBR							 Diag Sidewalk
+
+material_verticallinewithzebraT							 Line with Zebra
+material_verticallinewithzebraB							 Line with Zebra
+
+material_verticalcurbwithzebraT							 Curb with Zebra
+material_verticalcurbwithzebraB							 Curb with Zebra
+material_verticalzebra									 Zebra Crossing
+
+material_whitecrosslinesTL								 White Crosslines
+material_whitecrosslinesTR								 White Crosslines
+material_whitecrosslinesBL								 White Crosslines
+material_whitecrosslinesBR								 White Crosslines
+
+material_yellowcrosslinesL								 Yellow Crosslines
+material_yellowcrosslinesR								 Yellow Crosslines
+material_yellowcrosslinesBL								 Yellow Crosslines
+material_yellowcrosslinesBR								 Yellow Crosslines
+
+material_yellowcenterturnTL								 Centre Line Turn
+material_yellowcenterturnTR								 Centre Line Turn
+material_yellowcenterturnBL								 Centre Line Turn
+material_yellowcenterturnBR								 Centre Line Turn
+
+material_whitecenterturnTL								 Centre Line Turn
+material_whitecenterturnTR								 Centre Line Turn
+material_whitecenterturnBL								 Centre Line Turn
+material_whitecenterturnBR								 Centre Line Turn
+
+material_innerwhitecornerTL								 Inner Corner
+material_innerwhitecornerTR								 Inner Corner
+material_innerwhitecornerBL								 Inner Corner
+material_innerwhitecornerBR								 Inner Corner
+
+material_outercurbT										 Outer Curb
+material_outercurbL										 Outer Curb
+material_outercurbB										 Outer Curb
+material_outercurbR										 Outer Curb
+
+material_innercurbT										 Inner Curb
+material_innercurbL										 Inner Curb
+material_innercurbB										 Inner Curb
+material_innercurbR										 Inner Curb
+
+material_innerdiagroadTL								 Diagonal Inner Line
+material_innerdiagroadTR								 Diagonal Inner Line
+material_innerdiagroadBL								 Diagonal Inner Line
+material_innerdiagroadBR								 Diagonal Inner Line
+
+material_diagsidewalkTL									 Diag Road Sidewalk
+material_diagsidewalkTR									 Diag Road Sidewalk
+material_diagsidewalkBL									 Diag Road Sidewalk
+material_diagsidewalkBR									 Diag Road Sidewalk
+
+material_curbcornerTL									 Curb Corner
+material_curbcornerTR									 Curb Corner
+material_curbcornerBL									 Curb Corner
+material_curbcornerBR									 Curb Corner
+material_curbgutter										 Curb Gutter
+material_manhole										 Manhole
+
+material_diagcenterturnTL								 Diagonal / Straight center line
+material_diagcenterturnTR								 Diagonal / Straight center line
+material_diagcenterturnBL								 Diagonal / Straight center line
+material_diagcenterturnBR								 Diagonal / Straight center line
+
+material_diagcenterL									 Diagonal Center Line	
+material_diagcenterR									 Diagonal Center Line	
+
+material_diagreversecenterturnTL						 Diagonal / Straight center line
+material_diagreversecenterturnTR						 Diagonal / Straight center line
+material_diagreversecenterturnBL						 Diagonal / Straight center line
+material_diagreversecenterturnBR						 Diagonal / Straight center line
+
+material_parkingspot1TL									 Parking Spot 1
+material_parkingspot1TR									 Parking Spot 1
+material_parkingspot1BL									 Parking Spot 1
+material_parkingspot1BR									 Parking Spot 1
+
+material_parkingspot2TL									 Parking Spot 2
+material_parkingspot2TR									 Parking Spot 2
+material_parkingspot2BL									 Parking Spot 2
+material_parkingspot2BR									 Parking Spot 2
+
+material_parkingspot3TL									 Parking Spot 3
+material_parkingspot3TR									 Parking Spot 3
+material_parkingspot3BL									 Parking Spot 3
+material_parkingspot3BR									 Parking Spot 3
+
+material_RoadCrossing									 Crossing
+material_RoadCrossingLeft								 Crossing (Left)
+material_RoadCrossingRight								 Crossing (Right)
+
+material_cinderbwall			 						 Cinderblock Wall
+material_mud					 						 Mud
+
+material_GraveHole										 Grave Hole
+material_CemeteryStone									 Cemetery Stone
+material_CemeteryPavingStone							 Cemetery Paving Stone
+
+material_longgrass										 Long Grass
+material_BlueMosaic										 Blue Mosaic
+material_SalmonTiles									 Salmon Tiles
+material_WoodLaminate									 Wood Laminate
+material_BlackMosaic									 Black Mosaic
+material_BrownMosaic									 Brown Mosaic
+material_LightWood										 Light Wood
+material_RedTiles										 Red Tiles
+material_RedCarpet										 Red Carpet
+material_BlueCarpet										 Blue Carpet
+material_GreenCarpet									 Green Carpet
+material_RedCarpet1										 Red Carpet
+material_BlueCarpet1									 Blue Carpet
+material_GreenCarpet1									 Green Carpet
+material_OrangeCarpet									 Orange Carpet
+material_YellowCarpet									 Yellow Carpet
+material_YellowCarpet1									 Yellow Carpet
+material_RedCarpet2										 Red Carpet
+material_BlueCarpet2									 Blue Carpet
+material_GreenCarpet2									 Green Carpet
+material_YellowCarpet2									 Yellow Carpet
+material_BlackCarpet1									 Black Carpet
+material_WhiteCarpet									 White Carpet
+material_WhiteCarpet1									 White Carpet
+material_BlackCarpet2									 Black Carpet
+material_WhiteCarpet2									 White Carpet
+material_LightBlueCarpet								 Blue Carpet
+material_BlackCarpet									 Black Carpet
+material_GreyTiles										 Grey Tiles
+material_BlackTiles										 Black Tiles
+material_OrangeTiles									 Orange Tiles
+material_BlueTiles										 Blue Tiles
+material_YellowTiles									 Yellow Tiles
+material_DarkWood										 Dark Wood
+material_Cobblestone									 Cobble Stone
+material_LinoleumFloor									 Linoleum Floor
+material_KeramikFloor									 Ceramic Floor
+material_GraniteFloor									 Granite Floor
+material_MetallTiles									 Metal Tiles
+material_DarkParkett									 Dark Parkett
+material_StoneTiles										 Stone Tiles
+material_WaterStable									 Water (Stable)
+material_RoofTiles1										 Roof Tiles 1
+material_RoofTiles2										 Roof Tiles 2
+material_FX2K_Tile1										 Concrete Tile
+material_FX2K_Tile2										 Crazy Paving
+material_FX2K_Tile3										 Grey Carpet
+material_FX2K_Tile4										 Grey Carpet
+material_FX2K_Tile5										 Yellow Carpet
+material_FX2K_Tile6										 Orange Carpet
+material_FX2K_Tile7										 Green Carpet
+material_FX2K_Tile8										 Green Carpet
+material_FX2K_Tile9										 Kitchen Tiles
+material_FX2K_Tile10									 Blue Carpet
+material_FX2K_Tile11									 Blue Carpet
+material_FX2K_Tile12									 Blue Carpet
+material_FX2K_Tile13									 Dark Wood Floor
+material_FX2K_Tile14									 Red Carpet
+material_FX2K_Tile15									 Maroon Carpet
+material_FX2K_Tile16									 Purple Carpet
+material_LooseStone										 Loose Stone
+material_PavedFence										 Paved Fence
+material_PavedBushFence									 Paved Bush Fence
+material_TiledFence										 Tiled Fence
+material_TiledBushFence									 Tiled Bush Fence
+material_GrassFence										 Grass Fence
+material_JailFence										 Jail Fence
+material_YellowBigMosaic								 Yellow Mosaic
+material_GreenBigMosaic									 Green Mosaic
+material_WhiteBigMosaic									 White Mosaic
+material_RedBigMosaic									 Red Mosaic
+material_GreyBigMosaic									 Grey Mosaic
+
+material_Farmland										 Compost
+
+material_T0_WhiteTile									 White Tile
+material_BL_PublicTile									 Public Tile
+material_BR_PublicTile									 Public Tile
+material_C_PublicTile									 Public Tile
+material_T3_PublicTile									 Public Tile
+material_T6_PublicTile									 Public Tile
+material_T9_PublicTile									 Public Tile
+material_T12_PublicTile									 Public Tile
+material_TL_PublicTile									 Public Tile
+material_TR_PublicTile									 Public Tile
+material_X_PublicTile									 Public Tile
+material_Y_PublicTile									 Public Tile
+material_BL_PublicConcrete								 Public Concrete
+material_BR_PublicConcrete								 Public Concrete
+material_C_PublicConcrete								 Public Concrete
+material_T3_PublicConcrete								 Public Concrete
+material_T6_PublicConcrete								 Public Concrete
+material_T9_PublicConcrete								 Public Concrete
+material_T12_PublicConcrete								 Public Concrete
+material_TL_PublicConcrete								 Public Concrete
+material_TR_PublicConcrete								 Public Concrete
+material_X_PublicConcrete								 Public Concrete
+material_Y_PublicConcrete								 Public Concrete
+material_BL_StaffTile									 Staff Tile
+material_BR_StaffTile									 Staff Tile
+material_C_StaffTile									 Staff Tile
+material_T3_StaffTile									 Staff Tile
+material_T6_StaffTile									 Staff Tile
+material_T9_StaffTile									 Staff Tile
+material_T12_StaffTile									 Staff Tile
+material_TL_StaffTile									 Staff Tile
+material_TR_StaffTile									 Staff Tile
+material_X_StaffTile									 Staff Tile
+material_Y_StaffTile									 Staff Tile
+material_BL_StaffConcrete								 Staff Concrete
+material_BR_StaffConcrete								 Staff Concrete
+material_C_StaffConcrete								 Staff Concrete
+material_T3_StaffConcrete								 Staff Concrete
+material_T6_StaffConcrete								 Staff Concrete
+material_T9_StaffConcrete								 Staff Concrete
+material_T12_StaffConcrete								 Staff Concrete
+material_TL_StaffConcrete								 Staff Concrete
+material_TR_StaffConcrete								 Staff Concrete
+material_X_StaffConcrete								 Staff Concrete
+material_Y_StaffConcrete								 Staff Concrete
+material_BL_MinimumTile									 Minimum Tile
+material_BR_MinimumTile									 Minimum Tile
+material_C_MinimumTile									 Minimum Tile
+material_T3_MinimumTile									 Minimum Tile
+material_T6_MinimumTile									 Minimum Tile
+material_T9_MinimumTile									 Minimum Tile
+material_T12_MinimumTile								 Minimum Tile
+material_TL_MinimumTile									 Minimum Tile
+material_TR_MinimumTile									 Minimum Tile
+material_X_MinimumTile									 Minimum Tile
+material_Y_MinimumTile									 Minimum Tile
+material_BL_MinimumConcrete								 Minimum Concrete
+material_BR_MinimumConcrete								 Minimum Concrete
+material_C_MinimumConcrete								 Minimum Concrete
+material_T3_MinimumConcrete								 Minimum Concrete
+material_T6_MinimumConcrete								 Minimum Concrete
+material_T9_MinimumConcrete								 Minimum Concrete
+material_T12_MinimumConcrete							 Minimum Concrete
+material_TL_MinimumConcrete								 Minimum Concrete
+material_TR_MinimumConcrete								 Minimum Concrete
+material_X_MinimumConcrete								 Minimum Concrete
+material_Y_MinimumConcrete								 Minimum Concrete
+material_BL_MediumTile									 Medium Tile
+material_BR_MediumTile									 Medium Tile
+material_C_MediumTile									 Medium Tile
+material_T3_MediumTile									 Medium Tile
+material_T6_MediumTile									 Medium Tile
+material_T9_MediumTile									 Medium Tile
+material_T12_MediumTile									 Medium Tile
+material_TL_MediumTile									 Medium Tile
+material_TR_MediumTile									 Medium Tile
+material_X_MediumTile									 Medium Tile
+material_Y_MediumTile									 Medium Tile
+material_BL_MediumConcrete								 Medium Concrete
+material_BR_MediumConcrete								 Medium Concrete
+material_C_MediumConcrete								 Medium Concrete
+material_T3_MediumConcrete								 Medium Concrete
+material_T6_MediumConcrete								 Medium Concrete
+material_T9_MediumConcrete								 Medium Concrete
+material_T12_MediumConcrete								 Medium Concrete
+material_TL_MediumConcrete								 Medium Concrete
+material_TR_MediumConcrete								 Medium Concrete
+material_X_MediumConcrete								 Medium Concrete
+material_Y_MediumConcrete								 Medium Concrete
+material_BL_MaximumTile									 Maximum Tile
+material_BR_MaximumTile									 Maximum Tile
+material_C_MaximumTile									 Maximum Tile
+material_T3_MaximumTile									 Maximum Tile
+material_T6_MaximumTile									 Maximum Tile
+material_T9_MaximumTile									 Maximum Tile
+material_T12_MaximumTile								 Maximum Tile
+material_TL_MaximumTile									 Maximum Tile
+material_TR_MaximumTile									 Maximum Tile
+material_X_MaximumTile									 Maximum Tile
+material_Y_MaximumTile									 Maximum Tile
+material_BL_MaximumConcrete								 Maximum Concrete
+material_BR_MaximumConcrete								 Maximum Concrete
+material_C_MaximumConcrete								 Maximum Concrete
+material_T3_MaximumConcrete								 Maximum Concrete
+material_T6_MaximumConcrete								 Maximum Concrete
+material_T9_MaximumConcrete								 Maximum Concrete
+material_T12_MaximumConcrete							 Maximum Concrete
+material_TL_MaximumConcrete								 Maximum Concrete
+material_TR_MaximumConcrete								 Maximum Concrete
+material_X_MaximumConcrete								 Maximum Concrete
+material_Y_MaximumConcrete								 Maximum Concrete
+material_BL_ProtectiveTile								 Protective Tile
+material_BR_ProtectiveTile								 Protective Tile
+material_C_ProtectiveTile								 Protective Tile
+material_T3_ProtectiveTile								 Protective Tile
+material_T6_ProtectiveTile								 Protective Tile
+material_T9_ProtectiveTile								 Protective Tile
+material_T12_ProtectiveTile								 Protective Tile
+material_TL_ProtectiveTile								 Protective Tile
+material_TR_ProtectiveTile								 Protective Tile
+material_X_ProtectiveTile								 Protective Tile
+material_Y_ProtectiveTile								 Protective Tile
+material_BL_ProtectiveConcrete							 Protective Concrete
+material_BR_ProtectiveConcrete							 Protective Concrete
+material_C_ProtectiveConcrete							 Protective Concrete
+material_T3_ProtectiveConcrete							 Protective Concrete
+material_T6_ProtectiveConcrete							 Protective Concrete
+material_T9_ProtectiveConcrete							 Protective Concrete
+material_T12_ProtectiveConcrete							 Protective Concrete
+material_TL_ProtectiveConcrete							 Protective Concrete
+material_TR_ProtectiveConcrete							 Protective Concrete
+material_X_ProtectiveConcrete							 Protective Concrete
+material_Y_ProtectiveConcrete							 Protective Concrete
+material_BL_SupermaxTile								 Supermax Tile
+material_BR_SupermaxTile								 Supermax Tile
+material_C_SupermaxTile									 Supermax Tile
+material_T3_SupermaxTile								 Supermax Tile
+material_T6_SupermaxTile								 Supermax Tile
+material_T9_SupermaxTile								 Supermax Tile
+material_T12_SupermaxTile								 Supermax Tile
+material_TL_SupermaxTile								 Supermax Tile
+material_TR_SupermaxTile								 Supermax Tile
+material_X_SupermaxTile									 Supermax Tile
+material_Y_SupermaxTile									 Supermax Tile
+material_BL_SupermaxConcrete							 Supermax Concrete
+material_BR_SupermaxConcrete							 Supermax Concrete
+material_C_SupermaxConcrete								 Supermax Concrete
+material_T3_SupermaxConcrete							 Supermax Concrete
+material_T6_SupermaxConcrete							 Supermax Concrete
+material_T9_SupermaxConcrete							 Supermax Concrete
+material_T12_SupermaxConcrete							 Supermax Concrete
+material_TL_SupermaxConcrete							 Supermax Concrete
+material_TR_SupermaxConcrete							 Supermax Concrete
+material_X_SupermaxConcrete								 Supermax Concrete
+material_Y_SupermaxConcrete								 Supermax Concrete

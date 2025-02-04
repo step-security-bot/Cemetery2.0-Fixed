@@ -1,0 +1,641 @@
+
+tooltip_Init_TimeWarpA                                   \nInitialisation, veuillez patienter ...
+tooltip_Init_TimeWarpB                                   \nCalcule du facteur de distorsion temporelle.\nCela prend 1 minute de jeu ...\n\n Commencer à: *A   Fin à: *B\n Minute actuelle: *C\n Temps passé: *D\n\n Taille de la carte (avant extension): calcule en cours...\n Facteur de distorsion temporelle: calcule en cours...\n Mutateur de temps lent: calcule en cours...
+tooltip_Init_TimeWarpC                                   \nRéférence complété. Résultats:\n\n Commencer à: *A   Fin à: *B\n Minute actuelle: *C\n Temps passé: *D\n\n Taille de la carte (avant extension): *E\n Facteur de distorsion temporelle: *F\n Mutateur de temps lent: *G\n\nAttendre encore ...
+tooltip_ReadyForAction                                   \nPrêt pour l'action
+
+object_PhotoOfDeadWorkman								 R.I.P. Ouvrier
+object_PhotoOfDeadTruckDriver							 R.I.P. Camionneur
+object_PhotoOfDeadGuard									 R.I.P. Gardien
+object_PhotoOfDeadArmedGuard							 R.I.P. Gardien Armé
+object_PhotoOfDeadDogHandler							 R.I.P. Maître-chien
+object_PhotoOfDeadSniper								 R.I.P. Sniper
+object_PhotoOfDeadTeacher								 R.I.P. Enseignant
+object_PhotoOfDeadSpiritualLeader						 R.I.P. Prêtre
+object_PhotoOfDeadParoleOfficer							 R.I.P. Agent de conditionnelle
+object_PhotoOfDeadParoleLawyer							 R.I.P. Avocat de conditionnelle
+object_PhotoOfDeadAppealsLawyer							 R.I.P. Avocat d'appel
+object_PhotoOfDeadAppealsMagistrate						 R.I.P. Magistrat d'appel
+object_PhotoOfDeadDog									 R.I.P. Chien
+object_PhotoOfDeadRiotGuard								 R.I.P. Gardien d'émeute
+object_PhotoOfDeadSoldier								 R.I.P. Soldat
+object_PhotoOfDeadPrisoner								 R.I.P. Prisonnier
+object_PhotoOfDeadDoctor								 R.I.P. Médecin
+object_PhotoOfDeadParamedic								 R.I.P. Ambulancier
+object_PhotoOfDeadCook									 R.I.P. Cuisinier
+object_PhotoOfDeadGardener								 R.I.P. Jardinier
+object_PhotoOfDeadJanitor								 R.I.P. Concierge
+object_PhotoOfDeadFireman								 R.I.P. Pompier
+object_PhotoOfDeadVisitor								 R.I.P. Visiteur
+object_PhotoOfDeadExecutionWitness						 R.I.P. Témoin d’exécution
+object_PhotoOfDeadWarden								 R.I.P. Directeur
+object_PhotoOfDeadChief									 R.I.P. Chef
+object_PhotoOfDeadForeman								 R.I.P. Contremaître
+object_PhotoOfDeadPsychologist							 R.I.P. Psychologue
+object_PhotoOfDeadAccountant							 R.I.P. Comptable
+object_PhotoOfDeadLawyer								 R.I.P. Avocat
+object_PhotoOfDeadYogaMaster							 R.I.P. Maître Yoga
+object_PhotoOfDeadBarberChief							 R.I.P. Barbier Chef
+object_PhotoOfDeadBarber								 R.I.P. Barbier
+object_PhotoOfDeadTowTruckDriver						 R.I.P. Conducteur de dépanneuse
+object_PhotoOfDeadLimoDriver							 R.I.P. Conducteur de limousine
+object_PhotoOfDeadCarMechanic							 R.I.P. Mécanicien
+object_PhotoOfDeadCarMechanicHelper						 R.I.P. Assistant Mécanicien
+object_PhotoOfDeadBasketballTrainer						 R.I.P. Coatch de Basketball
+object_PhotoOfDeadTeslaMaticExpert						 R.I.P. Expert TeslaMatic
+object_PhotoOfDeadShadyTeslaDude						 R.I.P. Étrange mec de Tesla
+object_PhotoOfDeadChinookPilot							 R.I.P. Pilote de Chinook
+object_PhotoOfDeadChinookGuard							 R.I.P. Gardien de Chinook
+object_PhotoOfDeadGraveDigger							 R.I.P. Fossoyeur
+object_PhotoOfDeadForestryWorker						 R.I.P. Ouvrier de Foresterie
+object_PhotoOfDeadPlantationWorker						 R.I.P. Ouvrier de Plantation
+object_PhotoOfDeadGardenWorker							 R.I.P. Ouvrier de jardin
+object_PhotoOfDeadTailor								 R.I.P. Couturier
+object_PhotoOfDeadSmartPhoneGenius						 R.I.P. Génie du "smart" Phone
+object_PhotoOfDeadPrisonFiremanA0						 R.I.P. Pompier
+object_PhotoOfDeadPrisonFiremanA1						 R.I.P. Pompier
+object_PhotoOfDeadPrisonFiremanA2						 R.I.P. Pompier
+object_PhotoOfDeadPrisonFiremanA3						 R.I.P. Pompier
+object_PhotoOfDeadPrisonFiremanB0						 R.I.P. Pompier
+object_PhotoOfDeadPrisonFiremanB1						 R.I.P. Pompier
+object_PhotoOfDeadPrisonFiremanB2						 R.I.P. Pompier
+object_PhotoOfDeadPrisonFiremanB3						 R.I.P. Pompier
+object_PhotoOfDeadPrisonFiremanC0						 R.I.P. Pompier
+object_PhotoOfDeadPrisonFiremanC1						 R.I.P. Pompier
+object_PhotoOfDeadPrisonFiremanC2						 R.I.P. Pompier
+object_PhotoOfDeadPrisonFiremanC3						 R.I.P. Pompier
+object_PhotoOfDeadPrisonFiremanD0						 R.I.P. Pompier
+object_PhotoOfDeadPrisonFiremanD1						 R.I.P. Pompier
+object_PhotoOfDeadPrisonFiremanD2						 R.I.P. Pompier
+object_PhotoOfDeadPrisonFiremanD3						 R.I.P. Pompier
+object_PhotoOfDeadSpiritualLeaderParlour				 R.I.P. Prêtre
+object_PhotoOfDeadSomeFriendParlour1					 R.I.P. Visiteur
+object_PhotoOfDeadSomeFriendParlour2					 R.I.P. Visiteur
+object_PhotoOfDeadSomeFriendParlour3					 R.I.P. Visiteur
+object_PhotoOfDeadSomeFriendParlour4					 R.I.P. Visiteur
+object_PhotoOfDeadSomeFriendParlour5					 R.I.P. Visiteur
+object_PhotoOfDeadSomeFriendCemetery					 R.I.P. Visiteur
+object_PhotoOfDeadSomeFriendFuneral						 R.I.P. Visiteur
+object_PhotoOfDeadSomeFriendLeaving						 R.I.P. Visiteur
+object_PhotoOfDeadTowTruck2Driver						 R.I.P. Conducteur de dépanneuse
+object_PhotoOfDeadTowTruck2DriverMilitary				 R.I.P. Conducteur de dépanneuse
+object_PhotoOfDeadLimo2Driver0							 R.I.P. Conducteur de limousine
+object_PhotoOfDeadLimo2Driver1							 R.I.P. Conducteur de limousine
+object_PhotoOfDeadLimo2Driver2							 R.I.P. Conducteur de limousine
+object_PhotoOfDeadLimo2Driver3							 R.I.P. Conducteur de limousine
+object_PhotoOfDeadLimo2Driver4							 R.I.P. Conducteur de limousine
+object_PhotoOfDeadLimo2Driver5							 R.I.P. Conducteur de limousine
+object_PhotoOfDeadLimo2Driver6							 R.I.P. Conducteur de limousine
+object_PhotoOfDeadLimo2Driver7							 R.I.P. Conducteur de limousine
+object_PhotoOfDeadLimo2Driver8							 R.I.P. Conducteur de limousine
+object_PhotoOfDeadLimo2Driver9							 R.I.P. Conducteur de limousine
+object_PhotoOfDeadLimo2Driver10							 R.I.P. Conducteur de limousine
+object_PhotoOfDeadLimo2Driver11							 R.I.P. Conducteur de limousine
+object_PhotoOfDeadLimo2Driver12							 R.I.P. Conducteur de limousine
+object_PhotoOfDeadLimo2Driver13							 R.I.P. Conducteur de limousine
+object_PhotoOfDeadLimo2Driver14							 R.I.P. Conducteur de limousine
+object_PhotoOfDeadLimo2Driver15							 R.I.P. Conducteur de limousine
+object_PhotoOfDeadLimo2DriverLeaving					 R.I.P. Conducteur de limousine
+object_PhotoOfDeadCarMechanic2							 R.I.P. Mécanicien
+object_PhotoOfDeadCraneOperator2						 R.I.P. Opérateur de Grue
+object_PhotoOfDeadUnknown								 R.I.P. Mr. Dupont
+object_Ghost											 Fantôme
+
+object_HearseRemover									 Suppression de corbillard
+buildtoolbar_popup_obj_HearseRemover					 Placez ce petit outil invisible quelque part sur la carte pour que les corbillards ne reviennent plus jamais. Peut être vendu après avoir complété la subvention 'Morgue' si vous voulez toujours que les corbillards viennent.
+
+causeofdeath_execution									 Exécuté par chaise électrique
+causeofdeath_unknown									 Tué par une intervention du Saint-Esprit
+
+object_Crematorium										 Crématorium
+buildtoolbar_popup_obj_Crematorium						 Là où les gens sont incinérés
+tooltip_CrematoriumIdle									 \nCercueils stockés: *A/30\nIncinération démarre à: *B\n\nSi aucune heure pour incinérer est spécifiée, l'incinération commencera automatiquement à la prochaine heure pleine quand 30 cercueils ou plus seront stockés au Crématorium.
+tooltip_CrematoriumInit									 \nCercueils stockés: *A/30\nIncinération en attente...\n\nUn Fossoyeur activera le Crématorium.
+tooltip_CrematoriumActive								 \nIncinération terminée dans à peu près: *A minutes
+tooltip_button_CremationHourPlus						 Heure (+)
+tooltip_button_CremationHourMinus						 Heure (-)
+tooltip_button_CremationHour							 Incinération: *X
+
+
+object_SmallTableMorgue									 Table de Morgue
+buildtoolbar_popup_obj_SmallTableMorgue					 Placez cette petite table dans une Morgue pour stocker les Cercueils Vides. Les morts seront ramenés là avant qu'ils n'aillent au Salon Funéraire.
+object_SmallTableFP										 Table Funéraire
+buildtoolbar_popup_obj_SmallTableFP						 Placez cette petite table dans un Salon Funéraire pour stocker les cercueils occupés. Les morts seront ramenés là avant qu'ils ne soient enterrés.
+
+object_GraveStoneSpawner								 Pierre Tombale (poudre aux yeux)
+buildtoolbar_popup_obj_GraveStoneSpawner				 Donne à vos condamnés à mort une belle vue depuis leur fenêtre pour qu'ils savent à quoi s'attendre.\n\nCette Pierre Tombale n'est que de la poudre aux yeux, utilisez l'autre pour enterrer les morts.
+object_GraveStone										 Pierre Tombale
+object_GraveStone2										 Pierre Tombale
+object_GraveStoneStaff2									 Pierre Tombale
+object_GraveUnderConstruction1							 Tombe vide
+object_GraveStaffUnderConstruction1						 Tombe du personnel vide
+tooltip_EmptyGrave1										 Cette tombe est vide et attend un cercueil...
+tooltip_EmptyGrave2										 Cette tombe est en train d'être préparée...
+tooltip_EmptyStaffGrave1								 Cette tombe du personnel est vide et attend un cercueil...
+tooltip_EmptyStaffGrave2								 Cette tombe du personnel est en train d'être préparée...
+buildtoolbar_popup_obj_GraveUnderConstruction1			 Mettez les tombes vides dans le Cimetière, elles vont attendre des cercueils pleins venant de la Morgue...
+buildtoolbar_popup_obj_GraveStaffUnderConstruction1		 Mettez les tombes du personnel vides dans le Cimetière, elles vont attendre des cercueils pleins venant de la Morgue...
+object_GraveUnderConstruction2							 Gros trou
+object_GraveStaffUnderConstruction2						 Gros trou
+object_GraveLoaded										 Tombe
+object_GraveStaffLoaded									 Tombe
+object_GravePhoto										 Photo funéraire
+object_GraveLid											 Couvercle de la tombe
+object_FuneralWreath									 Couronne funéraire
+object_FuneralWreathRubbish								 Couronne funéraire
+object_GraveFlowers										 Fleurs funéraires
+room_FuneralParlour										 Salon Funéraire
+buildtoolbar_popup_room_FuneralParlour					 Les prisonniers morts seront amenés ici dès qu'ils seront dans un cercueil.\n\n- Si vous placez une Table Funéraire, alors le prisonnier ne reçoit pas de cérémonie et le cercueil est fermé dans cette salle.\n\n- Si vous placez un Autel Funéraire, vous aurez toute une cérémonie funéraire complète lorsque le cercueil sera amené ici. Bien sûr, cela prendre bien plus de temps.\n\n - Si vous les placez tous les deux, alors les morts seront entreposés sur les Tables Funéraires d'abord pour accélérer le processus, puis quand toutes les tables seront pleines, l'Autel Funéraire sera utilisé également. Pendant ce temps, vos Fossoyeurs resteront là pour se réchauffer quand ils n'ont rien à faire.
+room_Cemetery											 Cimetière
+buildtoolbar_popup_room_cemetery						 Un territoire où les gens peuvent trouver une dernière place pour se reposer. Utilisez les Tombes (scriptées, les morts peuvent être enterrés) ou les Pierres Tombales (poudre aux yeux.
+room_CoffinWorkshop										 Atelier de cercueils
+buildtoolbar_popup_room_CoffinWorkshop					 Un atelier où les prisonniers assemblent des cercueils. Les cercueils finis sont placés sur une Table de Morgue à la Morgue. Si toutes les tables sont pleines, alors les cercueils vont à la zone d'Exportations.
+object_CoffinTable										 Table de Cercueil
+buildtoolbar_popup_obj_CoffinTable						 Une table d'atelier où sont fabriqués les cercueils. Requis à l'Atelier de Cercueils. 6 morceaux de bois font 1 cercueil.
+object_SpiritualLeaderClone								 Prêtre
+object_SomeFriendCemetery								 Visiteur du Cimetière
+object_SomeFriendLeaving								 Le visiteur s'en va
+object_SomeFriendParlour1								 Visiteur du Salon Funéraire
+object_SomeFriendParlour2								 Visiteur du Salon Funéraire
+object_SomeFriendParlour3								 Visiteur du Salon Funéraire
+object_SomeFriendParlour4								 Visiteur du Salon Funéraire
+object_SomeFriendParlour5								 Visiteur du Salon Funéraire
+object_SomeFriendFuneral								 Visiteur Funèbre
+object_SpiritualLeaderParlour							 Prêtre
+tooltip_friend_leaving									 Quitte la carte
+tooltip_visiting_funeral								 Assiste aux funérailles du Salon Funéraire
+tooltip_visiting_grave									 Visite une Tombe au Cimetière
+material_GraveHole										 Trou pour Tombe
+material_CemeteryStone									 Pierre du Cimetière
+material_CemeteryPavingStone							 Pavé du Cimetière
+object_GraveDigger										 Fossoyeur
+buildtoolbar_popup_staff_GraveDigger					 Donne la formation 'Creuseur de Tombes' au cimetière
+object_GraveCoffinParlour								 Cercueil Vide (Salon)
+object_GraveCoffin										 Cercueil Vide
+buildtoolbar_popup_obj_GraveCoffin						 Placez quelques cercueils vides, ils seront entreposés sur une Table de Morgue à la Morgue. Les morts y seront placés. Les cercueils pleins vont au Salon Funéraire avant qu'ils ne soient enterrés au Cimetière dans des Tombes Vides.
+object_GraveCoffinLoaded								 Cercueil
+object_GraveCoffinLoaded2								 Cercueil
+object_GraveCoffinStaffLoaded							 Cercueil
+object_GraveCoffinStaffLoaded2							 Cercueil
+object_GraveCoffinLid									 Couvercle du Cercueil
+object_CrematoriumCoffinStacked							 Cercueil	(Empilé)
+object_CrematoriumCoffinPending							 Cercueil	(En attente)
+object_CrematoriumUrn									 Urne funéraire
+object_CrematoriumDoor									 Porte du Crématorium
+object_ParlourChair										 Chaise du Salon Funéraire
+buildtoolbar_popup_obj_ParlourChair						 Placez jusqu'à 5 chaises du Salon Funéraire dans le Salon Funéraire pour que les visiteurs proches du mort puisse s'asseoir durant la cérémonie. Vous pouvez démontez les chaises après avoir complété la subvention si vous ne voulez pas de cérémonies dans votre prison.
+object_ParlourAltar										 Autel Funéraire
+buildtoolbar_popup_obj_ParlourAltar						 Utilisez cet autel dans un Salon Funéraire pour entreposer les Cercueils. Les morts seront amenés là et disposeront d'une cérémonie avant d'être enterrés.\n\nVous pouvez aussi juste utiliser une Table Funéraire si vous ne voulez pas de cérémonie et une procédure d'enterrement plus rapide. Vous pouvez démonter l'Autel après avoir complété la subvention si vous ne voulez pas de cérémonie dans votre prison.
+job_custom_CloseCoffin									 Ferme Cercueil
+job_custom_BuryEntity									 Enterre quelqu'un
+job_custom_DigHole										 Creuse un Gros trou
+job_custom_CoffinInHole									 Insère Cercueil dans Gros trou
+job_custom_CleanGrave									 Nettoie Tombe
+job_custom_TendGrave									 Entretient Tombe
+job_custom_TendGraveStone								 Entretient Pierre Tombale
+job_custom_PlaceStone									 Place Pierre Tombale
+job_custom_GiveParlourSpeech							 Fais un discours
+job_custom_PlaceFuneralWreath							 Place Couronne funéraire
+job_custom_VisitParlour1A								 Visite Salon Funéraire
+job_custom_VisitParlour2A								 Visite Salon Funéraire
+job_custom_VisitParlour3A								 Visite Salon Funéraire
+job_custom_VisitParlour4A								 Visite Salon Funéraire
+job_custom_VisitParlour5A								 Visite Salon Funéraire
+job_custom_VisitParlour1B								 Visite Salon Funéraire
+job_custom_VisitParlour2B								 Visite Salon Funéraire
+job_custom_VisitParlour3B								 Visite Salon Funéraire
+job_custom_VisitParlour4B								 Visite Salon Funéraire
+job_custom_VisitParlour5B								 Visite Salon Funéraire
+job_custom_PriestToAltar								 Commence Cérémonie funéraire
+job_custom_SayGoodbye1									 Dit au revoir
+job_custom_SayGoodbye2									 Dit au revoir
+job_custom_SayGoodbye3									 Dit au revoir
+job_custom_SayGoodbye4									 Dit au revoir
+job_custom_SayGoodbye5									 Dit au revoir
+job_custom_VisitGrave									 Visite Tombe
+reformprogram_GraveDigging								 Creuseur de Tombe
+reformprogram_GraveDigging_text							 Laissez vos prisonniers creuser leurs propres Tombes. Votre personnel est assez occupé pour l'instant, alors pourquoi ne pas donner aux prisonniers une formation pour leur permettre de nettoyer leur désordre?
+reformprogram_CoffinProduction							 Production de Cercueil
+reformprogram_CoffinProduction_text						 6 morceaux de bois font 1 chaleureux Cercueil! Cette formation d'atelier apprendra aux prisonniers comment assembler ces 6 bouts de bois correctement. Les cercueils terminés seront stockés sur une Table de Morgue à la Morgue. Si toutes les Tables sont pleines, alors les cercueils iront à la zone d'Exportations.
+
+objective_Grant_Morgue2									 Subvention du Cimetière 1/6: Morgue
+objective_Grant_Morgue2_description						 Étape 1 dans la création de votre Cimetière pour votre prison: vous construirez une Morgue pour y mettre les morts dans des Cercueils Vides
+objective_Grant__Morgue2_Research						 D'abord, recherchez le thème 'Santé'
+objective_Grant_Morgue2_MorgueRoom						 Construisez une Morgue
+objective_Grant_Morgue2_MorgueSlabNumber				 Placez au moins 1 Table de Dissection dans la Morgue
+objective_Grant_Morgue2_MorgueTableNumber				 Placez au moins 1 Table de Morgue dans la Morgue
+objective_Grant_Morgue2_CoffinNumber					 Placez au moins 2 Cercueils Vides dans la Morgue
+objective_Grant_Morgue2_HearseRemoverNumber				 Placez au moins 1 'Suppression de Corbillard' quelque part sur la carte
+
+objective_Grant_Parlour2								 Subvention du Cimetière 2/6: Salon Funéraire
+objective_Grant_Parlour2_description					 Étape 2 dans la création de votre Cimetière: vous construirez un Salon Funéraire où les Cercueils sont fermés après une Cérémonie (ou pas)
+objective_Grant_Parlour2_Research						 D'abord, complétez la Subvention du Cimetière 1/6
+objective_Grant_Parlour2_ParlourRoom					 Construisez un Salon Funéraire
+objective_Grant_Parlour2_ParlourTableNumber				 Placez au moins 1 Table Funéraire dans le Salon Funéraire
+objective_Grant_Parlour2_AltarNumber					 Placez 1 Autel Funéraire dans le Salon Funéraire
+objective_Grant_Parlour2_ChairNumber					 Placez 5 Chaises du Salon Funéraire dans le Salon Funéraire
+
+objective_Grant_Cemetery2								 Subvention du Cimetière 3/6: Cimetière
+objective_Grant_Cemetery2_description					 Étape 3: vous construirez un Cimetière. Le personnel ne souhaite pas être enterré à côté de criminels, donc vous penserez à séparer les tombes des Prisonniers et du Personnel
+objective_Grant_Cemetery2_Research						 D'abord, complétez la subvention 2/6
+objective_Grant_Cemetery2_CemeteryRoom					 Construisez un Cimetière
+objective_Grant_Cemetery2_GraveStoneNumber				 Placez au moins 2 Pierres Tombales (poudre aux yeux) quelque part dans le Cimetière.\n\nVous pouvez aussi mettre du sol en Béton, pour que cela ressemble vraiment à une Tombe.
+objective_Grant_Cemetery2_GraveNumber					 Placez au moins 2 Tombes Vides quelque part dans le Cimetière
+objective_Grant_Cemetery2_StaffGraveNumber				 Placez au moins 2 Tombes du Personnel Vides quelque part dans le Cimetière
+objective_Grant_Cemetery2_GraveDiggerNumber				 Engagez au moins 1 Fossoyeur.
+
+objective_Grant_CoffinWorkshop2							 Subvention du Cimetière 4/6: Atelier de Cercueils
+objective_Grant_CoffinWorkshop2_description				 Étape 4 de votre Cimetière : Assurez-vous que le stock de Cercueils Vides soit suffisant
+objective_Grant_CoffinWorkshop2_Research				 D'abord, recherchez le thème 'Travail Carcéral'
+objective_Grant_CoffinWorkshop2_CoffinWorkshopRoom		 Construisez un ATelier de Cercueils
+objective_Grant_CoffinWorkshop2_CoffinTableNumber		 Placez au moins 1 Table de Cercueil dans l'Atelier de Cercueils
+objective_Grant_CoffinWorkshop2_GraveDiggerNumber		 Engagez au moins 1 Fossoyeur
+
+objective_Grant_CoffinProduction2						 Subvention du Cimetière 5/6: Production de Cercueil 
+objective_Grant_CoffinProduction2_description			 Dans l'Étape 5 de votre Cimetière, nous allons laisser les prisonniers créer leurs propres cercueils de bois bon marché
+objective_Grant_CoffinProduction2_Research				 D'abord, complétez la subvention 4/6
+objective_Grant_CoffinProduction2_ProgramPassed			 Disposez d'au moins 2 prisonniers ayant passé la formation 'Production de Cercueil'
+objective_Grant_CoffinProduction2_Assigned				 Assignez au moins 1 prisonnier à l'Atelier de Cercueils.
+objective_Grant_CoffinProduction2_CoffinNumber			 Produisez 10 Cercueils Vides
+
+objective_Grant_Cemetery2Jobs							 Subvention du Cimetière 6/6: Enterrer un Prisonnier mort
+objective_Grant_Cemetery2Jobs_description				 La dernière étape est d'enterrer un Prisonnier. Cela prendre du temps, selon le niveau de sécurité de votre prison. Vous ordonnerez à vos prisonniers d'entretenir les tombes et d'enterrer un de leurs codétenus.
+objective_Grant_Cemetery2Jobs_Research					 D'abord, complétez la subvention 5/6 et recherchez 'Travail Carcéral'
+objective_Grant_Cemetery2Jobs_ProgramPassed				 Disposez d'au moins 2 prisonniers ayant passé la formation 'Creuseur de Tombe'
+objective_Grant_Cemetery2Jobs_Assigned					 Ordonnez à au moins 1 Prisonnier d'aller travailler au Cimetière
+objective_Grant_Cemetery2Jobs_BuryDead					 Disposez d'au moins 1 Prisonnier enterré
+
+
+
+
+material_MenuWater										 <-->
+material_MenuTiles										 -->
+material_MenuCarpet										 -->
+material_MenuWood										 -->
+material_MenuMosaic										 -->
+material_MenuStone										 -->
+material_MenuDeploy										 -->
+material_MenuFence										 -->
+material_MenuCompost									 -->
+material_MenuChinook									 -->
+material_MenuCurb										 -->
+
+object_FloorMaterial									 Matériaux du Sol
+
+material_Heli_TL										 HeliPad HautGauche
+material_Heli_TC										 HeliPad HautMilieu
+material_Heli_TR										 HeliPad HautDroite
+material_Heli_CL										 HeliPad MilieuGauche
+material_Heli_CC										 HeliPad Centre
+material_Heli_CR										 HeliPad MilieuDroite
+material_Heli_BL										 HeliPad BasGauche
+material_Heli_BC										 HeliPad BasMilieu
+material_Heli_BR										 HeliPad BasDroite
+
+material_Limo2Wall										 Mur de Limousine
+
+material_outercornerTL									 Coin Extérieur
+material_outercornerTR									 Coin Extérieur
+material_outercornerBL									 Coin Extérieur
+material_outercornerBR									 Coin Extérieur
+material_outerlineT										 Ligne Extérieure Haut
+material_outerlineB										 Ligne Extérieure Bas
+material_dashedcenterline_vertical						 Ligne Centrale Pointillée
+material_dashedcenterline_horizontal					 Ligne Centrale Pointillée
+material_solidcenterline_vertical						 Ligne Centrale Continue
+material_solidcenterline_horizontal						 Ligne Centrale Continue
+material_solidyellowcenterline_vertical					 Ligne Centrale Jaune
+material_solidyellowcenterline_horizontal				 Ligne Centrale Jaune
+material_diagroadwithsidewalkTL							 Trottoir
+material_diagroadwithsidewalkTR							 Trottoir
+material_diagroadwithsidewalkBL							 Trottoir
+material_diagroadwithsidewalkBR							 Trottoir
+
+material_verticallinewithzebraT							 Ligne Zébra
+material_verticallinewithzebraB							 Ligne Zébra
+
+material_verticalcurbwithzebraT							 Courbe Zébra
+material_verticalcurbwithzebraB							 Courbe Zébra
+material_verticalzebra									 Passage Zébra
+
+material_whitecrosslinesTL								 Lignes Transversales Blanches
+material_whitecrosslinesTR								 Lignes Transversales Blanches
+material_whitecrosslinesBL								 Lignes Transversales Blanches
+material_whitecrosslinesBR								 Lignes Transversales Blanches
+
+material_yellowcrosslinesL								 Lignes Transversales Jaunes
+material_yellowcrosslinesR								 Lignes Transversales Jaunes
+material_yellowcrosslinesBL								 Lignes Transversales Jaunes
+material_yellowcrosslinesBR								 Lignes Transversales Jaunes
+
+material_yellowcenterturnTL								 Ligne Centrale avec Virage
+material_yellowcenterturnTR								 Ligne Centrale avec Virage
+material_yellowcenterturnBL								 Ligne Centrale avec Virage
+material_yellowcenterturnBR								 Ligne Centrale avec Virage
+
+material_whitecenterturnTL								 Ligne Centrale avec Virage
+material_whitecenterturnTR								 Ligne Centrale avec Virage
+material_whitecenterturnBL								 Ligne Centrale avec Virage
+material_whitecenterturnBR								 Ligne Centrale avec Virage
+
+material_innerwhitecornerTL								 Coin Intérieur
+material_innerwhitecornerTR								 Coin Intérieur
+material_innerwhitecornerBL								 Coin Intérieur
+material_innerwhitecornerBR								 Coin Intérieur
+
+material_outercurbT										 Courbe Extérieure
+material_outercurbL										 Courbe Extérieure
+material_outercurbB										 Courbe Extérieure
+material_outercurbR										 Courbe Extérieure
+
+material_innercurbT										 Courbe Intérieure
+material_innercurbL										 Courbe Intérieure
+material_innercurbB										 Courbe Intérieure
+material_innercurbR										 Courbe Intérieure
+
+material_innerdiagroadTL								 Ligne Diagonale Intérieure
+material_innerdiagroadTR								 Ligne Diagonale Intérieure
+material_innerdiagroadBL								 Ligne Diagonale Intérieure
+material_innerdiagroadBR								 Ligne Diagonale Intérieure
+
+material_diagsidewalkTL									 Trottoir routier Diagonal
+material_diagsidewalkTR									 Trottoir routier Diagonal
+material_diagsidewalkBL									 Trottoir routier Diagonal
+material_diagsidewalkBR									 Trottoir routier Diagonal
+
+material_curbcornerTL									 Coin de rue
+material_curbcornerTR									 Coin de rue
+material_curbcornerBL									 Coin de rue
+material_curbcornerBR									 Coin de rue
+material_curbgutter										 Caniveau
+material_manhole										 Bouche d’égout
+
+material_diagcenterturnTL								 Ligne centrale Diagonale / Droite
+material_diagcenterturnTR								 Ligne centrale Diagonale / Droite
+material_diagcenterturnBL								 Ligne centrale Diagonale / Droite
+material_diagcenterturnBR								 Ligne centrale Diagonale / Droite
+
+material_diagcenterL									 Ligne Centrale Diagonale	
+material_diagcenterR									 Ligne Centrale Diagonale	
+
+material_diagreversecenterturnTL						 Ligne centrale Diagonale / Droite
+material_diagreversecenterturnTR						 Ligne centrale Diagonale / Droite
+material_diagreversecenterturnBL						 Ligne centrale Diagonale / Droite
+material_diagreversecenterturnBR						 Ligne centrale Diagonale / Droite
+
+material_parkingspot1TL									 Place de Parking 1
+material_parkingspot1TR									 Place de Parking 1
+material_parkingspot1BL									 Place de Parking 1
+material_parkingspot1BR									 Place de Parking 1
+
+material_parkingspot2TL									 Place de Parking 2
+material_parkingspot2TR									 Place de Parking 2
+material_parkingspot2BL									 Place de Parking 2
+material_parkingspot2BR									 Place de Parking 2
+
+material_parkingspot3TL									 Place de Parking 3
+material_parkingspot3TR									 Place de Parking 3
+material_parkingspot3BL									 Place de Parking 3
+material_parkingspot3BR									 Place de Parking 3
+
+material_RoadCrossing									 Passage Piéton
+material_RoadCrossingLeft								 Passage Piéton (Gauche)
+material_RoadCrossingRight								 Passage Piéton (Droit)
+
+material_cinderbwall			 						 Mur de Parpaing
+material_mud					 						 Boue
+
+material_GraveHole										 Trou de Tombe
+material_CemeteryStone									 Pierre de Cimetière
+material_CemeteryPavingStone							 Pavé de Cimetière
+
+material_longgrass										 Longues Herbes
+material_BlueMosaic										 Mosaïque Bleue
+material_SalmonTiles									 Carrelage Saumon
+material_WoodLaminate									 Bois Stratifié
+material_BlackMosaic									 Mosaïque Noire
+material_BrownMosaic									 Mosaïque Marron
+material_LightWood										 Bois Clair
+material_RedTiles										 Carrelage Rouge
+material_RedCarpet										 Tapis Rouge
+material_BlueCarpet										 Tapis Bleu
+material_GreenCarpet									 Tapis Vert
+material_RedCarpet1										 Tapis Rouge
+material_BlueCarpet1									 Tapis Bleu
+material_GreenCarpet1									 Tapis Vert
+material_OrangeCarpet									 Tapis Orange
+material_YellowCarpet									 Tapis Jaune 
+material_YellowCarpet1									 Tapis Jaune 
+material_RedCarpet2										 Tapis Rouge 
+material_BlueCarpet2									 Tapis Bleu 
+material_GreenCarpet2									 Tapis Vert
+material_YellowCarpet2									 Tapis Jaune
+material_BlackCarpet1									 Tapis Noir
+material_WhiteCarpet									 Tapis Blanc
+material_WhiteCarpet1									 Tapis Blanc
+material_BlackCarpet2									 Tapis Noir
+material_WhiteCarpet2									 Tapis Blanc
+material_LightBlueCarpet								 Tapis Bleu
+material_BlackCarpet									 Tapis Noir
+material_GreyTiles										 Carrelage Grises
+material_BlackTiles										 Carrelage Noirs
+material_OrangeTiles									 Carrelage Oranges
+material_BlueTiles										 Carrelage Bleues
+material_YellowTiles									 Carrelage Jaunes
+material_DarkWood										 Bois Foncé
+material_Cobblestone									 Pierre pavée
+material_LinoleumFloor									 Sol en Linoléum
+material_KeramikFloor									 Sol en Céramique
+material_GraniteFloor									 Sol en Granite
+material_MetallTiles									 Carrelage en Métal
+material_DarkParkett									 Parquet Sombre
+material_StoneTiles										 Carrelage en roche
+material_WaterStable									 Eau (Stable)
+material_RoofTiles1										 Carrelage de plafond 1
+material_RoofTiles2										 Carrelage de plafond 2
+material_FX2K_Tile1										 Carrelage en béton
+material_FX2K_Tile2										 Pavés fous
+material_FX2K_Tile3										 Tapis Gris
+material_FX2K_Tile4										 Tapis Gris
+material_FX2K_Tile5										 Tapis Jaune
+material_FX2K_Tile6										 Tapis Orange
+material_FX2K_Tile7										 Tapis Vert
+material_FX2K_Tile8										 Tapis Vert
+material_FX2K_Tile9										 Carrelage de Cuisine
+material_FX2K_Tile10									 Tapis Bleu
+material_FX2K_Tile11									 Tapis Bleu
+material_FX2K_Tile12									 Tapis Bleu
+material_FX2K_Tile13									 Sol en Bois Foncé
+material_FX2K_Tile14									 Tapis Rouge
+material_FX2K_Tile15									 Tapis Marron
+material_FX2K_Tile16									 Tapis Mauve
+material_LooseStone										 Pierre lâche
+material_PavedFence										 Clôture pavée
+material_PavedBushFence									 Clôture pavée avec buisson
+material_TiledFence										 Clôture carrelée
+material_TiledBushFence									 Clôture Carrelée avec buisson
+material_GrassFence										 Clôture avec gazon
+material_JailFence										 Clôture de cellule
+material_YellowBigMosaic								 Mosaïque Jaune
+material_GreenBigMosaic									 Mosaïque Verte
+material_WhiteBigMosaic									 Mosaïque Blanche
+material_RedBigMosaic									 Mosaïque Rouge
+material_GreyBigMosaic									 Mosaïque Grise
+
+material_Farmland										 Compost
+
+material_T0_WhiteTile									 Carrelage blanc
+material_BL_PublicTile									 Carrelage public
+material_BR_PublicTile									 Carrelage public
+material_C_PublicTile									 Carrelage public
+material_T3_PublicTile									 Carrelage public
+material_T6_PublicTile									 Carrelage public
+material_T9_PublicTile									 Carrelage public
+material_T12_PublicTile									 Carrelage public
+material_TL_PublicTile									 Carrelage public
+material_TR_PublicTile									 Carrelage public
+material_X_PublicTile									 Carrelage public
+material_Y_PublicTile									 Carrelage public
+material_BL_PublicConcrete								 Béton Public
+material_BR_PublicConcrete								 Béton Public
+material_C_PublicConcrete								 Béton Public
+material_T3_PublicConcrete								 Béton Public
+material_T6_PublicConcrete								 Béton Public
+material_T9_PublicConcrete								 Béton Public
+material_T12_PublicConcrete								 Béton Public
+material_TL_PublicConcrete								 Béton Public
+material_TR_PublicConcrete								 Béton Public
+material_X_PublicConcrete								 Béton Public
+material_Y_PublicConcrete								 Béton Public
+material_BL_StaffTile									 Carrelage du Personnel
+material_BR_StaffTile									 Carrelage du Personnel
+material_C_StaffTile									 Carrelage du Personnel
+material_T3_StaffTile									 Carrelage du Personnel
+material_T6_StaffTile									 Carrelage du Personnel
+material_T9_StaffTile									 Carrelage du Personnel
+material_T12_StaffTile									 Carrelage du Personnel
+material_TL_StaffTile									 Carrelage du Personnel
+material_TR_StaffTile									 Carrelage du Personnel
+material_X_StaffTile									 Carrelage du Personnel
+material_Y_StaffTile									 Carrelage du Personnel
+material_BL_StaffConcrete								 Béton du Personnel
+material_BR_StaffConcrete								 Béton du Personnel
+material_C_StaffConcrete								 Béton du Personnel
+material_T3_StaffConcrete								 Béton du Personnel
+material_T6_StaffConcrete								 Béton du Personnel
+material_T9_StaffConcrete								 Béton du Personnel
+material_T12_StaffConcrete								 Béton du Personnel
+material_TL_StaffConcrete								 Béton du Personnel
+material_TR_StaffConcrete								 Béton du Personnel
+material_X_StaffConcrete								 Béton du Personnel
+material_Y_StaffConcrete								 Béton du Personnel
+material_BL_MinimumTile									 Carrelage Séc.Minimum
+material_BR_MinimumTile									 Carrelage Séc.Minimum
+material_C_MinimumTile									 Carrelage Séc.Minimum
+material_T3_MinimumTile									 Carrelage Séc.Minimum
+material_T6_MinimumTile									 Carrelage Séc.Minimum
+material_T9_MinimumTile									 Carrelage Séc.Minimum
+material_T12_MinimumTile								 Carrelage Séc.Minimum
+material_TL_MinimumTile									 Carrelage Séc.Minimum
+material_TR_MinimumTile									 Carrelage Séc.Minimum
+material_X_MinimumTile									 Carrelage Séc.Minimum
+material_Y_MinimumTile									 Carrelage Séc.Minimum
+material_BL_MinimumConcrete								 Béton Séc.Minimum
+material_BR_MinimumConcrete								 Béton Séc.Minimum
+material_C_MinimumConcrete								 Béton Séc.Minimum
+material_T3_MinimumConcrete								 Béton Séc.Minimum
+material_T6_MinimumConcrete								 Béton Séc.Minimum
+material_T9_MinimumConcrete								 Béton Séc.Minimum
+material_T12_MinimumConcrete							 Béton Séc.Minimum
+material_TL_MinimumConcrete								 Béton Séc.Minimum
+material_TR_MinimumConcrete								 Béton Séc.Minimum
+material_X_MinimumConcrete								 Béton Séc.Minimum
+material_Y_MinimumConcrete								 Béton Séc.Minimum
+material_BL_MediumTile									 Carrelage Séc.Moyen
+material_BR_MediumTile									 Carrelage Séc.Moyen
+material_C_MediumTile									 Carrelage Séc.Moyen
+material_T3_MediumTile									 Carrelage Séc.Moyen
+material_T6_MediumTile									 Carrelage Séc.Moyen
+material_T9_MediumTile									 Carrelage Séc.Moyen
+material_T12_MediumTile									 Carrelage Séc.Moyen
+material_TL_MediumTile									 Carrelage Séc.Moyen
+material_TR_MediumTile									 Carrelage Séc.Moyen
+material_X_MediumTile									 Carrelage Séc.Moyen
+material_Y_MediumTile									 Carrelage Séc.Moyen
+material_BL_MediumConcrete								 Béton Séc.Moyen
+material_BR_MediumConcrete								 Béton Séc.Moyen
+material_C_MediumConcrete								 Béton Séc.Moyen
+material_T3_MediumConcrete								 Béton Séc.Moyen
+material_T6_MediumConcrete								 Béton Séc.Moyen
+material_T9_MediumConcrete								 Béton Séc.Moyen
+material_T12_MediumConcrete								 Béton Séc.Moyen
+material_TL_MediumConcrete								 Béton Séc.Moyen
+material_TR_MediumConcrete								 Béton Séc.Moyen
+material_X_MediumConcrete								 Béton Séc.Moyen
+material_Y_MediumConcrete								 Béton Séc.Moyen
+material_BL_MaximumTile									 Carrelage Séc.Max
+material_BR_MaximumTile									 Carrelage Séc.Max
+material_C_MaximumTile									 Carrelage Séc.Max
+material_T3_MaximumTile									 Carrelage Séc.Max
+material_T6_MaximumTile									 Carrelage Séc.Max
+material_T9_MaximumTile									 Carrelage Séc.Max
+material_T12_MaximumTile								 Carrelage Séc.Max
+material_TL_MaximumTile									 Carrelage Séc.Max
+material_TR_MaximumTile									 Carrelage Séc.Max
+material_X_MaximumTile									 Carrelage Séc.Max
+material_Y_MaximumTile									 Carrelage Séc.Max
+material_BL_MaximumConcrete								 Béton Séc.Max
+material_BR_MaximumConcrete								 Béton Séc.Max
+material_C_MaximumConcrete								 Béton Séc.Max
+material_T3_MaximumConcrete								 Béton Séc.Max
+material_T6_MaximumConcrete								 Béton Séc.Max
+material_T9_MaximumConcrete								 Béton Séc.Max
+material_T12_MaximumConcrete							 Béton Séc.Max
+material_TL_MaximumConcrete								 Béton Séc.Max
+material_TR_MaximumConcrete								 Béton Séc.Max
+material_X_MaximumConcrete								 Béton Séc.Max
+material_Y_MaximumConcrete								 Béton Séc.Max
+material_BL_ProtectiveTile								 Carrelage Surv.Préventive
+material_BR_ProtectiveTile								 Carrelage Surv.Préventive
+material_C_ProtectiveTile								 Carrelage Surv.Préventive
+material_T3_ProtectiveTile								 Carrelage Surv.Préventive
+material_T6_ProtectiveTile								 Carrelage Surv.Préventive
+material_T9_ProtectiveTile								 Carrelage Surv.Préventive
+material_T12_ProtectiveTile								 Carrelage Surv.Préventive
+material_TL_ProtectiveTile								 Carrelage Surv.Préventive
+material_TR_ProtectiveTile								 Carrelage Surv.Préventive
+material_X_ProtectiveTile								 Carrelage Surv.Préventive
+material_Y_ProtectiveTile								 Carrelage Surv.Préventive
+material_BL_ProtectiveConcrete							 Béton Surv.Préventive
+material_BR_ProtectiveConcrete							 Béton Surv.Préventive
+material_C_ProtectiveConcrete							 Béton Surv.Préventive
+material_T3_ProtectiveConcrete							 Béton Surv.Préventive
+material_T6_ProtectiveConcrete							 Béton Surv.Préventive
+material_T9_ProtectiveConcrete							 Béton Surv.Préventive
+material_T12_ProtectiveConcrete							 Béton Surv.Préventive
+material_TL_ProtectiveConcrete							 Béton Surv.Préventive
+material_TR_ProtectiveConcrete							 Béton Surv.Préventive
+material_X_ProtectiveConcrete							 Béton Surv.Préventive
+material_Y_ProtectiveConcrete							 Béton Surv.Préventive
+material_BL_SupermaxTile								 Carrelage Sec.TrèsHaut
+material_BR_SupermaxTile								 Carrelage Sec.TrèsHaut
+material_C_SupermaxTile									 Carrelage Sec.TrèsHaut
+material_T3_SupermaxTile								 Carrelage Sec.TrèsHaut
+material_T6_SupermaxTile								 Carrelage Sec.TrèsHaut
+material_T9_SupermaxTile								 Carrelage Sec.TrèsHaut
+material_T12_SupermaxTile								 Carrelage Sec.TrèsHaut
+material_TL_SupermaxTile								 Carrelage Sec.TrèsHaut
+material_TR_SupermaxTile								 Carrelage Sec.TrèsHaut
+material_X_SupermaxTile									 Carrelage Sec.TrèsHaut
+material_Y_SupermaxTile									 Carrelage Sec.TrèsHaut
+material_BL_SupermaxConcrete							 Béton Sec.TrèsHaut
+material_BR_SupermaxConcrete							 Béton Sec.TrèsHaut
+material_C_SupermaxConcrete								 Béton Sec.TrèsHaut
+material_T3_SupermaxConcrete							 Béton Sec.TrèsHaut
+material_T6_SupermaxConcrete							 Béton Sec.TrèsHaut
+material_T9_SupermaxConcrete							 Béton Sec.TrèsHaut
+material_T12_SupermaxConcrete							 Béton Sec.TrèsHaut
+material_TL_SupermaxConcrete							 Béton Sec.TrèsHaut
+material_TR_SupermaxConcrete							 Béton Sec.TrèsHaut
+material_X_SupermaxConcrete								 Béton Sec.TrèsHaut
+material_Y_SupermaxConcrete								 Béton Sec.TrèsHaut

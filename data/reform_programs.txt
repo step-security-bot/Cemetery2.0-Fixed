@@ -1,0 +1,29 @@
+
+BEGIN Program
+    Name            GraveDigging
+    SessionCost     -50
+    Places          10
+    SessionLength   60
+    NumSessions     1
+    Difficulty      20
+    Research        PrisonLabour
+    Room            Cemetery
+    Teacher         GraveDigger
+    Intake          Voluntary
+    Properties      Practical
+END
+
+BEGIN Program
+    Name            CoffinProduction
+    SessionCost     -100
+    Places          10
+    SessionLength   120
+    NumSessions     2
+    Difficulty      20
+    Research        PrisonLabour
+    Room            CoffinWorkshop
+    Teacher         GraveDigger
+    Equipment       CoffinTable
+    Intake          Voluntary
+    Properties      Practical
+END

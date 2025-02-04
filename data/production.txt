@@ -1,0 +1,337 @@
+
+BEGIN ProductionRule
+	Rule				 Entity
+	Container			 GraveCoffin
+	Room				 Morgue
+	Distribution		 Nearest
+	MaxSlotId			 0
+	Condition			 EntityDead
+	Properties			 HighPriority
+	Worker				 GraveDigger
+END
+
+BEGIN ProductionRule
+	Rule				 Entity
+	Container			 MorgueSlab
+	Room				 Morgue
+	Distribution		 Nearest
+	Condition			 EntityDead
+	Properties			 HighPriority
+	Worker				 GraveDigger
+END
+
+BEGIN ProductionRule
+	Rule				 Entity
+	Container			 Hearse
+	Distribution		 Nearest
+	MaxSlotId			 3
+	Condition			 EntityDead
+	Worker				 GraveDigger
+END
+
+BEGIN ProductionRule
+	Rule				 Storage
+	Material			 GraveCoffin
+	Container			 SmallTableMorgue
+	MinSlotId			 4
+	MaxSlotId			 5
+	Room				 Morgue
+	Distribution		 Nearest
+	Condition			 NotLoaded
+    Worker				 GraveDigger
+	Properties			 HighPriority
+END
+
+BEGIN ProductionRule
+	Rule				 Storage
+	Material			 GraveCoffin
+	Room				 Morgue
+	Distribution		 Nearest
+	Condition			 NotLoaded
+	Worker				 Prisoner
+END
+
+BEGIN ProductionRule
+	Rule				 Storage
+	Material			 CrematoriumUrn
+	Room				 Morgue
+	Distribution		 Nearest
+	Worker				 Prisoner
+	Worker				 Workman
+	Worker				 GraveDigger
+END
+
+BEGIN ProductionRule
+	Rule				 Storage
+	Material			 GraveCoffinParlour
+	Container			 SmallTableFP
+	MinSlotId			 4
+	MaxSlotId			 5
+	Room				 FuneralParlour
+	Distribution		 Nearest
+	Condition			 NotLoaded
+    Worker				 GraveDigger
+	Properties			 HighPriority
+END
+
+BEGIN ProductionRule
+	Rule				 Storage
+	Material			 GraveCoffinParlour
+	Container			 ParlourAltar
+	MinSlotId			 3
+	MaxSlotId			 3
+	Room				 FuneralParlour
+	Distribution		 Nearest
+	Condition			 NotLoaded
+	Worker				 GraveDigger
+	Properties			 HighPriority
+END
+
+BEGIN ProductionRule
+	Rule				 Storage
+	Material			 GraveCoffinParlourStaff
+	Container			 ParlourAltarStaff
+	MinSlotId			 3
+	MaxSlotId			 3
+	Room				 FuneralParlour
+	Distribution		 Nearest
+	Condition			 NotLoaded
+	Worker				 GraveDigger
+	Properties			 HighPriority
+END
+
+BEGIN ProductionRule
+	Rule				 Storage
+	Material			 GraveCoffinParlourStaff
+	Container			 SmallTableFP
+	MinSlotId			 4
+	MaxSlotId			 5
+	Room				 FuneralParlour
+	Distribution		 Nearest
+	Condition			 NotLoaded
+    Worker				 GraveDigger
+	Properties			 HighPriority
+END
+
+BEGIN ProductionRule
+	Rule				 Storage
+	Material			 GraveCoffinLoaded
+	Container			 GraveUnderConstruction1
+	MinSlotId			 3
+	MaxSlotId			 3
+	Condition			 NotLoaded
+	Distribution		 Random
+    Worker				 GraveDigger
+	Properties			 HighPriority
+END
+
+BEGIN ProductionRule
+	Rule				 Storage
+	Material			 GraveCoffinStaffLoaded
+	Container			 GraveStaffUnderConstruction1
+	MinSlotId			 3
+	MaxSlotId			 3
+	Condition			 NotLoaded
+	Distribution		 Random
+    Worker				 GraveDigger
+	Properties			 HighPriority
+END
+
+BEGIN ProductionRule
+	Rule				 Storage
+	Material			 GraveCoffinLoaded
+	Container			 Crematorium
+	MinSlotId			 3
+	MaxSlotId			 7
+	Room				 Cemetery
+	Distribution		 Nearest
+	Condition			 NotLoaded
+    Worker				 GraveDigger
+	Properties			 HighPriority
+END
+
+BEGIN ProductionRule
+	Rule				 Storage
+	Material			 GraveCoffinStaffLoaded
+	Container			 Crematorium
+	MinSlotId			 3
+	MaxSlotId			 7
+	Room				 Cemetery
+	Distribution		 Nearest
+	Condition			 NotLoaded
+    Worker				 GraveDigger
+	Properties			 HighPriority
+END
+
+BEGIN Processor
+	Processor			 ParlourAltar
+	Input				 None
+	Output				 None
+	OperatingTime		 0
+    Worker				 GraveDigger
+END
+
+BEGIN Processor
+	Processor			 ParlourAltarStaff
+	Input				 None
+	Output				 None
+	OperatingTime		 0
+    Worker				 GraveDigger
+END
+
+BEGIN Processor
+	Processor			 GraveUnderConstruction1
+	Input				 None
+	Output				 None
+	OperatingTime		 0
+	Worker				 GraveDigger
+END
+
+BEGIN Processor
+	Processor			 GraveStaffUnderConstruction1
+	Input				 None
+	Output				 None
+	OperatingTime		 0
+	Worker				 GraveDigger
+END
+
+BEGIN Processor
+	Processor			 SmallTableMorgue
+	Input				 None
+	Output				 None
+	OperatingTime		 0
+	Worker				 Prisoner
+	Worker				 GraveDigger
+END
+
+BEGIN Processor
+	Processor			 Crematorium
+	Object				 Crematorium
+	Input				 CrematoriumCoffinStacked
+	InputCount			 1
+	Output				 CrematoriumCoffinStacked
+	OutputCount			 1
+	OperatingTime		 2
+	Worker				 GraveDigger
+END
+
+BEGIN Processor
+	Processor			 SmallTableFP
+	Input				 None
+	Output				 None
+	OperatingTime		 0
+	Worker				 Prisoner
+	Worker				 GraveDigger
+	Worker				 SomeFriendParlour1
+	Worker				 SomeFriendParlour2
+	Worker				 SomeFriendParlour3
+	Worker				 SomeFriendParlour4
+	Worker				 SomeFriendParlour5
+END
+
+
+
+BEGIN ProductionRule
+	Rule				 Storage
+	Material			 Wood
+	Container			 CoffinTable
+	Room				 CoffinWorkshop
+	Distribution		 NonCompeting
+	Properties			 HighPriority
+	Worker				 Workman
+	Worker               Prisoner
+END
+
+BEGIN ProductionRule
+	Rule				 Storage
+	Material			 Wood
+	Container			 CoffinTable
+	Room				 CoffinWorkshop
+	Distribution		 OutOfStock
+	Properties			 HighPriority
+	Worker				 Workman
+	Worker               Prisoner
+END
+
+BEGIN ProductionRule
+	Rule				 Storage
+	Material			 Wood
+	Container			 CarpenterTable
+	Room				 Workshop
+	Distribution		 NonCompeting
+	Properties			 HighPriority
+	Worker				 Workman
+	Worker               Prisoner
+END
+
+BEGIN ProductionRule
+	Rule				 Storage
+	Material			 Wood
+	Container			 CarpenterTable
+	Room				 Workshop
+	Distribution		 OutOfStock
+	Properties			 HighPriority
+	Worker				 Workman
+	Worker               Prisoner
+END
+
+BEGIN ProductionRule
+	Rule				 Storage
+	Material			 Wood
+	Container			 Table
+	Room				 CoffinWorkshop
+	Distribution		 NonCompeting
+	MinSlotId			 0
+	MaxSlotId			 3
+	Condition			 NotLoaded
+	Worker				 Workman
+	Worker               Prisoner
+END
+
+BEGIN ProductionRule
+	Rule				 Storage
+	Material			 Wood
+	Container			 Table
+	Room				 Workshop
+	Distribution		 NonCompeting
+	MinSlotId			 0
+	MaxSlotId			 3
+	Condition			 NotLoaded
+	Worker				 Workman
+	Worker               Prisoner
+END
+
+BEGIN ProductionRule
+	Rule				 Storage
+	Material			 Wood
+	Room				 CoffinWorkshop
+	Distribution		 NonCompeting
+	Condition			 NotLoaded
+	Worker				 Workman
+	Worker               Prisoner
+END
+
+BEGIN ProductionRule
+	Rule				 Storage
+	Material			 Wood
+	Room				 Workshop
+	Distribution		 NonCompeting
+	Condition			 NotLoaded
+	Worker				 Workman
+	Worker               Prisoner
+END
+
+BEGIN Processor
+    Processor            CoffinTable
+    Input                Wood
+	InputCount			 6
+	OutputCount			 1
+    Output               GraveCoffin
+	Object               CoffinTable
+    AlternateOutput      GraveCoffin
+    AlternateOutputCount 1
+    AlternateOutputChance 1
+    OperatingTime        60.0
+	Properties           ShowDuringOperation
+	Worker               Prisoner
+END

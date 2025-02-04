@@ -1,0 +1,7485 @@
+
+BEGIN Object
+	Name				 Grave
+	Price				 -1
+	ConstructionTime	 -1
+	BEGIN	Sprite		 x 12 y 12 w 2 h 2 RotateType 4 END
+	Properties			 Scripted
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 GraveCoffin
+	Width				 1
+	Height				 1
+	ConstructionTime	 0
+	MoveSpeedFactor		 0.800000
+	Toughness			 50.0000
+	Price				 -600
+	Properties			 Sellable
+    RenderDepth          1
+    Research             Health
+	Group				 StaticObject
+	BlockedBy			 Wall
+	BlockedBy			 StaticObject
+	BlockedBy			 UtilityStation
+	MadeOf				 Wood
+	Properties			 StaticObject
+	Properties			 Scripted
+	Properties			 RoomSpecific
+	NumSlots			 1
+	SpriteScale			 1.2
+    BEGIN	Sprite		 x 21 y 27 w 2 h 2 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 1.01 orientation.x 0 orientation.y 0 Index 0 END
+	END
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 GraveCoffinParlour
+	Width				 1
+	Height				 1
+	ConstructionTime	 -1
+	MoveSpeedFactor		 0.800000
+	Toughness			 50.0000
+	Price				 -1
+	Properties			 Sellable
+    RenderDepth          1
+    Research             Health
+	Group				 StaticObject
+	BlockedBy			 Wall
+	BlockedBy			 StaticObject
+	BlockedBy			 UtilityStation
+	MadeOf				 Wood
+	Properties			 StaticObject
+	Properties			 Scripted
+	Properties			 RoomSpecific
+	NumSlots			 2
+	SpriteScale			 1.2
+    BEGIN	Sprite		 x 21 y 27 w 2 h 2 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 1.01 orientation.x 0 orientation.y 0 Index 0 END
+		BEGIN Marker	 x 1 y 1.5 orientation.x 0 orientation.y 0 Index 1 END
+	END
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 GraveCoffinParlourStaff
+	Width				 1
+	Height				 1
+	ConstructionTime	 -1
+	MoveSpeedFactor		 0.800000
+	Toughness			 50.0000
+	Price				 -1
+	Properties			 Sellable
+    RenderDepth          1
+    Research             Health
+	Group				 StaticObject
+	BlockedBy			 Wall
+	BlockedBy			 StaticObject
+	BlockedBy			 UtilityStation
+	MadeOf				 Wood
+	Properties			 StaticObject
+	Properties			 Scripted
+	Properties			 RoomSpecific
+	NumSlots			 2
+	SpriteScale			 1.2
+    BEGIN	Sprite		 x 21 y 27 w 2 h 2 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 1.01 orientation.x 0 orientation.y 0 Index 0 END
+		BEGIN Marker	 x 1 y 1.5 orientation.x 0 orientation.y 0 Index 1 END
+	END
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 GraveCoffinLoaded
+	Width				 1
+	ConstructionTime	 -1
+	RenderDepth			 1
+	MoveSpeedFactor		 0.800000
+	Toughness			 50.0000
+	Price				 -1
+    Research             Health
+	Group				 StaticObject
+	BlockedBy			 Wall
+	BlockedBy			 StaticObject
+	BlockedBy			 UtilityStation
+	MadeOf				 Wood
+	Properties			 MobileObject
+	Properties			 Material
+    Properties           Uncloneable
+	NumSlots			 1
+	SpriteScale			 1.2
+    BEGIN	Sprite		 x 21 y 25 w 2 h 2 RotateType 0 TopAligned false
+		BEGIN Marker	 x 1 y 0.75 orientation.x 0 orientation.y 0 Index 0 END
+	END
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 GraveCoffinLoaded2
+	Width				 1
+	ConstructionTime	 -1
+	RenderDepth			 1
+	MoveSpeedFactor		 0.800000
+	Toughness			 50.0000
+	Price				 -1
+    Research             Health
+	Group				 StaticObject
+	BlockedBy			 Wall
+	BlockedBy			 StaticObject
+	BlockedBy			 UtilityStation
+	MadeOf				 Wood
+	Properties			 MobileObject
+	Properties			 Material
+    Properties           Uncloneable
+	SpriteScale			 1.2
+    BEGIN	Sprite		 x 21 y 25 w 2 h 2 RotateType 0 TopAligned false END
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 GraveCoffinStaffLoaded
+	Width				 1
+	ConstructionTime	 -1
+	RenderDepth			 1
+	MoveSpeedFactor		 0.800000
+	Toughness			 50.0000
+	Price				 -1
+    Research             Health
+	Group				 StaticObject
+	BlockedBy			 Wall
+	BlockedBy			 StaticObject
+	BlockedBy			 UtilityStation
+	MadeOf				 Wood
+	Properties			 MobileObject
+	Properties			 Material
+    Properties           Uncloneable
+	NumSlots			 1
+	SpriteScale			 1.2
+    BEGIN	Sprite		 x 21 y 25 w 2 h 2 RotateType 0 TopAligned false
+		BEGIN Marker	 x 1 y 0.75 orientation.x 0 orientation.y 0 Index 0 END
+	END
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 GraveCoffinStaffLoaded2
+	Width				 1
+	ConstructionTime	 -1
+	RenderDepth			 1
+	MoveSpeedFactor		 0.800000
+	Toughness			 50.0000
+	Price				 -1
+    Research             Health
+	Group				 StaticObject
+	BlockedBy			 Wall
+	BlockedBy			 StaticObject
+	BlockedBy			 UtilityStation
+	MadeOf				 Wood
+	Properties			 MobileObject
+	Properties			 Material
+    Properties           Uncloneable
+	SpriteScale			 1.2
+    BEGIN	Sprite		 x 21 y 25 w 2 h 2 RotateType 0 TopAligned false END
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 GraveCoffinLid
+	Width				 1
+	ConstructionTime	 -1
+	RenderDepth			 1
+	MoveSpeedFactor		 0.800000
+	Toughness			 50.0000
+	Price				 -1
+    Research             Health
+	Group				 StaticObject
+	BlockedBy			 Wall
+	BlockedBy			 StaticObject
+	BlockedBy			 UtilityStation
+	MadeOf				 Wood
+	Properties			 MobileObject
+	Properties			 Material
+    Properties           Uncloneable
+	Teleportable		 true
+	SpriteScale			 1.2
+    BEGIN	Sprite		 x 21 y 25 w 2 h 2 RotateType 4 TopAligned false END
+    BEGIN	StackSprite	 x 25 y 25 w 2 h 2 RotateType 4 TopAligned false END
+	MaxStackSize		 1
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 GraveStone
+	Width				 1
+	ConstructionTime	 -1
+	RenderDepth			 1
+	MoveSpeedFactor		 0.800000
+	Toughness			 50.0000
+	Price				 -1
+    Research             Health
+	Group				 StaticObject
+	BlockedBy			 Wall
+	BlockedBy			 StaticObject
+	BlockedBy			 UtilityStation
+    Properties           Uncloneable
+	NumSprites			 16
+    BEGIN	Sprite		 x 1 y 24 w 2 h 3 RotateType 4 TopAligned false END
+    BEGIN	Sprite		 x 3 y 24 w 2 h 3 RotateType 4 TopAligned false END
+    BEGIN	Sprite		 x 5 y 24 w 2 h 3 RotateType 4 TopAligned false END
+    BEGIN	Sprite		 x 7 y 24 w 2 h 3 RotateType 4 TopAligned false END
+    BEGIN	Sprite		 x 9 y 24 w 2 h 3 RotateType 4 TopAligned false END
+    BEGIN	Sprite		 x 11 y 24 w 2 h 3 RotateType 4 TopAligned false END
+    BEGIN	Sprite		 x 1 y 27 w 2 h 3 RotateType 4 TopAligned false END
+    BEGIN	Sprite		 x 3 y 27 w 2 h 3 RotateType 4 TopAligned false END
+    BEGIN	Sprite		 x 5 y 27 w 2 h 3 RotateType 4 TopAligned false END
+    BEGIN	Sprite		 x 7 y 27 w 2 h 3 RotateType 4 TopAligned false END
+    BEGIN	Sprite		 x 9 y 27 w 2 h 3 RotateType 4 TopAligned false END
+    BEGIN	Sprite		 x 11 y 27 w 2 h 3 RotateType 4 TopAligned false END
+    BEGIN	Sprite		 x 13 y 27 w 2 h 3 RotateType 4 TopAligned false END
+    BEGIN	Sprite		 x 15 y 27 w 2 h 3 RotateType 4 TopAligned false END
+    BEGIN	Sprite		 x 17 y 27 w 2 h 3 RotateType 4 TopAligned false END
+    BEGIN	Sprite		 x 19 y 27 w 2 h 3 RotateType 4 TopAligned false END
+	MadeOf				 SolidMetal
+	Properties			 MobileObject
+END
+
+BEGIN Object
+	Name				 GraveStoneSpawner
+	Width				 1
+	ConstructionTime	 0
+	RenderDepth			 1
+	MoveSpeedFactor		 0.800000
+	Toughness			 50.0000
+	Price				 -50
+    Research             Health
+	Group				 StaticObject
+	BlockedBy			 Wall
+	BlockedBy			 StaticObject
+	BlockedBy			 UtilityStation
+	Properties			 RoomSpecific
+    Properties           Uncloneable
+    BEGIN	Sprite		 x 1 y 24 w 2 h 3 RotateType 1 TopAligned false END
+	BEGIN ToolbarSprite	 x 1 y 24 w 2 h 2 END
+	MadeOf				 SolidMetal
+	Properties			 Scripted
+	Properties			 MobileObject
+END
+
+BEGIN Object
+	Name				 GraveStone2
+	Width				 1
+	ConstructionTime	 -1
+	RenderDepth			 0
+	MoveSpeedFactor		 0.800000
+	Toughness			 50.0000
+	Price				 -1
+    Research             Health
+	Group				 StaticObject
+	BlockedBy			 Wall
+	BlockedBy			 StaticObject
+	BlockedBy			 UtilityStation
+	WorkGroup			 Cemetery
+    Properties           Uncloneable
+	Properties			 Scripted
+	SpriteVariants		 16
+	NumSlots			 1
+    BEGIN	Sprite		 x 1 y 24 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 1.2375 orientation.x 0 orientation.y 0 Index 0 END
+	END
+    BEGIN	Sprite		 x 3 y 24 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 1.5 orientation.x 0 orientation.y 0 Index 0 END
+	END
+    BEGIN	Sprite		 x 5 y 24 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 2.6625 orientation.x 0 orientation.y 0 Index 0 END
+	END
+    BEGIN	Sprite		 x 7 y 24 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 2.45625 orientation.x 0 orientation.y 0 Index 0 END
+	END
+    BEGIN	Sprite		 x 9 y 24 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 1.25 orientation.x 0 orientation.y 0 Index 0 END
+	END
+    BEGIN	Sprite		 x 11 y 24 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 2.29375 orientation.x 0 orientation.y 0 Index 0 END
+	END
+    BEGIN	Sprite		 x 1 y 27 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 1.7875 orientation.x 0 orientation.y 0 Index 0 END
+	END
+    BEGIN	Sprite		 x 3 y 27 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1.01475 y 1.9275 orientation.x 0 orientation.y 0 Index 0 END
+	END
+    BEGIN	Sprite		 x 5 y 27 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 2.3375 orientation.x 0 orientation.y 0 Index 0 END
+	END
+    BEGIN	Sprite		 x 7 y 27 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 2.6375 orientation.x 0 orientation.y 0 Index 0 END
+	END
+    BEGIN	Sprite		 x 9 y 27 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 1.90625 orientation.x 0 orientation.y 0 Index 0 END
+	END
+    BEGIN	Sprite		 x 11 y 27 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 1.5 orientation.x 0 orientation.y 0 Index 0 END
+	END
+    BEGIN	Sprite		 x 13 y 27 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 2.1125 orientation.x 0 orientation.y 0 Index 0 END
+	END
+    BEGIN	Sprite		 x 15 y 27 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 2.1125 orientation.x 0 orientation.y 0 Index 0 END
+	END
+    BEGIN	Sprite		 x 17 y 27 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 1.59375 orientation.x 0 orientation.y 0 Index 0 END
+	END
+    BEGIN	Sprite		 x 19 y 27 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 1.59375 orientation.x 0 orientation.y 0 Index 0 END
+	END
+END
+
+BEGIN Object
+	Name				 GraveStoneStaff2
+	Width				 1
+	ConstructionTime	 -1
+	RenderDepth			 0
+	MoveSpeedFactor		 0.800000
+	Toughness			 50.0000
+	Price				 -1
+    Research             Health
+	Group				 StaticObject
+	BlockedBy			 Wall
+	BlockedBy			 StaticObject
+	BlockedBy			 UtilityStation
+	WorkGroup			 Cemetery
+    Properties           Uncloneable
+	Properties			 Scripted
+	SpriteVariants		 16
+	NumSlots			 1
+    BEGIN	Sprite		 x 1 y 24 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 1.2375 orientation.x 0 orientation.y 0 Index 0 END
+	END
+    BEGIN	Sprite		 x 3 y 24 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 1.5 orientation.x 0 orientation.y 0 Index 0 END
+	END
+    BEGIN	Sprite		 x 5 y 24 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 2.6625 orientation.x 0 orientation.y 0 Index 0 END
+	END
+    BEGIN	Sprite		 x 7 y 24 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 2.45625 orientation.x 0 orientation.y 0 Index 0 END
+	END
+    BEGIN	Sprite		 x 9 y 24 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 1.25 orientation.x 0 orientation.y 0 Index 0 END
+	END
+    BEGIN	Sprite		 x 11 y 24 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 2.29375 orientation.x 0 orientation.y 0 Index 0 END
+	END
+    BEGIN	Sprite		 x 1 y 27 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 1.7875 orientation.x 0 orientation.y 0 Index 0 END
+	END
+    BEGIN	Sprite		 x 3 y 27 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1.01475 y 1.9275 orientation.x 0 orientation.y 0 Index 0 END
+	END
+    BEGIN	Sprite		 x 5 y 27 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 2.3375 orientation.x 0 orientation.y 0 Index 0 END
+	END
+    BEGIN	Sprite		 x 7 y 27 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 2.6375 orientation.x 0 orientation.y 0 Index 0 END
+	END
+    BEGIN	Sprite		 x 9 y 27 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 1.90625 orientation.x 0 orientation.y 0 Index 0 END
+	END
+    BEGIN	Sprite		 x 11 y 27 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 1.5 orientation.x 0 orientation.y 0 Index 0 END
+	END
+    BEGIN	Sprite		 x 13 y 27 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 2.1125 orientation.x 0 orientation.y 0 Index 0 END
+	END
+    BEGIN	Sprite		 x 15 y 27 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 2.1125 orientation.x 0 orientation.y 0 Index 0 END
+	END
+    BEGIN	Sprite		 x 17 y 27 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 1.59375 orientation.x 0 orientation.y 0 Index 0 END
+	END
+    BEGIN	Sprite		 x 19 y 27 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 1.59375 orientation.x 0 orientation.y 0 Index 0 END
+	END
+END
+
+BEGIN Object
+	Name				 GraveUnderConstruction1
+	Width				 1
+	ConstructionTime	 0
+	RenderDepth			 0
+	MoveSpeedFactor		 0.800000
+	Toughness			 50.0000
+	Price				 -50
+    Research             Health
+	Group				 StaticObject
+	BlockedBy			 Wall
+	BlockedBy			 StaticObject
+	BlockedBy			 UtilityStation
+    Properties           Uncloneable
+	NumSlots			 4
+	Properties			 Processor
+    BEGIN	Sprite		 x 14 y 24 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 0.5 orientation.x -1 orientation.y 0 Index 0 END
+		BEGIN Marker	 x 1 y 0.5 orientation.x -1 orientation.y 0 Index 1 END
+		BEGIN Marker	 x 1 y 0.5 orientation.x -1 orientation.y 0 Index 2 END
+		BEGIN Marker	 x 1 y 0.5 orientation.x -1 orientation.y 0 Index 3 END
+	END
+	ToolbarSprite		 Gravestone
+	Properties			 RoomSpecific
+	MadeOf				 SolidMetal
+	Properties			 StaticObject  
+	WorkGroup			 Cemetery
+	Properties			 Scripted
+END
+
+BEGIN Object
+	Name				 GraveUnderConstruction2
+	Width				 1
+	ConstructionTime	 -1
+	RenderDepth			 0
+	MoveSpeedFactor		 0.800000
+	Toughness			 50.0000
+	Price				 -1
+    Research             Health
+	Group				 StaticObject
+	BlockedBy			 Wall
+	BlockedBy			 StaticObject
+	BlockedBy			 UtilityStation
+    Properties           Uncloneable
+	NumSlots			 1
+    BEGIN	Sprite		 x 19 y 24 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 1.5 orientation.x 0 orientation.y 0 Index 0 END
+	END
+	MadeOf				 SolidMetal
+	Properties			 StaticObject  
+	WorkGroup			 Cemetery
+	Properties			 Scripted
+END
+
+BEGIN Object
+	Name				 GraveLoaded
+	Width				 1
+	ConstructionTime	 -1
+	RenderDepth			 0
+	MoveSpeedFactor		 0.800000
+	Toughness			 50.0000
+	Price				 -1
+    Research             Health
+	Group				 StaticObject
+	BlockedBy			 Wall
+	BlockedBy			 StaticObject
+	BlockedBy			 UtilityStation
+    Properties           Uncloneable
+	NumSlots			 1
+    BEGIN	Sprite		 x 19 y 24 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 0.5 orientation.x 0 orientation.y 0 Index 0 END
+	END
+	MadeOf				 SolidMetal
+	Properties			 StaticObject  
+	WorkGroup			 Cemetery
+	Properties			 Scripted
+END
+
+BEGIN Object
+	Name				 GraveStaffUnderConstruction1
+	Width				 1
+	ConstructionTime	 0
+	RenderDepth			 0
+	MoveSpeedFactor		 0.800000
+	Toughness			 50.0000
+	Price				 -50
+    Research             Health
+	Group				 StaticObject
+	BlockedBy			 Wall
+	BlockedBy			 StaticObject
+	BlockedBy			 UtilityStation
+    Properties           Uncloneable
+	NumSlots			 4
+	Properties			 Processor
+    BEGIN	Sprite		 x 16 y 24 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 0.5 orientation.x -1 orientation.y 0 Index 0 END
+		BEGIN Marker	 x 1 y 0.5 orientation.x -1 orientation.y 0 Index 1 END
+		BEGIN Marker	 x 1 y 0.5 orientation.x -1 orientation.y 0 Index 2 END
+		BEGIN Marker	 x 1 y 0.5 orientation.x -1 orientation.y 0 Index 3 END
+	END
+	ToolbarSprite		 Gravestone
+	Properties			 RoomSpecific
+	MadeOf				 SolidMetal
+	Properties			 StaticObject  
+	WorkGroup			 Cemetery
+	Properties			 Scripted
+END
+
+BEGIN Object
+	Name				 GraveStaffUnderConstruction2
+	Width				 1
+	ConstructionTime	 -1
+	RenderDepth			 0
+	MoveSpeedFactor		 0.800000
+	Toughness			 50.0000
+	Price				 -1
+    Research             Health
+	Group				 StaticObject
+	BlockedBy			 Wall
+	BlockedBy			 StaticObject
+	BlockedBy			 UtilityStation
+    Properties           Uncloneable
+	NumSlots			 1
+    BEGIN	Sprite		 x 19 y 24 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 1.5 orientation.x 0 orientation.y 0 Index 0 END
+	END
+	MadeOf				 SolidMetal
+	Properties			 StaticObject  
+	WorkGroup			 Cemetery
+	Properties			 Scripted
+END
+
+BEGIN Object
+	Name				 GraveStaffLoaded
+	Width				 1
+	ConstructionTime	 -1
+	RenderDepth			 0
+	MoveSpeedFactor		 0.800000
+	Toughness			 50.0000
+	Price				 -1
+    Research             Health
+	Group				 StaticObject
+	BlockedBy			 Wall
+	BlockedBy			 StaticObject
+	BlockedBy			 UtilityStation
+    Properties           Uncloneable
+	NumSlots			 1
+    BEGIN	Sprite		 x 19 y 24 w 2 h 3 RotateType 4 TopAligned false
+		BEGIN Marker	 x 1 y 0.5 orientation.x 0 orientation.y 0 Index 0 END
+	END
+	MadeOf				 SolidMetal
+	Properties			 StaticObject  
+	WorkGroup			 Cemetery
+	Properties			 Scripted
+END
+
+BEGIN Object
+	Name				 GravePhoto
+	Width				 1
+	Height				 1
+	NumSlots			 1
+	NumSprites			 2
+	BEGIN	Sprite		 x 13 y 12 w 2 h 2 RotateType 4
+		BEGIN Marker	 x 1 y 0.875 orientation.x 0 orientation.y 0 Index 0 END
+	END
+	BEGIN	Sprite		 x 13 y 14 w 2 h 2 RotateType 4
+		BEGIN Marker	 x 1 y 0.875 orientation.x 0 orientation.y 0 Index 0 END
+	END
+	Properties			 Material
+	Properties			 DontAvoid
+    Properties           Uncloneable
+	MadeOf				 Wood  
+	WorkGroup			 Cemetery
+	RenderDepth			 1
+END
+
+BEGIN Object
+	Name				 GraveLid
+	Width				 1
+	Height				 1
+	NumSprites			 2
+	BEGIN	Sprite		 x 13 y 12 w 2 h 2 RotateType 4 END
+	BEGIN	Sprite		 x 13 y 14 w 2 h 2 RotateType 4 END
+	Properties			 Material
+    Properties           Uncloneable
+	MadeOf				 Wood  
+	WorkGroup			 Cemetery
+	RenderDepth			 1
+END
+
+BEGIN Object
+	Name				 GraveFlowers
+	Price				 -5
+	RenderDepth			 2
+	SpriteVariants		 2
+	BEGIN	Sprite		 x 13 y 16 w 2 h 2 RotateType 0 END
+	BEGIN	Sprite		 x 15 y 16 w 2 h 2 RotateType 0 END
+	Properties			 Rubbish
+	Properties			 Material
+    Properties           Uncloneable
+	Properties			 Sellable  
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 FuneralWreath
+	Price				 -5
+	RenderDepth			 3
+	BEGIN	Sprite		 x 19 y 16 w 2 h 2 RotateType 0 END
+	Properties			 Material
+    Properties           Uncloneable
+	Properties			 Sellable  
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 FuneralWreathRubbish
+	Price				 -1
+	RenderDepth			 3
+	BEGIN	Sprite		 x 19 y 16 w 2 h 2 RotateType 0 END
+	Properties			 Rubbish
+	Properties			 Material
+    Properties           Uncloneable
+	Properties			 Sellable  
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadPrisoner
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	SpriteVariants		 7
+	BEGIN	Sprite		 x 13 y 0 w 2 h 2 RotateType 4 END
+	BEGIN	Sprite		 x 13 y 2 w 2 h 2 RotateType 4 END
+	BEGIN	Sprite		 x 13 y 4 w 2 h 2 RotateType 4 END
+	BEGIN	Sprite		 x 13 y 6 w 2 h 2 RotateType 4 END
+	BEGIN	Sprite		 x 13 y 8 w 2 h 2 RotateType 4 END
+	BEGIN	Sprite		 x 13 y 10 w 2 h 2 RotateType 4 END
+	BEGIN	Sprite		 x 3 y 22 w 2 h 2 RotateType 4 END
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadWorkman
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	BEGIN Sprite		 x 9 y 0 h 2 w 2 RotateType 4 END
+	BEGIN Sprite		 x 9 y 2 h 2 w 2 RotateType 4 END
+	BEGIN Sprite		 x 9 y 4 h 2 w 2 RotateType 4 END
+	BEGIN Sprite		 x 9 y 6 h 2 w 2 RotateType 4 END
+	BEGIN Sprite		 x 9 y 8 h 2 w 2 RotateType 4 END
+	BEGIN Sprite		 x 9 y 10 h 2 w 2 RotateType 4 END
+	BEGIN Sprite		 x 9 y 12 h 2 w 2 RotateType 4 END
+	BEGIN Sprite		 x 9 y 14 h 2 w 2 RotateType 4 END
+	SpriteVariants		 8
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadGuard
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	BEGIN Sprite		 x 11 y 0 w 2 h 2 RotateType 4 END
+	BEGIN Sprite		 x 11 y 2 w 2 h 2 RotateType 4 END
+	BEGIN Sprite		 x 11 y 4 w 2 h 2 RotateType 4 END
+	BEGIN Sprite		 x 11 y 6 w 2 h 2 RotateType 4 END
+	BEGIN Sprite		 x 11 y 8 w 2 h 2 RotateType 4 END
+	BEGIN Sprite		 x 11 y 10 w 2 h 2 RotateType 4 END
+	BEGIN Sprite		 x 11 y 12 w 2 h 2 RotateType 4 END
+	BEGIN Sprite		 x 11 y 14 w 2 h 2 RotateType 4 END
+	SpriteVariants		 8
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadArmedGuard
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 ArmedGuard
+	SpriteVariants		 4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadDoctor
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Doctor
+	SpriteVariants		 4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadOrderly
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	BEGIN	Sprite		 x 5 y 22 w 2 h 2 RotateType 1 END
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadCook
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Chef
+	SpriteVariants		 4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadGardener
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Gardener
+	SpriteVariants		 4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadJanitor
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Janitor
+	SpriteVariants		 4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadDogHandler
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 DogHandler
+	SpriteVariants		 4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadDog
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 GuardDog
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadSniper
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Sniper
+	SpriteVariants		 4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadWarden
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Warden
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadChief
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Chief
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadForeman
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Foreman
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadPsychologist
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Shrink
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadPsychiatrist
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	BEGIN	Sprite		 x 7 y 22 w 2 h 2 RotateType 1 END
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadAccountant
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Accountant
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadLawyer
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Lawyer
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadSystemAdministrator
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	BEGIN	Sprite		 x 40 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 40 y 16 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 40 y 18 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 40 y 20 w 2 h 2 RotateType 1 END
+	SpriteVariants		 4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadComputerNerd
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	BEGIN	Sprite		 x 40 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 40 y 16 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 40 y 18 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 40 y 20 w 2 h 2 RotateType 1 END
+	SpriteVariants		 4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadSimulationOfficeManager
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	BEGIN	Sprite		 x 40 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 40 y 16 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 40 y 18 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 40 y 20 w 2 h 2 RotateType 1 END
+	SpriteVariants		 4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadYogaMaster
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Priest7
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadGraveDigger
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+    BEGIN	Sprite		 x 15 y 0 w 2 h 2 RotateType 4 END
+    BEGIN	Sprite		 x 15 y 2 w 2 h 2 RotateType 4 END
+    BEGIN	Sprite		 x 15 y 4 w 2 h 2 RotateType 4 END
+    BEGIN	Sprite		 x 15 y 6 w 2 h 2 RotateType 4 END
+    SpriteVariants		 4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadPrisonFiremanA0
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Fireman
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadPrisonFiremanA1
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Fireman
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadPrisonFiremanA2
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Fireman
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadPrisonFiremanA3
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	BEGIN Sprite		 x 25 y 16 h 2 w 2 RotateType 1 END
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadPrisonFiremanB0
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Fireman
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadPrisonFiremanB1
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Fireman
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadPrisonFiremanB2
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Fireman
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadPrisonFiremanB3
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	BEGIN Sprite		 x 25 y 16 h 2 w 2 RotateType 1 END
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadPrisonFiremanC0
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Fireman
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadPrisonFiremanC1
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Fireman
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadPrisonFiremanC2
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Fireman
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadPrisonFiremanC3
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	BEGIN Sprite		 x 25 y 16 h 2 w 2 RotateType 1 END
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadPrisonFiremanD0
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Fireman
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadPrisonFiremanD1
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Fireman
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadPrisonFiremanD2
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Fireman
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadPrisonFiremanD3
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	BEGIN Sprite		 x 25 y 16 h 2 w 2 RotateType 1 END
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadLotteryOfficial
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 ParoleBoardMember
+	SpriteVariants		 4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadForestryWorker
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	BEGIN Sprite		 x 25 y 8 h 2 w 2 RotateType 1 END
+	BEGIN Sprite		 x 25 y 10 h 2 w 2 RotateType 1 END
+	BEGIN Sprite		 x 25 y 12 h 2 w 2 RotateType 1 END
+	BEGIN Sprite		 x 25 y 14 h 2 w 2 RotateType 1 END
+    SpriteVariants       4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadBarberChief
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 ParoleBoardMember
+	SpriteVariants		 4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadBarber
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 ParoleBoardMember
+	SpriteVariants		 4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadCarMechanic2
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	BEGIN	Sprite		 x 9 y 16 w 2 h 2 RotateType 4 END
+	BEGIN	Sprite		 x 9 y 18 w 2 h 2 RotateType 4 END
+	BEGIN	Sprite		 x 9 y 20 w 2 h 2 RotateType 4 END
+	BEGIN	Sprite		 x 9 y 22 w 2 h 2 RotateType 4 END
+	SpriteVariants		 4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadCraneOperator2
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	BEGIN	Sprite		 x 9 y 16 w 2 h 2 RotateType 4 END
+	BEGIN	Sprite		 x 9 y 18 w 2 h 2 RotateType 4 END
+	BEGIN	Sprite		 x 9 y 20 w 2 h 2 RotateType 4 END
+	BEGIN	Sprite		 x 9 y 22 w 2 h 2 RotateType 4 END
+	SpriteVariants		 4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadBasketballTrainer
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Teacher
+	SpriteVariants		 4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadBasketballTrainerFullCourt
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Teacher
+	SpriteVariants		 4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadBasketballTrainerHalfCourt
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Teacher
+	SpriteVariants		 4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadBasketballTrainerYard
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Teacher
+	SpriteVariants		 4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadSmartPhoneGenius
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	BEGIN	Sprite		 x 15 y 0 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 15 y 2 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 15 y 4 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 15 y 6 w 2 h 2 RotateType 1 END
+	SpriteVariants		 4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadGardenWorker
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	BEGIN Sprite		 x 23 y 8 h 2 w 2 RotateType 1 END
+	BEGIN Sprite		 x 23 y 10 h 2 w 2 RotateType 1 END
+	BEGIN Sprite		 x 23 y 12 h 2 w 2 RotateType 1 END
+	BEGIN Sprite		 x 23 y 14 h 2 w 2 RotateType 1 END
+    SpriteVariants       4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadGreenhouseWorker
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	BEGIN Sprite		 x 40 y 22 h 2 w 2 RotateType 1 END
+	BEGIN Sprite		 x 40 y 24 h 2 w 2 RotateType 1 END
+	BEGIN Sprite		 x 40 y 26 h 2 w 2 RotateType 1 END
+	BEGIN Sprite		 x 40 y 28 h 2 w 2 RotateType 1 END
+    SpriteVariants       4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadPlantationWorker
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	BEGIN Sprite		 x 23 y 0 h 2 w 2 RotateType 1 END
+	BEGIN Sprite		 x 23 y 2 h 2 w 2 RotateType 1 END
+	BEGIN Sprite		 x 23 y 4 h 2 w 2 RotateType 1 END
+	BEGIN Sprite		 x 23 y 6 h 2 w 2 RotateType 1 END
+    SpriteVariants       4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadTailor
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	BEGIN	Sprite		 x 28 y 0 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 2 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 4 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 6 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 8 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 10 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 12 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 16 w 2 h 2 RotateType 1 END
+	SpriteVariants		 9
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadTeslaMaticExpert
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 AnthonyIRL
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadShadyTeslaDude
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 BenedictIRL
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadParoleOfficer
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 ParoleBoardMember
+	SpriteVariants		 4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadParoleLawyer
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 ParoleLawyer
+	SpriteVariants		 4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadAppealsLawyer
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 ParoleLawyer
+	SpriteVariants		 4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+BEGIN Object
+	Name				 PhotoOfDeadAppealsMagistrate
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 ParoleBoardMember
+	SpriteVariants		 4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadParoleOfficerClone
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 ParoleBoardMember
+	SpriteVariants		 4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadParoleLawyerClone
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 ParoleLawyer
+	SpriteVariants		 4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadAppealsLawyerClone
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 ParoleLawyer
+	SpriteVariants		 4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+BEGIN Object
+	Name				 PhotoOfDeadAppealsMagistrateClone
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 ParoleBoardMember
+	SpriteVariants		 4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadTeacher
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Teacher
+	SpriteVariants		 4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadSpiritualLeader
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Priest
+	SpriteVariants		 7
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadTeacherClone
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Teacher
+	SpriteVariants		 4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadSpiritualLeaderClone
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Priest
+	SpriteVariants		 7
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadFireman
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Fireman
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadRiotGuard
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 RiotGuard
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadParamedic
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Paramedic
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadSoldier
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Soldier
+	SpriteVariants		 4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadVisitor
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 PalermoDaughter1
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadExecutionWitness
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 PalermoDaughter1
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadMetroGuard
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	BEGIN Sprite		 x 11 y 0 w 2 h 2 RotateType 4 END
+	BEGIN Sprite		 x 11 y 2 w 2 h 2 RotateType 4 END
+	BEGIN Sprite		 x 11 y 4 w 2 h 2 RotateType 4 END
+	BEGIN Sprite		 x 11 y 6 w 2 h 2 RotateType 4 END
+	BEGIN Sprite		 x 11 y 8 w 2 h 2 RotateType 4 END
+	BEGIN Sprite		 x 11 y 10 w 2 h 2 RotateType 4 END
+	BEGIN Sprite		 x 11 y 12 w 2 h 2 RotateType 4 END
+	BEGIN Sprite		 x 11 y 14 w 2 h 2 RotateType 4 END
+	SpriteVariants		 8
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadTruckDriver
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 TruckDriver
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadTowTruckDriver
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 TruckDriver
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadCarMechanic
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	BEGIN	Sprite		 x 9 y 16 w 2 h 2 RotateType 4 END
+	BEGIN	Sprite		 x 9 y 18 w 2 h 2 RotateType 4 END
+	BEGIN	Sprite		 x 9 y 22 w 2 h 2 RotateType 4 END
+	BEGIN	Sprite		 x 9 y 20 w 2 h 2 RotateType 4 END
+	SpriteVariants		 4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadCarMechanicHelper
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	BEGIN	Sprite		 x 9 y 18 w 2 h 2 RotateType 4 END
+	BEGIN	Sprite		 x 9 y 16 w 2 h 2 RotateType 4 END
+	BEGIN	Sprite		 x 9 y 20 w 2 h 2 RotateType 4 END
+	BEGIN	Sprite		 x 9 y 22 w 2 h 2 RotateType 4 END
+	SpriteVariants		 4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadLimoDriver
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	BEGIN	Sprite		 x 1 y 0 w 2 h 2 RotateType 4 END
+	BEGIN	Sprite		 x 1 y 2 w 2 h 2 RotateType 4 END
+	BEGIN	Sprite		 x 1 y 4 w 2 h 2 RotateType 4 END
+	BEGIN	Sprite		 x 1 y 6 w 2 h 2 RotateType 4 END
+	BEGIN	Sprite		 x 1 y 8 w 2 h 2 RotateType 4 END
+	BEGIN	Sprite		 x 1 y 10 w 2 h 2 RotateType 4 END
+	BEGIN	Sprite		 x 1 y 12 w 2 h 2 RotateType 4 END
+	BEGIN	Sprite		 x 1 y 14 w 2 h 2 RotateType 4 END
+	BEGIN	Sprite		 x 1 y 16 w 2 h 2 RotateType 4 END
+	BEGIN	Sprite		 x 1 y 18 w 2 h 2 RotateType 4 END
+	SpriteVariants		 10
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadTowTruck2Driver
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	BEGIN	Sprite		 x 23 y 16 w 2 h 2 RotateType 1 END
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadTowTruck2DriverMilitary
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	BEGIN	Sprite		 x 23 y 18 w 2 h 2 RotateType 1 END
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadLimo2Driver0
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+    BEGIN	Sprite		 x 1 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 18 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 8 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 10 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 12 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 16 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 22 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 0 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 2 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 4 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 6 w 2 h 2 RotateType 1 END
+	
+    BEGIN	Sprite		 x 30 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 22 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 24 w 2 h 2 RotateType 1 END
+	Properties			 Material
+	SpriteVariants		 35
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadLimo2Driver1
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+    BEGIN	Sprite		 x 1 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 18 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 8 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 10 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 12 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 16 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 22 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 0 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 2 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 4 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 6 w 2 h 2 RotateType 1 END
+	
+    BEGIN	Sprite		 x 30 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 22 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 24 w 2 h 2 RotateType 1 END
+	Properties			 Material
+	SpriteVariants		 35
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadLimo2Driver2
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+    BEGIN	Sprite		 x 1 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 18 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 8 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 10 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 12 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 16 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 22 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 0 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 2 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 4 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 6 w 2 h 2 RotateType 1 END
+	
+    BEGIN	Sprite		 x 30 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 22 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 24 w 2 h 2 RotateType 1 END
+	Properties			 Material
+	SpriteVariants		 35
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadLimo2Driver3
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+    BEGIN	Sprite		 x 1 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 18 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 8 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 10 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 12 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 16 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 22 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 0 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 2 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 4 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 6 w 2 h 2 RotateType 1 END
+	
+    BEGIN	Sprite		 x 30 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 22 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 24 w 2 h 2 RotateType 1 END
+	Properties			 Material
+	SpriteVariants		 35
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadLimo2Driver4
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+    BEGIN	Sprite		 x 1 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 18 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 8 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 10 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 12 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 16 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 22 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 0 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 2 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 4 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 6 w 2 h 2 RotateType 1 END
+	
+    BEGIN	Sprite		 x 30 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 22 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 24 w 2 h 2 RotateType 1 END
+	Properties			 Material
+	SpriteVariants		 35
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadLimo2Driver5
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+    BEGIN	Sprite		 x 1 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 18 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 8 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 10 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 12 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 16 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 22 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 0 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 2 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 4 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 6 w 2 h 2 RotateType 1 END
+	
+    BEGIN	Sprite		 x 30 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 22 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 24 w 2 h 2 RotateType 1 END
+	Properties			 Material
+	SpriteVariants		 35
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadLimo2Driver6
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+    BEGIN	Sprite		 x 1 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 18 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 8 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 10 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 12 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 16 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 22 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 0 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 2 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 4 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 6 w 2 h 2 RotateType 1 END
+	
+    BEGIN	Sprite		 x 30 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 22 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 24 w 2 h 2 RotateType 1 END
+	Properties			 Material
+	SpriteVariants		 35
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadLimo2Driver7
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+    BEGIN	Sprite		 x 1 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 18 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 8 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 10 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 12 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 16 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 22 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 0 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 2 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 4 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 6 w 2 h 2 RotateType 1 END
+	
+    BEGIN	Sprite		 x 30 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 22 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 24 w 2 h 2 RotateType 1 END
+	Properties			 Material
+	SpriteVariants		 35
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadLimo2Driver8
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+    BEGIN	Sprite		 x 1 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 18 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 8 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 10 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 12 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 16 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 22 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 0 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 2 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 4 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 6 w 2 h 2 RotateType 1 END
+	
+    BEGIN	Sprite		 x 30 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 22 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 24 w 2 h 2 RotateType 1 END
+	Properties			 Material
+	SpriteVariants		 35
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadLimo2Driver9
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+    BEGIN	Sprite		 x 1 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 18 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 8 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 10 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 12 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 16 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 22 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 0 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 2 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 4 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 6 w 2 h 2 RotateType 1 END
+	
+    BEGIN	Sprite		 x 30 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 22 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 24 w 2 h 2 RotateType 1 END
+	Properties			 Material
+	SpriteVariants		 35
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadLimo2Driver10
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+    BEGIN	Sprite		 x 1 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 18 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 8 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 10 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 12 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 16 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 22 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 0 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 2 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 4 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 6 w 2 h 2 RotateType 1 END
+	
+    BEGIN	Sprite		 x 30 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 22 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 24 w 2 h 2 RotateType 1 END
+	Properties			 Material
+	SpriteVariants		 35
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadLimo2Driver11
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+    BEGIN	Sprite		 x 1 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 18 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 8 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 10 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 12 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 16 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 22 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 0 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 2 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 4 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 6 w 2 h 2 RotateType 1 END
+	
+    BEGIN	Sprite		 x 30 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 22 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 24 w 2 h 2 RotateType 1 END
+	Properties			 Material
+	SpriteVariants		 35
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadLimo2Driver12
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+    BEGIN	Sprite		 x 1 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 18 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 8 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 10 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 12 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 16 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 22 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 0 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 2 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 4 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 6 w 2 h 2 RotateType 1 END
+	
+    BEGIN	Sprite		 x 30 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 22 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 24 w 2 h 2 RotateType 1 END
+	Properties			 Material
+	SpriteVariants		 35
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadLimo2Driver13
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+    BEGIN	Sprite		 x 1 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 18 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 8 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 10 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 12 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 16 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 22 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 0 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 2 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 4 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 6 w 2 h 2 RotateType 1 END
+	
+    BEGIN	Sprite		 x 30 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 22 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 24 w 2 h 2 RotateType 1 END
+	Properties			 Material
+	SpriteVariants		 35
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadLimo2Driver14
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+    BEGIN	Sprite		 x 1 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 18 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 8 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 10 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 12 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 16 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 22 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 0 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 2 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 4 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 6 w 2 h 2 RotateType 1 END
+	
+    BEGIN	Sprite		 x 30 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 22 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 24 w 2 h 2 RotateType 1 END
+	Properties			 Material
+	SpriteVariants		 35
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadLimo2Driver15
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+    BEGIN	Sprite		 x 1 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 18 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 8 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 10 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 12 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 16 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 22 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 0 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 2 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 4 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 6 w 2 h 2 RotateType 1 END
+	
+    BEGIN	Sprite		 x 30 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 22 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 24 w 2 h 2 RotateType 1 END
+	Properties			 Material
+	SpriteVariants		 35
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadLimo2DriverLeaving
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+    BEGIN	Sprite		 x 1 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 18 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 8 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 10 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 12 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 16 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 22 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 0 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 2 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 4 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 6 w 2 h 2 RotateType 1 END
+	
+    BEGIN	Sprite		 x 30 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 22 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 30 y 24 w 2 h 2 RotateType 1 END
+	Properties			 Material
+	SpriteVariants		 35
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadSomeFriendParlour1
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	SpriteVariants		 22
+	BEGIN	Sprite		 x 28 y 0 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 2 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 4 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 6 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 8 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 10 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 12 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 16 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 22 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 18 w 2 h 2 RotateType 1 END
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadSomeFriendParlour2
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	SpriteVariants		 22
+	BEGIN	Sprite		 x 28 y 0 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 2 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 4 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 6 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 8 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 10 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 12 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 16 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 22 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 18 w 2 h 2 RotateType 1 END
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadSomeFriendParlour3
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	SpriteVariants		 22
+	BEGIN	Sprite		 x 28 y 0 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 2 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 4 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 6 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 8 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 10 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 12 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 16 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 22 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 18 w 2 h 2 RotateType 1 END
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadSomeFriendParlour4
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	SpriteVariants		 22
+	BEGIN	Sprite		 x 28 y 0 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 2 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 4 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 6 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 8 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 10 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 12 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 16 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 22 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 18 w 2 h 2 RotateType 1 END
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadSomeFriendParlour5
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	SpriteVariants		 22
+	BEGIN	Sprite		 x 28 y 0 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 2 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 4 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 6 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 8 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 10 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 12 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 16 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 22 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 18 w 2 h 2 RotateType 1 END
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadSomeFriendCemetery
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	SpriteVariants		 22
+	BEGIN	Sprite		 x 28 y 0 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 2 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 4 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 6 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 8 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 10 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 12 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 16 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 22 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 18 w 2 h 2 RotateType 1 END
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadSomeFriendFuneral
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	SpriteVariants		 22
+	BEGIN	Sprite		 x 28 y 0 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 2 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 4 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 6 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 8 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 10 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 12 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 16 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 22 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 18 w 2 h 2 RotateType 1 END
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadSomeFriendLeaving
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	SpriteVariants		 22
+	BEGIN	Sprite		 x 28 y 0 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 2 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 4 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 6 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 8 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 10 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 12 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 16 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 22 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 18 w 2 h 2 RotateType 1 END
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadSpiritualLeaderParlour
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Priest
+	SpriteVariants		 7
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadChinookPilot
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+    BEGIN	Sprite		 x 11 y 16 w 2 h 2 RotateType 4 END
+    BEGIN	Sprite		 x 11 y 18 w 2 h 2 RotateType 4 END
+    BEGIN	Sprite		 x 11 y 20 w 2 h 2 RotateType 4 END
+    BEGIN	Sprite		 x 11 y 22 w 2 h 2 RotateType 4 END
+    SpriteVariants		 4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadChinookGuard
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+	Sprite				 Soldier
+    SpriteVariants		 4
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 PhotoOfDeadUnknown
+	Width				 1
+	Height				 1
+	SpriteScale			 0.33
+    BEGIN	Sprite		 x 1 y 20 w 2 h 2 RotateType 4 END
+    BEGIN	Sprite		 x 1 y 20 w 2 h 2 RotateType 4 END
+    BEGIN	Sprite		 x 1 y 20 w 2 h 2 RotateType 4 END
+    BEGIN	Sprite		 x 1 y 20 w 2 h 2 RotateType 4 END
+    BEGIN	Sprite		 x 1 y 20 w 2 h 2 RotateType 4 END
+    BEGIN	Sprite		 x 1 y 20 w 2 h 2 RotateType 4 END
+    BEGIN	Sprite		 x 1 y 20 w 2 h 2 RotateType 4 END
+    BEGIN	Sprite		 x 1 y 20 w 2 h 2 RotateType 4 END
+    BEGIN	Sprite		 x 1 y 20 w 2 h 2 RotateType 4 END
+    BEGIN	Sprite		 x 1 y 20 w 2 h 2 RotateType 4 END
+    BEGIN	Sprite		 x 1 y 20 w 2 h 2 RotateType 4 END
+    BEGIN	Sprite		 x 1 y 20 w 2 h 2 RotateType 4 END
+    BEGIN	Sprite		 x 1 y 20 w 2 h 2 RotateType 4 END
+    BEGIN	Sprite		 x 1 y 20 w 2 h 2 RotateType 4 END
+    BEGIN	Sprite		 x 1 y 20 w 2 h 2 RotateType 4 END
+    BEGIN	Sprite		 x 1 y 20 w 2 h 2 RotateType 4 END
+    BEGIN	Sprite		 x 1 y 20 w 2 h 2 RotateType 4 END
+    BEGIN	Sprite		 x 1 y 20 w 2 h 2 RotateType 4 END
+    BEGIN	Sprite		 x 1 y 20 w 2 h 2 RotateType 4 END
+    BEGIN	Sprite		 x 1 y 20 w 2 h 2 RotateType 4 END
+    BEGIN	Sprite		 x 1 y 20 w 2 h 2 RotateType 4 END
+    BEGIN	Sprite		 x 1 y 20 w 2 h 2 RotateType 4 END
+    BEGIN	Sprite		 x 1 y 20 w 2 h 2 RotateType 4 END
+    BEGIN	Sprite		 x 1 y 20 w 2 h 2 RotateType 4 END
+    BEGIN	Sprite		 x 1 y 20 w 2 h 2 RotateType 4 END
+    BEGIN	Sprite		 x 1 y 20 w 2 h 2 RotateType 4 END
+    BEGIN	Sprite		 x 1 y 20 w 2 h 2 RotateType 4 END
+    BEGIN	Sprite		 x 1 y 20 w 2 h 2 RotateType 4 END
+    BEGIN	Sprite		 x 1 y 20 w 2 h 2 RotateType 4 END
+    BEGIN	Sprite		 x 1 y 20 w 2 h 2 RotateType 4 END
+	SpriteVariants		 30
+	Properties			 Material
+	Properties			 DontAvoid
+	MadeOf				 Wood
+	RenderDepth			 2
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 CoffinTable
+	Width				 2
+	ConstructionTime	 0
+	MoveSpeedFactor		 0.50000
+	Toughness			 10.0000
+	Price				 -200
+	NumSlots			 3
+	Group				 StaticObject
+	BlockedBy			 Wall
+	BlockedBy			 StaticObject
+	BlockedBy			 UtilityStation
+	MadeOf				 Composite
+	Properties			 StaticObject
+	Properties			 Processor
+	Properties			 RoomSpecific
+	WorkGroup			 Cemetery
+	Research			 PrisonLabour
+	BEGIN	Sprite		 x 14 y 21 w 4 h 3 RotateType 4
+	 BEGIN	Marker		 x 1.0 y 1.2 orientation.x 0 orientation.y 0 Index 0 END
+	 BEGIN	Marker		 x 2.5 y 1.2 orientation.x 0 orientation.y 0 Index 1 END
+	 BEGIN	Marker		 x 2.5 y 1.2 orientation.x 0 orientation.y 0 Index 2 END
+	END
+END
+
+BEGIN Object
+	Name				 SmallTableMorgue
+	Width				 2
+	ConstructionTime	 0
+	Toughness			 10.0000
+	Price				 -50
+	Group				 StaticObject
+	BlockedBy			 Wall
+	Properties			 RoomSpecific
+	WorkGroup			 Cemetery
+	BlockedBy			 StaticObject
+	BlockedBy			 UtilityStation
+	MadeOf				 Composite
+	Properties			 StaticObject
+	Properties			 Scripted
+	NumSlots			 8
+	Properties			 Processor
+	BEGIN	Sprite		 x 26 y 34 w 4 h 2 RotateType 1 TopAligned false
+		BEGIN Marker	 x 1.016875 y 0.71875 orientation.x 0 orientation.y 0 Index 0 END
+		BEGIN Marker	 x 3.016875 y 0.71875 orientation.x 0 orientation.y 0 Index 1 END
+		BEGIN Marker	 x 1.026875 y 0.72875 orientation.x 0 orientation.y 0 Index 2 END
+		BEGIN Marker	 x 3.026875 y 0.72875 orientation.x 0 orientation.y 0 Index 3 END
+		BEGIN Marker	 x 1.036875 y 0.73875 orientation.x 0 orientation.y 0 Index 4 END
+		BEGIN Marker	 x 3.036875 y 0.73875 orientation.x 0 orientation.y 0 Index 5 END
+		BEGIN Marker	 x 1.046875 y 0.74875 orientation.x 0 orientation.y 0 Index 6 END
+		BEGIN Marker	 x 3.046875 y 0.74875 orientation.x 0 orientation.y 0 Index 7 END
+		
+		BEGIN Marker	 x 5.016875 y 0.71875 orientation.x 0 orientation.y -1 Index 0 END
+		BEGIN Marker	 x 7.016875 y 0.71875 orientation.x 0 orientation.y -1 Index 1 END
+		BEGIN Marker	 x 5.026875 y 0.72875 orientation.x 0 orientation.y -1 Index 2 END
+		BEGIN Marker	 x 7.026875 y 0.72875 orientation.x 0 orientation.y -1 Index 3 END
+		BEGIN Marker	 x 5.036875 y 0.73875 orientation.x 0 orientation.y -1 Index 4 END
+		BEGIN Marker	 x 7.036875 y 0.73875 orientation.x 0 orientation.y -1 Index 5 END
+		BEGIN Marker	 x 5.046875 y 0.74875 orientation.x 0 orientation.y -1 Index 6 END
+		BEGIN Marker	 x 7.046875 y 0.74875 orientation.x 0 orientation.y -1 Index 7 END
+		
+		BEGIN Marker	 x 9.015625 y -0.91875 orientation.x -1 orientation.y 0 Index 0 END
+		BEGIN Marker	 x 9.015625 y 0.41875 orientation.x -1 orientation.y 0 Index 1 END
+		BEGIN Marker	 x 9.025625 y -0.92875 orientation.x -1 orientation.y 0 Index 2 END
+		BEGIN Marker	 x 9.025625 y 0.42875 orientation.x -1 orientation.y 0 Index 3 END
+		BEGIN Marker	 x 9.035625 y -0.93875 orientation.x -1 orientation.y 0 Index 4 END
+		BEGIN Marker	 x 9.035625 y 0.43875 orientation.x -1 orientation.y 0 Index 5 END
+		BEGIN Marker	 x 9.045625 y -0.94875 orientation.x -1 orientation.y 0 Index 6 END
+		BEGIN Marker	 x 9.045625 y 0.44875 orientation.x -1 orientation.y 0 Index 7 END
+	END
+	ToolbarSprite		 TableToolbar
+	Research			 Health
+END
+
+BEGIN Object
+	Name				 SmallTableFP
+	Width				 2
+	ConstructionTime	 0
+	Toughness			 10.0000
+	Price				 -50
+	Group				 StaticObject
+	BlockedBy			 Wall
+	Properties			 RoomSpecific
+	BlockedBy			 StaticObject
+	BlockedBy			 UtilityStation
+	WorkGroup			 Cemetery
+	MadeOf				 Composite
+	Properties			 StaticObject
+	Teleportable		 true
+	NumSlots			 8
+	Properties			 Processor
+	BEGIN	Sprite		 x 13 y 18 w 4 h 2 RotateType 1 TopAligned false
+		BEGIN Marker	 x 1.016875 y 0.71875 orientation.x 0 orientation.y 0 Index 0 END
+		BEGIN Marker	 x 3.016875 y 0.71875 orientation.x 0 orientation.y 0 Index 1 END
+		BEGIN Marker	 x 1.026875 y 0.72875 orientation.x 0 orientation.y 0 Index 2 END
+		BEGIN Marker	 x 3.026875 y 0.72875 orientation.x 0 orientation.y 0 Index 3 END
+		BEGIN Marker	 x 1.036875 y 0.73875 orientation.x 0 orientation.y 0 Index 4 END
+		BEGIN Marker	 x 3.036875 y 0.73875 orientation.x 0 orientation.y 0 Index 5 END
+		BEGIN Marker	 x 1.046875 y 0.74875 orientation.x 0 orientation.y 0 Index 6 END
+		BEGIN Marker	 x 3.046875 y 0.74875 orientation.x 0 orientation.y 0 Index 7 END
+		
+		BEGIN Marker	 x 5.016875 y 0.71875 orientation.x 0 orientation.y -1 Index 0 END
+		BEGIN Marker	 x 7.016875 y 0.71875 orientation.x 0 orientation.y -1 Index 1 END
+		BEGIN Marker	 x 5.026875 y 0.72875 orientation.x 0 orientation.y -1 Index 2 END
+		BEGIN Marker	 x 7.026875 y 0.72875 orientation.x 0 orientation.y -1 Index 3 END
+		BEGIN Marker	 x 5.036875 y 0.73875 orientation.x 0 orientation.y -1 Index 4 END
+		BEGIN Marker	 x 7.036875 y 0.73875 orientation.x 0 orientation.y -1 Index 5 END
+		BEGIN Marker	 x 5.046875 y 0.74875 orientation.x 0 orientation.y -1 Index 6 END
+		BEGIN Marker	 x 7.046875 y 0.74875 orientation.x 0 orientation.y -1 Index 7 END
+		
+		BEGIN Marker	 x 9.015625 y -0.91875 orientation.x -1 orientation.y 0 Index 0 END
+		BEGIN Marker	 x 9.015625 y 0.41875 orientation.x -1 orientation.y 0 Index 1 END
+		BEGIN Marker	 x 9.025625 y -0.92875 orientation.x -1 orientation.y 0 Index 2 END
+		BEGIN Marker	 x 9.025625 y 0.42875 orientation.x -1 orientation.y 0 Index 3 END
+		BEGIN Marker	 x 9.035625 y -0.93875 orientation.x -1 orientation.y 0 Index 4 END
+		BEGIN Marker	 x 9.035625 y 0.43875 orientation.x -1 orientation.y 0 Index 5 END
+		BEGIN Marker	 x 9.045625 y -0.94875 orientation.x -1 orientation.y 0 Index 6 END
+		BEGIN Marker	 x 9.045625 y 0.44875 orientation.x -1 orientation.y 0 Index 7 END
+	END
+	ToolbarSprite		 StackWood
+	Research			 Health
+END
+
+BEGIN Object     
+    Name                 ParlourChair  
+    ConstructionTime     0
+    MoveSpeedFactor      0.500000  
+    Price                -30  
+    NumSlots             1  
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    MadeOf               Composite
+	BEGIN	Sprite		 x 19 y 34 w 2 h 2 RotateType 3 TopAligned false END 
+    Properties           StaticObject
+	Properties			 RoomSpecific
+	Research			 Health
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+    Name				 ParlourAltar
+    Width				 3
+    Height				 2
+    SpriteScale			 0.8000
+    ConstructionTime	 0
+    MoveSpeedFactor		 0.5
+    Toughness			 10.000
+    Price				 -500
+    Group				 StaticObject
+    BlockedBy			 Wall
+    BlockedBy			 StaticObject  
+    BlockedBy			 UtilityStation  
+    MadeOf				 Wood
+    Properties			 StaticObject
+    Properties			 RoomSpecific
+	Properties			 Scripted
+	NumSlots			 4
+	Properties			 Processor
+	BEGIN	Sprite		 x 20 y 21 w 4 h 3 RotateType 2 TopAligned false
+		BEGIN Marker	 x 2 y 1.25 orientation.x 0 orientation.y 0 Index 0 END
+		BEGIN Marker	 x 2 y 1.25 orientation.x 0 orientation.y 0 Index 1 END
+		BEGIN Marker	 x 2 y 1.25 orientation.x 0 orientation.y 0 Index 2 END
+		BEGIN Marker	 x 2 y 1.25 orientation.x 0 orientation.y 0 Index 3 END
+		
+		BEGIN Marker	 x 6 y 0.5 orientation.x -1 orientation.y 0 Index 0 END
+		BEGIN Marker	 x 6 y 0.5 orientation.x -1 orientation.y 0 Index 1 END
+		BEGIN Marker	 x 6 y 0.5 orientation.x -1 orientation.y 0 Index 2 END
+		BEGIN Marker	 x 6 y 0.5 orientation.x -1 orientation.y 0 Index 3 END
+	END
+	Research			 Health
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+    Name				 ParlourAltarStaff
+    Width				 3
+    Height				 2
+    SpriteScale			 0.8000
+    ConstructionTime	 0
+    MoveSpeedFactor		 0.5
+    Toughness			 10.000
+    Price				 -500
+    Group				 StaticObject
+    BlockedBy			 Wall
+    BlockedBy			 StaticObject  
+    BlockedBy			 UtilityStation  
+    MadeOf				 Wood
+    Properties			 StaticObject
+    Properties			 RoomSpecific
+	Properties			 Scripted
+	NumSlots			 4
+	Properties			 Processor
+	BEGIN	Sprite		 x 40 y 33 w 4 h 3 RotateType 2 TopAligned false
+		BEGIN Marker	 x 2 y 1.25 orientation.x 0 orientation.y 0 Index 0 END
+		BEGIN Marker	 x 2 y 1.25 orientation.x 0 orientation.y 0 Index 1 END
+		BEGIN Marker	 x 2 y 1.25 orientation.x 0 orientation.y 0 Index 2 END
+		BEGIN Marker	 x 2 y 1.25 orientation.x 0 orientation.y 0 Index 3 END
+		
+		BEGIN Marker	 x 6 y 0.5 orientation.x -1 orientation.y 0 Index 0 END
+		BEGIN Marker	 x 6 y 0.5 orientation.x -1 orientation.y 0 Index 1 END
+		BEGIN Marker	 x 6 y 0.5 orientation.x -1 orientation.y 0 Index 2 END
+		BEGIN Marker	 x 6 y 0.5 orientation.x -1 orientation.y 0 Index 3 END
+	END
+	Research			 Health
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 CrematoriumCoffinStacked
+	Price				 -2
+	Toughness			 1.0000
+	MaxStackSize		 30
+	RenderDepth			 2
+	Properties			 Material
+	Properties           Sellable
+	WorkGroup			 Cemetery
+    BEGIN	Sprite		 x 26 y 30 w 2 h 2 RotateType 0 END
+    BEGIN	StackSprite	 x 32 y 30 w 2 h 2 RotateType 4 END
+END
+
+BEGIN Object
+	Name				 CrematoriumCoffinPending
+	Price				 -2
+	Toughness			 1.0000
+	MaxStackSize		 30
+	RenderDepth			 2
+	Properties			 Material
+	Properties           Sellable
+	WorkGroup			 Cemetery
+	NumSprites			 6
+    BEGIN	Sprite		 x 24 y 30 w 2 h 2 RotateType 0 END
+    BEGIN	Sprite		 x 26 y 30 w 2 h 2 RotateType 0 END
+    BEGIN	Sprite		 x 28 y 30 w 2 h 2 RotateType 0 END
+    BEGIN	Sprite		 x 30 y 30 w 2 h 2 RotateType 0 END
+    BEGIN	Sprite		 x 32 y 30 w 2 h 2 RotateType 0 END
+    BEGIN	Sprite		 x 34 y 30 w 2 h 2 RotateType 0 END
+END
+
+BEGIN Object
+	Name				 CrematoriumUrn
+	Width				 1
+	Height				 1
+	BEGIN	Sprite		 x 28 y 25 w 2 h 2 RotateType 0 END
+	BEGIN	StackSprite	 x 34 y 25 w 2 h 2 RotateType 4 END
+	MaxStackSize		 1
+	RenderDepth			 2
+	Price				 -2
+	MadeOf				 Composite
+	Properties			 Material
+	Properties			 Sellable
+	Research			 Health
+	WorkGroup			 Cemetery
+END
+
+BEGIN Object
+	Name				 CrematoriumDoor
+	Width				 1
+	ConstructionTime	 -1
+	RenderDepth			 5
+	MoveSpeedFactor		 0.800000
+	Toughness			 100.0000
+	Price				 -1
+	Group				 StaticObject
+	BlockedBy			 Wall
+	BlockedBy			 StaticObject
+	BlockedBy			 UtilityStation
+	MadeOf				 Composite
+    Properties           Uncloneable
+	Properties			 StaticObject
+	Properties			 RoomSpecific
+	WorkGroup			 Cemetery
+    Research             Health
+	SpriteScale			 1.3
+    BEGIN	Sprite		 x 21 y 30 w 2 h 2 RotateType 0 END
+END
+
+BEGIN Object
+	Name				 Crematorium
+	Height				 4
+	Width				 6
+	ConstructionTime	 0
+	MoveSpeedFactor		 0.50000
+	Toughness			 1000000000.0000
+	Price				 -1200
+	NumSlots			 8
+	RenderDepth			 4
+	Group				 StaticObject
+	BlockedBy			 Wall
+	BlockedBy			 StaticObject
+	BlockedBy			 UtilityStation
+	MadeOf				 Composite
+    Properties           Uncloneable
+	Properties			 StaticObject
+	Properties			 Processor
+	Properties			 Scripted
+	Properties			 RoomSpecific
+	Research			 Health
+	NumSprites			 2
+	BEGIN ToolbarSprite	 x 34 y 25 w 2 h 2 END
+	BEGIN	Sprite		 x 1 y 31 w 8 h 5 RotateType 4 TopAligned false
+	 BEGIN	Marker		 x 5 y 4 orientation.x 0 orientation.y 0 Index 0 END
+	 BEGIN	Marker		 x 5 y 4 orientation.x 0 orientation.y 0 Index 1 END
+	 BEGIN	Marker		 x 5 y 4 orientation.x 0 orientation.y 0 Index 2 END
+	 BEGIN	Marker		 x 5 y 4 orientation.x 0 orientation.y 0 Index 3 END
+	 BEGIN	Marker		 x 5 y 4 orientation.x 0 orientation.y 0 Index 4 END
+	 BEGIN	Marker		 x 5 y 4 orientation.x 0 orientation.y 0 Index 5 END
+	 BEGIN	Marker		 x 5 y 4 orientation.x 0 orientation.y 0 Index 6 END
+	 BEGIN	Marker		 x 5 y 4 orientation.x 0 orientation.y 0 Index 7 END
+	END
+	BEGIN	Sprite		 x 10 y 31 w 8 h 5 RotateType 4 TopAligned false
+	 BEGIN	Marker		 x 5 y 4 orientation.x 0 orientation.y 0 Index 0 END
+	 BEGIN	Marker		 x 5 y 4 orientation.x 0 orientation.y 0 Index 1 END
+	 BEGIN	Marker		 x 5 y 4 orientation.x 0 orientation.y 0 Index 2 END
+	 BEGIN	Marker		 x 5 y 4 orientation.x 0 orientation.y 0 Index 3 END
+	 BEGIN	Marker		 x 5 y 4 orientation.x 0 orientation.y 0 Index 4 END
+	 BEGIN	Marker		 x 5 y 4 orientation.x 0 orientation.y 0 Index 5 END
+	 BEGIN	Marker		 x 5 y 4 orientation.x 0 orientation.y 0 Index 6 END
+	 BEGIN	Marker		 x 5 y 4 orientation.x 0 orientation.y 0 Index 7 END
+	END
+END
+#	WorkGroup			 Cemetery
+
+BEGIN Object
+	Name				 HearseRemover
+	Width				 1
+	ConstructionTime	 0
+	Toughness			 10000.0000
+	Price				 -1
+	Properties			 MobileObject
+    Properties			 RoomSpecific
+	Properties			 Sellable
+	WorkGroup			 Cemetery
+	Research			 Health
+	BEGIN	Sprite		 x 40 y 30 w 2 h 2 RotateType 4 END
+END
+
+BEGIN Object
+	Name				 Hearse
+	Width				 2
+	Height				 5
+	MaxStackSize		 -1
+	NumSlots			 4
+	Sprite				 Ambulance
+	SpriteScale			 1.2
+	Properties			 Vehicle
+	Properties			 Scripted
+END
+
+BEGIN Room
+	Name				 CoffinWorkshop
+	Research			 PrisonLabour
+	Properties			 PrisonersCanWork
+	Properties			 RequiresSector
+	WorkGroup			 Cemetery
+	Qualification		 CoffinProduction
+	BEGIN Requirement	 Type	Indoor	END
+	BEGIN Requirement	 Type	Object	Id	CoffinTable	END
+    BEGIN LikelyObject  Id      MetalDetector   END
+    BEGIN LikelyObject  Id      Table           END
+    BEGIN Contraband    Id      Screwdriver     END
+    BEGIN Contraband    Id      Hammer          END
+    BEGIN Contraband    Id      Drill           END
+END
+
+BEGIN Room       
+    Name                 Morgue  
+    Research             Health
+	WorkGroup			 Cemetery
+    Qualification        GraveDigging
+    BEGIN Requirement Type Indoor  END
+    BEGIN Requirement Type Object  Id MorgueSlab  END
+    BEGIN Requirement Type Object  Id SmallTableMorgue  END
+    BEGIN LikelyObject  Id      GraveCoffin       END
+    BEGIN LikelyObject  Id      HearseRemover     END
+    BEGIN LikelyObject  Id      StaffDoor         END
+    BEGIN Contraband    Id      Scissors          END
+    BEGIN Contraband    Id      Knife END
+END
+
+BEGIN Room
+	Name				 FuneralParlour
+	Research			 Health
+	Properties			 RequiresSector
+	WorkGroup			 Cemetery
+    Qualification        GraveDigging
+    BEGIN Requirement	 Type	 Indoor					 END
+    BEGIN LikelyObject	 Id	 SmallTableFP				 END
+    BEGIN LikelyObject	 Id	 ParlourAltar				 END
+    BEGIN LikelyObject	 Id	 ParlourAltarStaff			 END
+    BEGIN LikelyObject	 Id	 ParlourChair				 END
+    BEGIN LikelyObject  Id      HearseRemover     END
+END
+
+BEGIN Room
+    Name                 Cemetery
+    Research             Health  
+    Properties           PrisonersCanWork
+	Properties			 RequiresSector
+	WorkGroup			 Cemetery
+    Qualification        GraveDigging
+    BEGIN Requirement Type Outdoor               END
+    BEGIN Requirement Type Object  Id GraveStone END
+    BEGIN LikelyObject	 Id	 GraveStoneSpawner				 END
+    BEGIN LikelyObject	 Id	 Crematorium					 END
+    BEGIN LikelyObject	 Id	 GraveUnderConstruction1		 END
+    BEGIN LikelyObject	 Id	 GraveStaffUnderConstruction1	 END
+    BEGIN LikelyObject	 Id	 MetalDetector					 END
+    BEGIN LikelyObject	 Id	 HearseRemover					 END
+    BEGIN Contraband	 Id	 Spade							 END
+END
+#    BEGIN Requirement	 Type	 Enclosed					 END
+
+BEGIN Object     
+    Name                 Ghost
+    Toughness            1
+    RenderDepth          5
+	SpriteVariants		 6
+    BEGIN	Sprite		 x 40 y 1 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 40 y 3 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 40 y 5 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 40 y 7 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 40 y 9 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 40 y 11 w 2 h 2 RotateType 1 END
+    Properties           Entity
+    Properties           Staff
+	Properties			 DefaultBehaviour
+	HangOutRoom			 Cemetery
+	Properties			 Scripted
+END
+
+BEGIN Object     
+    Name                 GraveDigger  
+    Price                -500  
+	Upkeep				 -50
+    Toughness            5
+    RenderDepth          3
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Research             Health
+	SpriteVariants		 4
+    BEGIN	Sprite		 x 15 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 15 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 15 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 15 y 6 w 2 h 2 RotateType 1 END
+    Properties           Entity
+    Properties           Staff
+	WorkGroup			 Cemetery
+	Properties			 DefaultBehaviour
+	Properties			 StaffNeeds
+	HangOutRoom			 FuneralParlour
+END
+
+BEGIN Object
+    Name				 SpiritualLeaderParlour
+    RenderDepth			 3
+    Toughness			 5
+	SpriteVariants		 7
+	Sprite				 Priest
+    Properties			 Entity
+    Properties			 Staff
+	WorkGroup			 Cemetery
+	Properties			 DefaultBehaviour
+	HangOutRoom			 FuneralParlour
+END
+
+BEGIN Object
+    Name                 SpiritualLeaderClone
+    MoveSpeedFactor      0.500000
+    Toughness            5.0000
+    RenderDepth          3
+    ViewRange            5
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               Priest
+    SpriteVariants       7
+    Properties           Entity
+	Properties			 Staff
+    Properties           DoesNotTire
+END
+
+BEGIN Object
+    Name				 SomeFriendParlour1
+    RenderDepth			 3
+    Toughness			 5
+	SpriteVariants		 22
+	BEGIN	Sprite		 x 28 y 0 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 2 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 4 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 6 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 8 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 10 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 12 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 16 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 22 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 18 w 2 h 2 RotateType 1 END
+    Properties			 Entity
+    Properties			 Staff
+	WorkGroup			 Cemetery
+	Properties			 DefaultBehaviour
+END
+
+BEGIN Object
+    Name				 SomeFriendParlour2
+    RenderDepth			 3
+    Toughness			 5
+	SpriteVariants		 22
+	BEGIN	Sprite		 x 28 y 0 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 2 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 4 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 6 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 8 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 10 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 12 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 16 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 22 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 18 w 2 h 2 RotateType 1 END
+    Properties			 Entity
+    Properties			 Staff
+	WorkGroup			 Cemetery
+	Properties			 DefaultBehaviour
+END
+
+BEGIN Object
+    Name				 SomeFriendParlour3
+    RenderDepth			 3
+    Toughness			 5
+	SpriteVariants		 22
+	BEGIN	Sprite		 x 28 y 0 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 2 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 4 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 6 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 8 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 10 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 12 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 16 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 22 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 18 w 2 h 2 RotateType 1 END
+    Properties			 Entity
+    Properties			 Staff
+	WorkGroup			 Cemetery
+	Properties			 DefaultBehaviour
+END
+
+BEGIN Object
+    Name				 SomeFriendParlour4
+    RenderDepth			 3
+    Toughness			 5
+	SpriteVariants		 22
+	BEGIN	Sprite		 x 28 y 0 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 2 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 4 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 6 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 8 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 10 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 12 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 16 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 22 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 18 w 2 h 2 RotateType 1 END
+    Properties			 Entity
+    Properties			 Staff
+	WorkGroup			 Cemetery
+	Properties			 DefaultBehaviour
+END
+
+BEGIN Object
+    Name				 SomeFriendParlour5
+    RenderDepth			 3
+    Toughness			 5
+	SpriteVariants		 22
+	BEGIN	Sprite		 x 28 y 0 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 2 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 4 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 6 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 8 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 10 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 12 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 16 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 22 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 18 w 2 h 2 RotateType 1 END
+    Properties			 Entity
+    Properties			 Staff
+	WorkGroup			 Cemetery
+	Properties			 DefaultBehaviour
+END
+
+BEGIN Object
+    Name				 SomeFriendFuneral
+    RenderDepth			 3
+    Toughness			 5
+	SpriteVariants		 22
+	BEGIN	Sprite		 x 28 y 0 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 2 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 4 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 6 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 8 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 10 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 12 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 16 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 22 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 18 w 2 h 2 RotateType 1 END
+    Properties			 Entity
+    Properties			 Staff
+	WorkGroup			 Cemetery
+	Properties			 DefaultBehaviour
+END
+
+BEGIN Object
+    Name				 SomeFriendCemetery
+    RenderDepth			 3
+    Toughness			 5
+	SpriteVariants		 22
+	BEGIN	Sprite		 x 28 y 0 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 2 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 4 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 6 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 8 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 10 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 12 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 16 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 22 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 18 w 2 h 2 RotateType 1 END
+    Properties			 Entity
+    Properties			 Staff
+	WorkGroup			 Cemetery
+	Properties			 DefaultBehaviour
+END
+
+BEGIN Object
+    Name				 SomeFriendLeaving
+    RenderDepth			 3
+    Toughness			 5
+	SpriteVariants		 22
+	BEGIN	Sprite		 x 28 y 0 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 2 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 4 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 6 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 8 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 10 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 12 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 14 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 16 w 2 h 2 RotateType 1 END
+	BEGIN	Sprite		 x 28 y 18 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 20 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 28 y 22 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 0 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 2 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 4 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 6 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 8 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 10 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 12 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 14 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 16 w 2 h 2 RotateType 1 END
+    BEGIN	Sprite		 x 1 y 18 w 2 h 2 RotateType 1 END
+    Properties			 Entity
+    Properties			 Staff
+END
+
+
+
+BEGIN Object
+	Name				 DelOccupiedGrave
+    Price                -1
+	BEGIN Sprite		 x 1 y 22 w 2 h 2 RotateType 4 END
+	Properties			 Entity
+	Properties			 Scripted
+	Research			 Health
+END
+
+BEGIN Object
+	Name				 DelOccupiedStaffGrave
+    Price                -1
+	BEGIN Sprite		 x 1 y 22 w 2 h 2 RotateType 4 END
+	Properties			 Entity
+	Properties			 Scripted
+	Research			 Health
+END
+
+
+
+
+
+
+#---Construction Material for all floors
+
+BEGIN Object
+	Name				 FloorMaterial
+	MaxStackSize		 120
+	Teleportable		 true
+	Price				 -5
+	Properties			 Material
+END
+
+#---
+
+BEGIN Material
+	Name				 MenuWater
+	ConstructionTime	 0
+	Price				 -100000000
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 Concrete
+	BEGIN Sprite0	 x 10  y 30	 END
+END
+
+BEGIN Material
+	Name				 Water
+	ConstructionTime	 0
+	Price				 -5
+	SpriteType			 RandomArea
+	BlockMovement		 true
+	MoveCost			 0.100000
+	SoftEdged			 1
+	IndoorOutdoor		 1
+	NumSprites			 2
+	BEGIN Sprite0		 x 0 y 26 END
+	BEGIN Sprite1		 x 6 y 1 END
+END
+
+
+BEGIN Material
+	Name				 WaterStable
+	ConstructionTime	 0
+	SpriteType			 RandomArea
+	BlockMovement		 true
+	MoveCost			 0.070000
+	Price				 -5
+	SoftEdged			 1
+	NumSprites			 2
+	BEGIN Sprite0		 x 0 y 26 END
+	BEGIN Sprite1		 x 6 y 1 END
+END
+
+BEGIN Material   
+    Name                 Road  
+    ConstructionTime     0
+    ObjectRequired       FloorMaterial  
+    SpriteType           RandomArea  
+    NumSprites           2  
+    BEGIN Sprite0    x 15  y 6  END
+    BEGIN Sprite1    x 2  y 2  END
+END
+
+BEGIN Material
+	Name				 RoadMarkings
+	ConstructionTime	 0
+	ObjectRequired		 FloorMaterial
+	SpriteType			 RandomArea
+	NumSprites			 2
+	BEGIN Sprite0		 x 19 y 6 END
+	BEGIN Sprite1		 x 1 y 2 END
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 RoadMarkingsLeft
+	ConstructionTime	 0
+	ObjectRequired		 FloorMaterial
+	SpriteType			 RandomArea
+	NumSprites			 2
+	SoftEdged			 -1
+	BEGIN Sprite0		 x 17 y 6 END
+	BEGIN Sprite1		 x 1 y 2 END
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 RoadMarkingsRight
+	ConstructionTime	 0
+	ObjectRequired		 FloorMaterial
+	SpriteType			 RandomArea
+	NumSprites			 2
+	SoftEdged			 -1
+	BEGIN Sprite0		 x 18 y 6 END
+	BEGIN Sprite1		 x 1 y 2 END
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 RoadCrossing
+	ConstructionTime	 0
+	ObjectRequired		 FloorMaterial
+	SpriteType			 SingleSprite
+	NumSprites			 2
+	SoftEdged			 -1
+	BEGIN Sprite0		 x 17  y 3	 END
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 RoadCrossingLeft
+	ConstructionTime	 0
+	ObjectRequired		 FloorMaterial
+	SpriteType			 SingleSprite
+	NumSprites			 2
+	SoftEdged			 -1
+	BEGIN Sprite0		 x 19  y 3	 END
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 RoadCrossingRight
+	ConstructionTime	 0
+	ObjectRequired		 FloorMaterial
+	SpriteType			 SingleSprite
+	NumSprites			 2
+	SoftEdged			 -1
+	BEGIN Sprite0		 x 20  y 3	 END
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material   
+    Name                 PavingStone  
+    ConstructionTime     0
+    MoveCost             1.30000  
+    SoftEdged            0
+    IndoorOutdoor        1  
+    ObjectRequired       FloorMaterial  
+    SpriteType           RandomArea  
+    NumSprites           2  
+    BEGIN Sprite0    x 15  y 4  END
+    BEGIN Sprite1    x 5  y 2  END
+END
+
+BEGIN Material   
+    Name                 ConcreteTiles  
+    ConstructionTime     0
+    MoveCost             1.30000  
+    SoftEdged            -1  
+    ObjectRequired       FloorMaterial  
+    SpriteType           RandomArea  
+    NumSprites           2  
+    BEGIN Sprite0    x 10  y 6  END
+    BEGIN Sprite1    x 2  y 2  END
+END
+
+BEGIN Material   
+    Name                 Gravel  
+    ConstructionTime     0
+    MoveCost             0.700000  
+    SoftEdged            1  
+    IndoorOutdoor        1  
+    ObjectRequired       FloorMaterial  
+    SpriteType           RandomArea  
+    SpriteOverlayScale   3  
+    NumSprites           2  
+    BEGIN Sprite0    x 20  y 4  END
+    BEGIN Sprite1    x 5  y 2  END
+END
+
+BEGIN Material
+	Name				 Mud
+	ConstructionTime	 0
+	MoveCost			 0.700000
+	SoftEdged			 1
+	IndoorOutdoor		 1
+	ObjectRequired		 GrassTurf
+	SpriteType			 RandomArea
+	SpriteOverlayScale	 4
+	NumSprites			 2
+	BEGIN Sprite0	 x 25  y 8	END
+	BEGIN Sprite1	 x 5  y 2  END
+END
+
+BEGIN Material   
+    Name                 Stone  
+    ConstructionTime     0
+    IndoorOutdoor        1  
+    ObjectRequired       FloorMaterial  
+    SpriteType           AlignedArea  
+    NumSprites           2  
+    BEGIN Sprite0    x 25  y 4  END
+    BEGIN Sprite1    x 5  y 2  END
+END
+
+BEGIN Material   
+    Name                 WoodenFloor  
+    ConstructionTime     0
+    IndoorOutdoor        2  
+    ObjectRequired       FloorMaterial  
+    SpriteType           RandomArea  
+    NumSprites           2  
+    BEGIN Sprite0    x 0  y 6  END
+    BEGIN Sprite1    x 5  y 2  END
+END
+
+BEGIN Material   
+    Name                 CeramicFloor  
+    ConstructionTime     0
+    IndoorOutdoor        2  
+    ObjectRequired       FloorMaterial  
+    SpriteType           RandomArea  
+    NumSprites           2  
+    BEGIN Sprite0    x 5  y 6  END
+    BEGIN Sprite1    x 4  y 2  END
+END
+
+BEGIN Material   
+    Name                 MosaicFloor  
+    ConstructionTime     0
+    MoveCost             1.30000  
+    IndoorOutdoor        2  
+    ObjectRequired       FloorMaterial  
+    SpriteType           RandomArea  
+    NumSprites           2  
+    BEGIN Sprite0    x 10  y 4  END
+    BEGIN Sprite1    x 5  y 2  END
+END
+
+BEGIN Material   
+    Name                 MetalFloor  
+    ConstructionTime     0
+    MoveCost             1.30000  
+    SoftEdged            -1  
+    IndoorOutdoor        2  
+    ObjectRequired       FloorMaterial  
+    SpriteType           RandomArea  
+    NumSprites           2  
+    BEGIN Sprite0    x 15  y 8  END
+    BEGIN Sprite1    x 5  y 2  END
+END
+
+BEGIN Material   
+    Name                 MarbleTiles  
+    ConstructionTime     0
+    SoftEdged            -1  
+    IndoorOutdoor        2
+    ObjectRequired       FloorMaterial  
+    BEGIN Sprite0    x 22  y 8  END
+END
+
+BEGIN Material   
+    Name                 WhiteTiles  
+    ConstructionTime     0
+    SoftEdged            -1  
+    IndoorOutdoor        2  
+    ObjectRequired       FloorMaterial  
+    BEGIN Sprite0    x 22  y 9  END
+END
+
+BEGIN Material   
+    Name                 FancyTiles  
+    ConstructionTime     0
+    SoftEdged            -1  
+    IndoorOutdoor        2  
+    ObjectRequired       FloorMaterial  
+    SpriteType           AlignedArea  
+    NumSprites           2  
+    BEGIN Sprite0    x 20  y 8  END
+    BEGIN Sprite1    x 2  y 2  END
+END
+
+BEGIN Material
+    Name                 Limo2Wall  
+	ConstructionTime	 0
+	BlockVisibility		 true
+	MoveCost			 0.400000
+	SoftEdged			 -1
+	ObjectRequired		 Brick
+	SpriteType			 Connected
+	NumSprites			 1
+	BEGIN Sprite0	 x 8  y 12	END
+END
+
+BEGIN Material
+	Name				 cinderbwall
+	ConstructionTime	 0
+	BlockMovement		 true
+	BlockVisibility		 true
+	MoveCost			 0.400000
+	SoftEdged			 -1
+	ObjectRequired		 Brick
+	SpriteType			 Connected
+	NumSprites			 1
+	BEGIN Sprite0	 x 8  y 12	END
+END
+
+BEGIN Material
+	Name				 MenuCompost
+	ConstructionTime	 0
+	Price				 -100000000
+	SoftEdged			 -1
+	ObjectRequired		 Concrete
+	BEGIN Sprite0	 x 13  y 29	 END
+END
+
+BEGIN Material
+	Name				 Farmland
+	ConstructionTime	 0
+	MoveCost			 0.50000
+	ObjectRequired		 FloorMaterial
+	SoftEdged			 -1
+	IndoorOutdoor		 1
+	SpriteOverlayScale	 5
+	SpriteType			 RandomArea
+	NumSprites			 2
+	BEGIN	Sprite0		 x 25 y 8 END
+	BEGIN	Sprite1		 x 5 y 2 END
+END
+
+BEGIN Material
+	Name				 MenuFence
+	ConstructionTime	 0
+	Price				 -100000000
+	SoftEdged			 -1
+	ObjectRequired		 Concrete
+	BEGIN Sprite0	 x 10  y 31	 END
+END
+
+BEGIN Material
+	Name				 PavedBushFence
+	ConstructionTime	 0
+	BlockMovement		 true
+	MoveCost			 0.400000
+	SoftEdged			 -1
+	IndoorOutdoor		 1
+	Price				 -3
+	SpriteType			 Connected
+	NumSprites			 1
+	BEGIN Sprite0	 x 15  y 12	 END
+END
+
+BEGIN Material
+	Name				 PavedFence
+	ConstructionTime	 0
+	BlockMovement		 true
+	MoveCost			 0.400000
+	SoftEdged			 -1
+	Price				 -3
+	SpriteType			 Connected
+	NumSprites			 1
+	BEGIN Sprite0	 x 25  y 28	 END
+END
+
+BEGIN Material
+	Name				 GrassFence
+	ConstructionTime	 0
+	BlockMovement		 true
+	MoveCost			 0.400000
+	SoftEdged			 -1
+	IndoorOutdoor		 1
+	Price				 -3
+	SpriteType			 Connected
+	NumSprites			 1
+	BEGIN Sprite0	 x 15  y 16	 END
+END
+
+BEGIN Material
+	Name				 TiledBushFence
+	ConstructionTime	 0
+	BlockMovement		 true
+	MoveCost			 0.400000
+	SoftEdged			 -1
+	IndoorOutdoor		 1
+	Price				 -3
+	SpriteType			 Connected
+	NumSprites			 1
+	BEGIN Sprite0	 x 25  y 0	END
+END
+
+BEGIN Material
+	Name				 TiledFence
+	ConstructionTime	 0
+	BlockMovement		 true
+	MoveCost			 0.400000
+	SoftEdged			 -1
+	Price				 -3
+	SpriteType			 Connected
+	NumSprites			 1
+	BEGIN Sprite0	 x 25  y 24	 END
+END
+
+BEGIN Material
+	Name				 JailFence
+	ConstructionTime	 0
+	BlockMovement		 true
+	MoveCost			 0.400000
+	SoftEdged			 -1
+	Price				 -10
+	SpriteType			 Connected
+	NumSprites			 1
+	BEGIN Sprite0	 x 6  y 27	END
+END
+
+BEGIN Material
+	Name				 BurntWall
+	ConstructionTime	 -1.00000
+	BlockMovement		 true
+	BlockVisibility		 true
+	MoveCost			 0.400000
+	SoftEdged			 -1
+	ObjectRequired		 Brick
+	SpriteType			 RandomArea
+	NumSprites			 2
+	BEGIN Sprite0	 x 15  y 6	END
+	BEGIN Sprite1	 x 2  y 2  END
+END
+
+BEGIN Material
+	Name				 GraveHole
+	ConstructionTime	 -1
+	Price				 -1
+	SoftEdged			 0
+	SpriteType			 RandomArea
+	MoveCost			 1.000000
+	NumSprites			 2
+	BEGIN Sprite0	 x 12  y 6	 END
+	BEGIN Sprite1	 x 3  y 2  END
+END
+
+BEGIN Material   
+    Name                 CemeteryPavingStone  
+    ConstructionTime     0
+    MoveCost             1.30000  
+    SoftEdged            1
+    IndoorOutdoor        1  
+    ObjectRequired       FloorMaterial  
+    SpriteType           RandomArea  
+    NumSprites           2  
+    BEGIN Sprite0    x 15  y 4  END
+    BEGIN Sprite1    x 5  y 2  END
+END
+
+BEGIN Material   
+    Name                 CemeteryStone  
+    ConstructionTime     0
+    IndoorOutdoor        1  
+	SoftEdged			 1
+    ObjectRequired       FloorMaterial  
+    SpriteType           AlignedArea  
+    NumSprites           2  
+    BEGIN Sprite0    x 25  y 4  END
+    BEGIN Sprite1    x 5  y 2  END
+END
+
+BEGIN Material   
+    Name                 LongGrass
+    ConstructionTime     0
+    MoveCost             0.700000  
+    SoftEdged            1  
+    IndoorOutdoor        1  
+    ObjectRequired       GrassTurf  
+    SpriteType           RandomArea 
+    SpriteOverlayScale   4
+    NumSprites           2
+    BEGIN Sprite0    x 25  y 6  END
+    BEGIN Sprite1    x 5  y 2  END
+END
+
+BEGIN Material
+	Name				 MenuCarpet
+	ConstructionTime	 0
+	Price				 -100000000
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 5  y 31	END
+END
+
+BEGIN Material
+	Name				 FX2K_Tile10
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 2
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 9  y 11	END
+END
+
+BEGIN Material
+	Name				 BlueCarpet1
+	ConstructionTime	 0
+	IndoorOutdoor		 2
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 22  y 16	 END
+END
+
+BEGIN Material
+	Name				 BlueCarpet2
+	ConstructionTime	 0
+	IndoorOutdoor		 2
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 22  y 17	 END
+END
+
+BEGIN Material
+	Name				 FX2K_Tile11
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 2
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 0  y 23	END
+END
+
+BEGIN Material
+	Name				 LightBlueCarpet
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 2
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 16  y 15	 END
+END
+
+BEGIN Material
+	Name				 FX2K_Tile12
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 2
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 1  y 23	END
+END
+
+BEGIN Material
+	Name				 BlueCarpet
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 2
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 15  y 15	 END
+END
+
+BEGIN Material
+	Name				 FX2K_Tile6
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 2
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 5  y 11	END
+END
+
+BEGIN Material
+	Name				 OrangeCarpet
+	ConstructionTime	 0
+	IndoorOutdoor		 2
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 24  y 8	END
+END
+
+BEGIN Material
+	Name				 YellowCarpet
+	ConstructionTime	 0
+	IndoorOutdoor		 2
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 13  y 28	 END
+END
+
+BEGIN Material
+	Name				 YellowCarpet1
+	ConstructionTime	 0
+	IndoorOutdoor		 2
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 22  y 14	 END
+END
+
+BEGIN Material
+	Name				 YellowCarpet2
+	ConstructionTime	 0
+	IndoorOutdoor		 2
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 22  y 15	 END
+END
+
+BEGIN Material
+	Name				 FX2K_Tile5
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 2
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 4  y 11	END
+END
+
+BEGIN Material
+	Name				 RedCarpet1
+	ConstructionTime	 0
+	IndoorOutdoor		 2
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 23  y 16	 END
+END
+
+BEGIN Material
+	Name				 RedCarpet2
+	ConstructionTime	 0
+	IndoorOutdoor		 2
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 23  y 17	 END
+END
+
+BEGIN Material
+	Name				 FX2K_Tile14
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 2
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 1  y 31	END
+END
+
+BEGIN Material
+	Name				 RedCarpet
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 2
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 12  y 0	 END
+END
+
+BEGIN Material
+	Name				 FX2K_Tile15
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 2
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 2  y 31	END
+END
+
+BEGIN Material
+	Name				 GreenCarpet1
+	ConstructionTime	 0
+	IndoorOutdoor		 2
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 23  y 14	 END
+END
+
+BEGIN Material
+	Name				 GreenCarpet2
+	ConstructionTime	 0
+	IndoorOutdoor		 2
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 23  y 15	 END
+END
+
+BEGIN Material
+	Name				 FX2K_Tile7
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 2
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 6  y 11	END
+END
+
+BEGIN Material
+	Name				 FX2K_Tile8
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 2
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 7  y 11	END
+END
+
+BEGIN Material
+	Name				 GreenCarpet
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 2
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 13  y 15	 END
+END
+
+BEGIN Material
+	Name				 FX2K_Tile16
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 2
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 3  y 31	END
+END
+
+BEGIN Material
+	Name				 BlackCarpet
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 2
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 12  y 15	 END
+END
+
+BEGIN Material
+	Name				 BlackCarpet1
+	ConstructionTime	 0
+	IndoorOutdoor		 2
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 7  y 16	END
+END
+
+BEGIN Material
+	Name				 BlackCarpet2
+	ConstructionTime	 0
+	IndoorOutdoor		 2
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 7  y 17	END
+END
+
+BEGIN Material
+	Name				 WhiteCarpet1
+	ConstructionTime	 0
+	IndoorOutdoor		 2
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 7  y 13	END
+END
+
+BEGIN Material
+	Name				 WhiteCarpet2
+	ConstructionTime	 0
+	IndoorOutdoor		 2
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 7  y 14	END
+END
+
+BEGIN Material
+	Name				 WhiteCarpet
+	ConstructionTime	 0
+	IndoorOutdoor		 2
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 22  y 18	 END
+END
+
+BEGIN Material
+	Name				 FX2K_Tile3
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 2
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 2  y 11	END
+END
+
+BEGIN Material
+	Name				 FX2K_Tile4
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 2
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 3  y 11	END
+END
+
+BEGIN Material
+	Name				 MenuTiles
+	ConstructionTime	 0
+	Price				 -100000000
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 4  y 31	END
+END
+
+BEGIN Material
+	Name				 BlueTiles
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	MoveCost			 2.000000
+	BEGIN Sprite0	 x 8  y 15	 END
+END
+
+BEGIN Material
+	Name				 OrangeTiles
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	MoveCost			 2.000000
+	BEGIN Sprite0	 x 6  y 15	 END
+END
+
+BEGIN Material
+	Name				 YellowTiles
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	MoveCost			 2.000000
+	BEGIN Sprite0	 x 9  y 15	 END
+END
+
+BEGIN Material
+	Name				 RedTiles
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	MoveCost			 2.000000
+	BEGIN Sprite0	 x 7  y 15	 END
+END
+
+BEGIN Material
+	Name				 RoofTiles1
+	ConstructionTime	 0
+	SoftEdged			 -1
+	SpriteType			 RandomArea
+	ObjectRequired		 FloorMaterial
+	MoveCost			 2.000000
+	NumSprites			 2
+	BEGIN Sprite0	 x 7  y 20	 END
+	BEGIN Sprite1	 x 4  y 2  END
+END
+
+BEGIN Material
+	Name				 RoofTiles2
+	ConstructionTime	 0
+	SoftEdged			 -1
+	NumSprites			 2
+	SpriteType			 RandomArea
+	ObjectRequired		 FloorMaterial
+	MoveCost			 2.000000
+	BEGIN Sprite0	 x 7  y 22	 END
+	BEGIN Sprite1	 x 4  y 2  END
+END
+
+BEGIN Material
+	Name				 SalmonTiles
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	NumSprites			 2
+	MoveCost			 2.000000
+	BEGIN Sprite0	 x 20  y 10	 END
+	BEGIN Sprite1	 x 20  y 11	 END
+END
+
+BEGIN Material
+	Name				 MetallTiles
+	ConstructionTime	 0
+	SoftEdged			 -1
+	NumSprites			 2
+	SpriteType			 RandomArea
+	ObjectRequired		 FloorMaterial
+	MoveCost			 2.000000
+	BEGIN Sprite0	 x 11  y 30	 END
+	BEGIN Sprite1	 x 2  y 2  END
+END
+
+BEGIN Material
+	Name				 GreyTiles
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	MoveCost			 2.000000
+	BEGIN Sprite0	 x 4  y 15	 END
+END
+
+BEGIN Material
+	Name				 BlackTiles
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	MoveCost			 2.000000
+	BEGIN Sprite0	 x 5  y 15	 END
+END
+
+BEGIN Material
+	Name				 MenuWood
+	ConstructionTime	 0
+	Price				 -100000000
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 5  y 30	END
+END
+
+BEGIN Material
+	Name				 DarkWood
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 2
+	NumSprites			 2
+	SpriteType			 RandomArea
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 14  y 28	END
+	BEGIN Sprite1	 x 5  y 2  END
+END
+
+BEGIN Material
+	Name				 DarkParkett
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 2
+	NumSprites			 2
+	SpriteType			 RandomArea
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 24  y 14	END
+	BEGIN Sprite1	 x 2  y 2  END
+END
+
+BEGIN Material
+	Name				 FX2K_Tile13
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 2
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 19	y 20	END
+END
+
+BEGIN Material
+	Name				 WoodLaminate
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 2
+	ObjectRequired		 FloorMaterial
+	NumSprites			 2
+	BEGIN Sprite0	 x 21  y 10	 END
+	BEGIN Sprite1	 x 21  y 11	 END
+END
+
+BEGIN Material
+	Name				 MenuMosaic
+	ConstructionTime	 0
+	Price				 -100000000
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 4  y 30	END
+END
+
+BEGIN Material
+	Name				 BlackMosaic
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	MoveCost			 2.000000
+	BEGIN Sprite0	 x 23  y 8	END
+END
+
+BEGIN Material
+	Name				 BrownMosaic
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	MoveCost			 2.000000
+	BEGIN Sprite0	 x 24  y 9	END
+END
+
+BEGIN Material
+	Name				 GreyBigMosaic
+	ConstructionTime	 0
+	SoftEdged			 -1
+	SpriteType			 RandomArea
+	ObjectRequired		 FloorMaterial
+	MoveCost			 2.000000
+	NumSprites			 2
+	BEGIN Sprite0	 x 22  y 12	 END
+	BEGIN Sprite1	 x 2  y 2  END
+END
+
+BEGIN Material
+	Name				 BlueMosaic
+	ConstructionTime	 0
+	SoftEdged			 -1
+	SpriteType			 RandomArea
+	ObjectRequired		 FloorMaterial
+	MoveCost			 2.000000
+	NumSprites			 2
+	BEGIN Sprite0	 x 24  y 16	 END
+	BEGIN Sprite1	 x 2  y 2  END
+END
+
+BEGIN Material
+	Name				 RedBigMosaic
+	ConstructionTime	 0
+	SoftEdged			 -1
+	SpriteType			 RandomArea
+	ObjectRequired		 FloorMaterial
+	MoveCost			 2.000000
+	NumSprites			 2
+	BEGIN Sprite0	 x 26  y 18	 END
+	BEGIN Sprite1	 x 2  y 2  END
+END
+
+BEGIN Material
+	Name				 YellowBigMosaic
+	ConstructionTime	 0
+	SoftEdged			 -1
+	SpriteType			 RandomArea
+	ObjectRequired		 FloorMaterial
+	MoveCost			 2.000000
+	NumSprites			 2
+	BEGIN Sprite0	 x 28  y 18	 END
+	BEGIN Sprite1	 x 2  y 2  END
+END
+
+BEGIN Material
+	Name				 GreenBigMosaic
+	ConstructionTime	 0
+	SoftEdged			 -1
+	SpriteType			 RandomArea
+	ObjectRequired		 FloorMaterial
+	MoveCost			 2.000000
+	NumSprites			 2
+	BEGIN Sprite0	 x 30  y 18	 END
+	BEGIN Sprite1	 x 2  y 2  END
+END
+
+BEGIN Material
+	Name				 WhiteBigMosaic
+	ConstructionTime	 0
+	SoftEdged			 -1
+	SpriteType			 RandomArea
+	ObjectRequired		 FloorMaterial
+	MoveCost			 2.000000
+	NumSprites			 2
+	BEGIN Sprite0	 x 24  y 12	 END
+	BEGIN Sprite1	 x 2  y 2  END
+END
+
+BEGIN Material
+	Name				 MenuStone
+	ConstructionTime	 0
+	Price				 -100000000
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 8  y 31	END
+END
+
+BEGIN Material
+	Name				 StoneTiles
+	ConstructionTime	 0
+	SoftEdged			 -1
+	NumSprites			 2
+	SpriteType			 RandomArea
+	ObjectRequired		 FloorMaterial
+	MoveCost			 2.000000
+	BEGIN Sprite0	 x 6  y 30	END
+	BEGIN Sprite1	 x 2  y 2  END
+END
+
+BEGIN Material
+	Name				 LooseStone
+	ConstructionTime	 0
+	MoveCost			 0.70000
+	SoftEdged			 1
+	IndoorOutdoor		 1
+	ObjectRequired		 FloorMaterial
+	SpriteType			 RandomArea
+	SpriteOverlayScale	 2
+	NumSprites			 2
+	BEGIN Sprite0	 x 30  y 6	END
+	BEGIN Sprite1	 x 2  y 2  END
+END
+
+BEGIN Material
+	Name				 Cobblestone
+	ConstructionTime	 0
+	IndoorOutdoor		 1
+	NumSprites			 2
+	SpriteType			 RandomArea
+	ObjectRequired		 FloorMaterial
+	MoveCost			 2.000000
+	BEGIN Sprite0	 x 30  y 8	END
+	BEGIN Sprite1	 x 2  y 2  END
+END
+
+BEGIN Material
+	Name				 FX2K_Tile9
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 2
+	MoveCost			 2.000000
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 8  y 11	END
+END
+
+BEGIN Material
+	Name				 LinoleumFloor
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 2
+	NumSprites			 2
+	SpriteType			 RandomArea
+	ObjectRequired		 FloorMaterial
+	MoveCost			 2.000000
+	BEGIN Sprite0	 x 17  y 30	 END
+	BEGIN Sprite1	 x 2  y 2  END
+END
+
+BEGIN Material
+	Name				 KeramikFloor
+	ConstructionTime	 0
+	NumSprites			 2
+	SoftEdged			 -1
+	SpriteType			 RandomArea
+	ObjectRequired		 FloorMaterial
+	MoveCost			 2.000000
+	BEGIN Sprite0	 x 15  y 30	 END
+	BEGIN Sprite1	 x 2  y 2  END
+END
+
+BEGIN Material
+	Name				 GraniteFloor
+	ConstructionTime	 0
+	NumSprites			 2
+	SoftEdged			 -1
+	SpriteType			 RandomArea
+	ObjectRequired		 FloorMaterial
+	MoveCost			 2.000000
+	BEGIN Sprite0	 x 13  y 30	 END
+	BEGIN Sprite1	 x 2  y 2  END
+END
+BEGIN Material
+	Name				 FX2K_Tile1
+	ConstructionTime	 0
+	SoftEdged			 -1
+	MoveCost			 2.000000
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 0  y 11	END
+END
+
+BEGIN Material
+	Name				 FX2K_Tile2
+	ConstructionTime	 0
+	SoftEdged			 -1
+	MoveCost			 2.000000
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 1  y 11	END
+END
+
+BEGIN Material
+	Name				 MenuChinook
+	ConstructionTime	 0
+	Price				 -100000000
+	SoftEdged			 -1
+	ObjectRequired		 Concrete
+	BEGIN Sprite0	 x 9  y 6	 END
+END
+
+BEGIN Material
+	Name				 Heli_TL
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	SpriteOverlayScale	 2
+	BEGIN Sprite0	 x 16  y 22	END
+END
+
+BEGIN Material
+	Name				 Heli_TC
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 17  y 22	END
+END
+
+BEGIN Material
+	Name				 Heli_TR
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 18  y 22	END
+END
+
+BEGIN Material
+	Name				 Heli_CL
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 16  y 23	END
+END
+
+BEGIN Material
+	Name				 Heli_CC
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 17  y 23	END
+END
+
+BEGIN Material
+	Name				 Heli_CR
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 18  y 23	END
+END
+
+BEGIN Material
+	Name				 Heli_BL
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 16  y 24	END
+END
+
+BEGIN Material
+	Name				 Heli_BC
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 17  y 24	END
+END
+
+BEGIN Material
+	Name				 Heli_BR
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 18  y 24	END
+END
+
+BEGIN Material
+	Name				 MenuDeploy
+	ConstructionTime	 0
+	Price				 -100000000
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	 x 9  y 31	END
+END
+
+BEGIN Material
+	Name				 T0_WhiteTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 22	y 9	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 BL_PublicTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 31	y 31	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 BR_PublicTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 8	y 19	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 C_PublicTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 31	y 3	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T3_PublicTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 24	y 2	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T6_PublicTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 31	y 27	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T9_PublicTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 27	y 14	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T12_PublicTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 7	y 18	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 TL_PublicTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 11	y 23	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 TR_PublicTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 31	y 23	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 X_PublicTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 31	y 22	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 Y_PublicTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 31	y 21	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 BL_PublicConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 30	y 31	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 BR_PublicConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 7	y 19	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 C_PublicConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 30	y 3	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T3_PublicConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 26	y 3	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T6_PublicConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 30	y 27	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T9_PublicConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 26	y 14	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T12_PublicConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 6	y 23	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 TL_PublicConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 11	y 22	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 TR_PublicConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 30	y 23	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 X_PublicConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 30	y 22	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 Y_PublicConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 30	y 21	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 BL_StaffTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 29	y 31	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 BR_StaffTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 6	y 19	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 C_StaffTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 29	y 3	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T3_StaffTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 25	y 3	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T6_StaffTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 29	y 27	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T9_StaffTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 16	y 19	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T12_StaffTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 5	y 23	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 TL_StaffTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 11	y 21	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 TR_StaffTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 29	y 23	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 X_StaffTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 29	y 22	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 Y_StaffTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 29	y 21	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 BL_StaffConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 1	y 15	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 BR_StaffConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 5	y 19	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 C_StaffConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 14	y 11	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T3_StaffConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 24	y 3	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T6_StaffConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 31	y 20	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T9_StaffConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 15	y 19	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T12_StaffConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 4	y 23	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 TL_StaffConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 11	y 20	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 TR_StaffConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 28	y 23	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 X_StaffConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 28	y 22	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 Y_StaffConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 28	y 21	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 BL_MinimumTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 0	y 15	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 BR_MinimumTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 4	y 19	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 C_MinimumTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 13	y 11	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T3_MinimumTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 23	y 3	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T6_MinimumTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 30	y 20	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T9_MinimumTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 14	y 19	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T12_MinimumTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 22	y 20	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 TL_MinimumTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 9	y 19	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 TR_MinimumTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 27	y 23	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 X_MinimumTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 27	y 22	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 Y_MinimumTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 27	y 21	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 BL_MinimumConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 26	y 31	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 BR_MinimumConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 1	y 19	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 C_MinimumConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 12	y 11	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T3_MinimumConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 22	y 3	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T6_MinimumConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 26	y 27	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T9_MinimumConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 13	y 19	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T12_MinimumConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 21	y 20	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 TL_MinimumConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 7	y 12	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 TR_MinimumConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 26	y 23	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 X_MinimumConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 26	y 22	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 Y_MinimumConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 26	y 21	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 BL_MediumTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 25	y 31	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 BR_MediumTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 0	y 19	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 C_MediumTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 24	y 1	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T3_MediumTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 21	y 3	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T6_MediumTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 25	y 27	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T9_MediumTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 12	y 19	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T12_MediumTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 20	y 20	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 TL_MediumTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 24	y 0	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 TR_MediumTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 25	y 23	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 X_MediumTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 25	y 22	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 Y_MediumTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 25	y 21	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 BL_MediumConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 24	y 31	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 BR_MediumConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 24	y 30	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 C_MediumConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 24	y 29	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T3_MediumConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 24	y 28	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T6_MediumConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 24	y 27	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T9_MediumConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 24	y 26	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T12_MediumConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 24	y 25	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 TL_MediumConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 24	y 24	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 TR_MediumConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 24	y 23	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 X_MediumConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 24	y 22	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 Y_MediumConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 24	y 21	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 BL_MaximumTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 23	y 31	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 BR_MaximumTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 23	y 30	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 C_MaximumTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 23	y 29	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T3_MaximumTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 23	y 28	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T6_MaximumTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 23	y 27	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T9_MaximumTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 23	y 26	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T12_MaximumTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 23	y 25	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 TL_MaximumTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 23	y 24	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 TR_MaximumTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 23	y 23	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 X_MaximumTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 23	y 22	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 Y_MaximumTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	MoveCost			 2.000000
+	BEGIN Sprite0	x 23	y 21	END
+END
+
+BEGIN Material
+	Name				 BL_MaximumConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 22	y 31	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 BR_MaximumConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 22	y 30	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 C_MaximumConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 22	y 29	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T3_MaximumConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 22	y 28	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T6_MaximumConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 22	y 27	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T9_MaximumConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 22	y 26	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T12_MaximumConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 22	y 25	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 TL_MaximumConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 22	y 24	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 TR_MaximumConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 22	y 23	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 X_MaximumConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 22	y 22	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 Y_MaximumConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 22	y 21	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 BL_ProtectiveTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 21	y 31	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 BR_ProtectiveTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 21	y 30	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 C_ProtectiveTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 21	y 29	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T3_ProtectiveTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 21	y 28	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T6_ProtectiveTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 21	y 27	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T9_ProtectiveTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 21	y 26	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T12_ProtectiveTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 21	y 25	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 TL_ProtectiveTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 21	y 24	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 TR_ProtectiveTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 21	y 23	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 X_ProtectiveTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 21	y 22	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 Y_ProtectiveTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 21	y 21	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 BL_ProtectiveConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 20	y 31	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 BR_ProtectiveConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 20	y 30	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 C_ProtectiveConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 20	y 29	END
+	MoveCost			 2.00000
+END
+
+BEGIN Material
+	Name				 T3_ProtectiveConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 20	y 28	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T6_ProtectiveConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 20	y 27	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T9_ProtectiveConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 20	y 26	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T12_ProtectiveConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 20	y 25	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 TL_ProtectiveConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 20	y 24	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 TR_ProtectiveConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 20	y 23	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 X_ProtectiveConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 20	y 22	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 Y_ProtectiveConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 20	y 21	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 BL_SupermaxTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 19	y 31	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 BR_SupermaxTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 19	y 30	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 C_SupermaxTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 19	y 29	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T3_SupermaxTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 19	y 28	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T6_SupermaxTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 19	y 27	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T9_SupermaxTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 19	y 26	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T12_SupermaxTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 19	y 25	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 TL_SupermaxTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 19	y 24	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 TR_SupermaxTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 19	y 23	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 X_SupermaxTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 19	y 22	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 Y_SupermaxTile
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 19	y 21	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 BL_SupermaxConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 19	y 19	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 BR_SupermaxConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 20   y 19	   END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 C_SupermaxConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 21   y 19	   END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T3_SupermaxConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 22   y 19	   END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T6_SupermaxConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 19   y 15	   END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T9_SupermaxConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 20   y 15	   END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 T12_SupermaxConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 21   y 15	   END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 TL_SupermaxConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 26   y 20	   END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 TR_SupermaxConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 27	y 20	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 X_SupermaxConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 28   y 20	   END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 Y_SupermaxConcrete
+	ConstructionTime	 0
+	SoftEdged			 -1
+	IndoorOutdoor		 0
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0	x 29	y 20	END
+	MoveCost			 2.000000
+END
+
+BEGIN Material
+	Name				 MenuCurb
+	ConstructionTime	 0
+	Price				 -100000000
+	SoftEdged			 -1
+	ObjectRequired		 Concrete
+	BEGIN Sprite0	 x 9  y 7	 END
+END
+
+BEGIN Material
+	Name				 outercornerTL
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 0	y 24	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 outercornerTR
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 1	y 24	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 outercornerBL
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 0	y 25	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 outercornerBR
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 1	y 25	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 outerlineT
+	ConstructionTime	 0
+	ObjectRequired		 FloorMaterial
+	SpriteType			 RandomArea
+	NumSprites			 2
+	SoftEdged			 -1
+	BEGIN Sprite0		 x 2 y 24 END
+	BEGIN Sprite1		 x 1 y 2 END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 verticallinewithzebraT
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 18	y 20	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 verticalzebra
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	SpriteType			 RandomArea
+	NumSprites			 2
+	BEGIN Sprite0		 x 12	y 24	END
+	BEGIN Sprite1		 x 1 y 2 END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 verticallinewithzebraB
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 18	y 21	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 outerlineB
+	ConstructionTime	 0
+	ObjectRequired		 FloorMaterial
+	SpriteType			 RandomArea
+	NumSprites			 2
+	SoftEdged			 -1
+	BEGIN Sprite0		 x 3 y 24 END
+	BEGIN Sprite1		 x 1 y 2 END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 innerwhitecornerTL
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 4	y 27	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 innerwhitecornerTR
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 5	y 27	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 innerwhitecornerBL
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 4	y 28	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 innerwhitecornerBR
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 5	y 28	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 innerdiagroadTL
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 12	y 20	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 innerdiagroadTR
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 13	y 20	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 innerdiagroadBL
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 12	y 21	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 innerdiagroadBR
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 13	y 21	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 diagsidewalkTL
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 14	y 20	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 diagsidewalkTR
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 15	y 20	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 diagsidewalkBL
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 14	y 21	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 diagsidewalkBR
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 15	y 21	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 diagroadwithsidewalkTL
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 8	y 24	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 diagroadwithsidewalkTR
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 9	y 24	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 diagroadwithsidewalkBL
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 8	y 25	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 diagroadwithsidewalkBR
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 9	y 25	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 dashedcenterline_vertical
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 4	y 24	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 solidcenterline_vertical
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 4	y 25	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 dashedcenterline_horizontal
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 5	y 24	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 solidcenterline_horizontal
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 5	y 25	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 whitecenterturnTL
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 2	y 27	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 whitecenterturnTR
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 3	y 27	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 whitecenterturnBL
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 2	y 28	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 whitecenterturnBR
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 3	y 28	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 diagcenterturnTL
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 0	y 29	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 diagcenterturnTR
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 1	y 29	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 diagcenterturnBL
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 0	y 30	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 diagcenterturnBR
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 1	y 30	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 diagcenterL
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 4	y 29	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 diagcenterR
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 5	y 29	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 diagreversecenterturnTL
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 2	y 29	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 diagreversecenterturnTR
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 3	y 29	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 diagreversecenterturnBL
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 2	y 30	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 diagreversecenterturnBR
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 3	y 30	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 whitecrosslinesTL
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 11	y 24	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 whitecrosslinesTR
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 11	y 25	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 whitecrosslinesBL
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 13	y 26	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 whitecrosslinesBR
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 14	y 26	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+BEGIN Material
+	Name				 solidyellowcenterline_vertical
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 6	y 24	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 solidyellowcenterline_horizontal
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 7	y 24	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 yellowcenterturnTL
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 0	y 27	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 yellowcenterturnTR
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 1	y 27	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 yellowcenterturnBL
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 0	y 28	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 yellowcenterturnBR
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 1	y 28	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 yellowcrosslinesL
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 6	y 25	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 yellowcrosslinesR
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 7	y 25	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 yellowcrosslinesBL
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 13	y 27	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 yellowcrosslinesBR
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 14	y 27	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 manhole
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 12	y 26	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 curbgutter
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 15	y 24	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 verticalcurbwithzebraT
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 10	y 24	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 verticalzebra
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	SpriteType			 RandomArea
+	NumSprites			 2
+	BEGIN Sprite0		 x 12	y 24	END
+	BEGIN Sprite1		 x 1 y 2 END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 verticalcurbwithzebraB
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 10	y 25	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 curbcornerTL
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 16	y 20	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 curbcornerTR
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 17	y 20	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 curbcornerBL
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 16	y 21	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 curbcornerBR
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 17	y 21	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 innercurbT
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 12	y 22	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 innercurbL
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 13	y 22	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 innercurbB
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 12	y 23	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 innercurbR
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 13	y 23	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 outercurbT
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 14	y 22	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 outercurbL
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 15	y 22	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 outercurbB
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 14	y 23	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 outercurbR
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 15	y 23	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 parkingspot1TL
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 13	y 24	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 parkingspot1TR
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 14	y 24	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 parkingspot1BL
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 13	y 25	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 parkingspot1BR
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 14	y 25	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 parkingspot2TL
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 15	y 25	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 parkingspot2TR
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 16	y 25	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 parkingspot2BL
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 15	y 26	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 parkingspot2BR
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 16	y 26	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 parkingspot3TL
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 17	y 25	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 parkingspot3TR
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 18	y 25	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 parkingspot3BL
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 17	y 26	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END
+
+BEGIN Material
+	Name				 parkingspot3BR
+	ConstructionTime	 0
+	SoftEdged			 -1
+	ObjectRequired		 FloorMaterial
+	BEGIN Sprite0		 x 18	y 26	END
+	MoveCost			 2.000000
+	Properties			 CanPlaceOnRoad
+END

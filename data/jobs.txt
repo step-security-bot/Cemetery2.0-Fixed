@@ -1,0 +1,261 @@
+
+BEGIN Job
+    Name			 CloseCoffin
+    JobTime			 1
+	Worker			 GraveDigger
+	Worker			 Prisoner
+	Material		 GraveCoffinLid
+	Properties		 HighPriority
+	WorkGroup		 Cemetery
+    Qualification	 CoffinProduction
+END
+
+BEGIN Job
+    Name			 DigHole
+    JobTime			 3
+	Worker			 GraveDigger
+	Worker			 Prisoner
+    Tool			 Spade   
+	WorkGroup		 Cemetery
+    Qualification	 GraveDigging
+END
+
+BEGIN Job
+    Name			 CoffinInHole
+    JobTime			 3
+	Worker			 GraveDigger
+	Worker			 Prisoner
+    Tool			 Rope   
+	WorkGroup		 Cemetery
+    Qualification	 GraveDigging
+END
+
+BEGIN Job
+    Name			 BuryEntity
+    JobTime			 3
+	Worker			 GraveDigger
+	Worker			 Prisoner
+    Tool			 Spade   
+	WorkGroup		 Cemetery
+    Qualification	 GraveDigging
+END
+
+BEGIN Job
+    Name			 PlaceStone
+    JobTime			 3
+	Worker			 GraveDigger
+	Worker			 Prisoner
+    Tool			 Spade
+	WorkGroup		 Cemetery
+    Qualification	 GraveDigging
+END
+
+BEGIN Job
+    Name			 CleanGrave
+    JobTime			 5
+	Worker			 GraveDigger
+	Worker			 Prisoner
+    Tool			 Spade   
+	WorkGroup		 Cemetery
+    Qualification	 GraveDigging
+END
+
+BEGIN Job
+    Name			 TendGraveStone
+    JobTime			 5
+	Worker			 GraveDigger
+	Worker			 Prisoner
+    Tool			 Mop   
+	WorkGroup		 Cemetery
+    Qualification	 GraveDigging
+END
+
+BEGIN Job
+    Name			 TendGrave
+    JobTime			 5
+	Worker			 GraveDigger
+	Worker			 Prisoner
+    Tool			 Rake   
+	WorkGroup		 Cemetery
+    Qualification	 GraveDigging
+END
+
+BEGIN Job
+    Name			 PriestToAltar
+    JobTime			 1
+	Worker			 SpiritualLeaderParlour
+	Properties		 HighPriority
+	WorkGroup		 Cemetery
+    Qualification	 GraveDigging
+END
+
+BEGIN Job
+    Name			 GiveParlourSpeech
+    JobTime			 5
+	Worker			 SpiritualLeaderParlour
+	Properties		 HighPriority
+	WorkGroup		 Cemetery
+    Qualification	 GraveDigging
+END
+
+BEGIN Job
+    Name			 PlaceFuneralWreath
+    JobTime			 1
+	Worker			 SpiritualLeaderParlour
+	Properties		 HighPriority
+	WorkGroup		 Cemetery
+    Qualification	 GraveDigging
+END
+
+BEGIN Job
+    Name			 VisitParlour1A
+    JobTime			 6
+	Worker			 SomeFriendParlour1
+	Properties		 HighPriority
+	WorkGroup		 Cemetery
+    Qualification	 GraveDigging
+END
+
+BEGIN Job
+    Name			 VisitParlour2A
+    JobTime			 6
+	Worker			 SomeFriendParlour2
+	Properties		 HighPriority
+	WorkGroup		 Cemetery
+    Qualification	 GraveDigging
+END
+
+BEGIN Job
+    Name			 VisitParlour3A
+    JobTime			 6
+	Worker			 SomeFriendParlour3
+	Properties		 HighPriority
+	WorkGroup		 Cemetery
+    Qualification	 GraveDigging
+END
+
+BEGIN Job
+    Name			 VisitParlour4A
+    JobTime			 6
+	Worker			 SomeFriendParlour4
+	Properties		 HighPriority
+	WorkGroup		 Cemetery
+    Qualification	 GraveDigging
+END
+
+BEGIN Job
+    Name			 VisitParlour5A
+    JobTime			 6
+	Worker			 SomeFriendParlour5
+	Properties		 HighPriority
+	WorkGroup		 Cemetery
+    Qualification	 GraveDigging
+END
+
+BEGIN Job
+    Name			 VisitParlour1B
+    JobTime			 6
+	Worker			 SomeFriendParlour1
+	Properties		 HighPriority
+	WorkGroup		 Cemetery
+    Qualification	 GraveDigging
+END
+
+BEGIN Job
+    Name			 VisitParlour2B
+    JobTime			 6
+	Worker			 SomeFriendParlour2
+	Properties		 HighPriority
+	WorkGroup		 Cemetery
+    Qualification	 GraveDigging
+END
+
+BEGIN Job
+    Name			 VisitParlour3B
+    JobTime			 6
+	Worker			 SomeFriendParlour3
+	Properties		 HighPriority
+	WorkGroup		 Cemetery
+    Qualification	 GraveDigging
+END
+
+BEGIN Job
+    Name			 VisitParlour4B
+    JobTime			 6
+	Worker			 SomeFriendParlour4
+	Properties		 HighPriority
+	WorkGroup		 Cemetery
+    Qualification	 GraveDigging
+END
+
+BEGIN Job
+    Name			 VisitParlour5B
+    JobTime			 6
+	Worker			 SomeFriendParlour5
+	Properties		 HighPriority
+	WorkGroup		 Cemetery
+    Qualification	 GraveDigging
+END
+
+BEGIN Job
+    Name			 SayGoodbye1
+    JobTime			 2
+	Worker			 SomeFriendParlour1
+	Properties		 HighPriority
+	WorkGroup		 Cemetery
+    Qualification	 GraveDigging
+END
+
+BEGIN Job
+    Name			 SayGoodbye2
+    JobTime			 2
+	Worker			 SomeFriendParlour2
+	Properties		 HighPriority
+	WorkGroup		 Cemetery
+    Qualification	 GraveDigging
+END
+
+BEGIN Job
+    Name			 SayGoodbye3
+    JobTime			 2
+	Worker			 SomeFriendParlour3
+	Properties		 HighPriority
+	WorkGroup		 Cemetery
+    Qualification	 GraveDigging
+END
+
+BEGIN Job
+    Name			 SayGoodbye4
+    JobTime			 2
+	Worker			 SomeFriendParlour4
+	Properties		 HighPriority
+	WorkGroup		 Cemetery
+    Qualification	 GraveDigging
+END
+
+BEGIN Job
+    Name			 SayGoodbye5
+    JobTime			 2
+	Worker			 SomeFriendParlour5
+	Properties		 HighPriority
+	WorkGroup		 Cemetery
+    Qualification	 GraveDigging
+END
+
+BEGIN Job
+    Name			 VisitFuneral
+    JobTime			 3
+	Worker			 SomeFriendFuneral
+	Properties		 HighPriority
+	WorkGroup		 Cemetery
+    Qualification	 GraveDigging
+END
+
+BEGIN Job
+    Name			 VisitGrave
+    JobTime			 3
+	Worker			 SomeFriendCemetery
+	Properties		 HighPriority
+	WorkGroup		 Cemetery
+    Qualification	 GraveDigging
+END

@@ -1,0 +1,10 @@
+{
+    "Lua.diagnostics.disable": [
+        "undefined-global",
+        "lowercase-global",
+        "undefined-field"
+    ],
+    "cSpell.words": [
+        "doortimer"
+    ]
+}
